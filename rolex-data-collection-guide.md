@@ -630,9 +630,9 @@ for each accepted observation:
 - Catalog 若只做合併規則說明而未改動配置資料，保留原收集時間；若真的新增或更新配置，記錄相應實際收集時間。它不是所有市場的同步更新時間。
 - 通過驗證後才替換正式檔案。若只能部分完成，保留暫存成果並說明；不要靜默把一份完整市場檔替換成不完整清單。
 - 不改動無關市場。若涉及必要 Schema 遷移，先取得同意，然後同步文件與所有受影響檔案。
-- **README 同步是正式寫入的一部分，不是交付摘要的可選附加項。** 若本次新增／更新市場、價格歷史、Catalog、evidence、來源 endpoint、收集方式、涵蓋數、驗證結果、俗稱研究結果或限制，必須在同一批次更新 `README.md` 對應內容。
+- **README 同步是正式寫入的一部分，不是交付摘要的可選附加項。** 若本次變更影響 README 的全局市場矩陣、資料結構、欄位說明或長期採集機制，必須在同一批次更新對應內容；單次市場收集的時間、runId、完整性過程、驗證結果、俗稱研究與限制則只記錄於該次 evidence。
 - 若 Repo 原本沒有 `README.md`，且任務建立了新的正式市場資料，則必須依本指南的 README 最低內容建立一份；不得因「沒有舊 README 可更新」而省略。
-- 正式 JSON/evidence 已變更但 README 未同步時，本階段 **FAIL**；不得進入「完整完成」發布狀態。
+- 正式 JSON/evidence 已變更而 README 的全局文件確實不受影響時，可不更新 README，並在 validation summary 記錄 `readmeUpdate.status = "NOT REQUIRED"` 與理由；不得將單次收集紀錄寫入 README。
 
 ## 7. 驗證與獨立查核
 
@@ -718,11 +718,11 @@ for each accepted observation:
 
 ### 7.8 README 同步驗證（Blocking）
 
-README 驗證不是文字潤飾，而是發布一致性檢查：
+README 驗證不是文字潤飾，而是全局文件的一致性檢查：
 
-- 若本次任何正式資料或 evidence 有變更，確認 `README.md` 確實有對應 diff；沒有變更且無明確「README 無需更新」理由時，判定 **FAIL**。
-- README 至少同步本次市場／語系、官方來源、主要收集路徑與 endpoint／UI、觀察時間、配置／系列數、Catalog 差集、價格歷史 run、evidence 路徑、俗稱研究、驗證結果與限制中所有實際發生變化的項目。
-- README 中的數字、runId、時間、marketCode、evidence 路徑必須與正式 JSON／evidence 一致，不得手工留下上一批結果。
+- 若本次變更影響 README 已記載的全局市場矩陣、資料結構、欄位說明或長期採集機制，確認 `README.md` 有對應 diff；否則須在 validation summary 記錄「README 無需更新」理由。
+- README 只保留跨市場、長期有效的內容，例如市場矩陣、資料結構與採集機制；每次收集的市場／語系、官方來源、觀察時間、配置數、Catalog 差集、價格歷史 run、evidence 路徑、俗稱研究、驗證結果與限制，皆寫入該次 evidence。
+- README 不得以「`市場（code）YYYY-MM-DD 收集紀錄`」或等價段落保存單次執行紀錄；這些資料必須能從 evidence 取得。
 - 新增市場時，README 必須新增該市場的涵蓋說明；只新增 JSON 而 README 沒有市場紀錄，整體發布 **FAIL**。
 - 若 README 本次確實不需變更，validation summary 必須明確記錄 `readmeUpdate.status = "NOT REQUIRED"` 與理由；不可靜默跳過。
 
@@ -933,10 +933,10 @@ console.log('PASS: cross-file invariants; NOT a completeness or source-accuracy 
 2. 已追加的目標市場價格歷史 JSON。
 3. Catalog 若有新增配置、穩定資料修正或新市場代碼才更新；未變動則明說未變。
 4. 本次 `evidence/[marketCode]/[YYYY-MM-DD]/`：至少包含 observations 與收集／驗證摘要；若因 Repo 政策未保存，必須說明原因。
-5. **更新後 `README.md`（必要交付物）**：來源、涵蓋範圍、收集時間、稅務依據、系列筆數、差集、evidence 路徑、Network/MCP 收集路徑、俗稱研究與驗證摘要。若正式資料或 evidence 有變更而 README 未同步，交付不成立。
+5. 視影響更新後的 `README.md`：只同步全局市場矩陣、資料結構、欄位說明或長期採集機制；單次收集詳情必須留在 evidence，不得在 README 新增收集紀錄段落。
 6. Schema 只有經同意修改時才交付新版本。本任務預設不輸出生成腳本。
 
-README 或交付摘要至少填入以下內容，方括號必須換成真實值：
+交付摘要或該次 evidence 至少填入以下內容，方括號必須換成真實值；不要將它們逐次累積到 README：
 
 | 報告項目 | 應填內容 |
 | --- | --- |
@@ -958,7 +958,7 @@ README 或交付摘要至少填入以下內容，方括號必須換成真實值�
 
 以下任一條件成立時，**不得宣稱完整完成／不得將整體狀態標為 PASS**：
 
-- 本次正式資料或 evidence 有變更，但 `README.md` 未建立／未更新／內容與實際結果不同。
+- 本次變更影響 README 的全局內容，但 `README.md` 未建立／未更新／內容與實際結果不同。
 - 本任務需要 Network discovery，且已配置 `chrome-devtools` MCP，但沒有實際呼叫紀錄。
 - 內建 Browser/CDP 不可用後，直接改走 DOM／curl／搜尋而未先嘗試已配置的 Network MCP。
 - Network/MCP 嘗試失敗但 evidence 沒有保存失敗狀態與限制。
@@ -989,8 +989,8 @@ README 或交付摘要至少填入以下內容，方括號必須換成真實值�
 - [ ] 我已回對全量原始觀察，並列出獨立抽查結果。
 - [ ] 我明確區分 PASS、FAIL、NOT RUN。
 - [ ] 我沒有把 Browser/CDP/Network 工具不可用誤判成「網站沒有 structured endpoint」。
-- [ ] 若本次正式資料或 evidence 有任何變更，我已同步更新 `README.md`；若確實不需更新，validation summary 有 `NOT REQUIRED` 與理由。
-- [ ] README 的市場、時間、數量、runId、來源、evidence 路徑與驗證結果和實際檔案一致。
+- [ ] 若本次變更影響 README 的全局內容，我已同步更新 `README.md`；若確實不需更新，validation summary 有 `NOT REQUIRED` 與理由。
+- [ ] README 未保存單次市場收集紀錄；市場、時間、數量、runId、來源、evidence 路徑與驗證結果均可在該次 evidence 取得。
 - [ ] 我已實際保存可下載檔案，交付摘要與檔案內容一致。
 - [ ] 我先保存本次來源事實到 evidence，再由 evidence 產生／驗證正式資料；沒有事後從正式 JSON 反推一份假 evidence。
 - [ ] Evidence 中沒有 Cookie、Authorization、session token 或其他秘密。
