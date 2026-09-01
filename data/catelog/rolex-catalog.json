@@ -1,7 +1,7 @@
 {
   "$schema": "../schemas/rolex-catalog.schema.json",
   "schemaVersion": 1,
-  "collectedAt": "2026-08-31T21:17:28+08:00",
+  "collectedAt": "2026-09-01T18:29:36+02:00",
   "sourceMarketCodes": [
     "JP",
     "TW",
@@ -10,7 +10,8 @@
     "AT",
     "GB",
     "HK",
-    "SG"
+    "SG",
+    "CH"
   ],
   "watchCount": 1465,
   "watches": [

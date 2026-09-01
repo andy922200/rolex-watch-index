@@ -1,0 +1,65 @@
+{
+  "market": "Switzerland",
+  "marketCode": "CH",
+  "locale": "de-CH",
+  "officialEntryUrl": "https://www.rolex.com/de-ch/watches/find-rolex?group=0",
+  "startedAt": "2026-09-01T18:23:08+02:00",
+  "completedAt": "2026-09-01T18:29:36+02:00",
+  "status": "completed",
+  "networkDiscovery": {
+    "required": true,
+    "builtInBrowserStatus": "available",
+    "chromeDevtoolsMcpConfigured": true,
+    "chromeDevtoolsMcpAttempted": true,
+    "chromeDevtoolsMcpResult": "PASS",
+    "fallbackTool": null,
+    "notes": "Chrome DevTools opened the Swiss Rolex model view and inspected its Fetch/XHR traffic. The only Rolex API response was a non-listing bootstrap response containing short-lived credentials; it was not persisted or used. No reproducible public structured listing endpoint was observed in this page flow."
+  },
+  "primaryCollectionPath": {
+    "type": "official rendered DOM",
+    "view": "Modellansicht; group=0; no restrictive new-model, collection, size, material, or gender filters",
+    "sourceUrl": "https://www.rolex.com/de-ch/watches/find-rolex?group=0",
+    "structuredEndpoint": null,
+    "reason": "Network discovery completed, but no suitable official structured listing endpoint was observed. The rendered Swiss Rolex model view provides product URL, model name, case text, image alt, CHF price, and Neues Modell label bound to each configuration card.",
+    "pagination": "Initial 56 cards. The normal UI Mehr ansehen control expanded retained DOM cards to 392, 504, 616, 728, 840, 952, 1064, 1176, 1288, 1400, and 1465. After the final successful load, the control was absent.",
+    "stopEvidence": {
+      "finalLoadCompleted": true,
+      "loadMorePresentAfterFinalCheck": false,
+      "finalDomProductCardCount": 1465,
+      "unresolvedRetries": 0
+    }
+  },
+  "counts": {
+    "rawConfigurationCount": 1465,
+    "uniqueModelReferenceCount": 1465,
+    "duplicateCount": 0,
+    "conflictCount": 0,
+    "listedWithPublicPriceCount": 1465,
+    "priceUnavailableCount": 0,
+    "confirmedNotListedCount": 0,
+    "parseFailureCount": 0,
+    "newModelCount": 158,
+    "collectionCounts": {
+      "1908": 8,
+      "land-dweller": 10,
+      "day-date": 281,
+      "sky-dweller": 39,
+      "lady-datejust": 291,
+      "datejust": 681,
+      "oyster-perpetual": 62,
+      "cosmograph-daytona": 47,
+      "submariner": 7,
+      "sea-dweller": 2,
+      "deepsea": 4,
+      "gmt-master-ii": 13,
+      "yacht-master": 12,
+      "yacht-master-ii": 2,
+      "explorer": 3,
+      "explorer-ii": 2,
+      "air-king": 1
+    }
+  },
+  "errors": [
+    "Unrelated third-party analytics requests returned DNS errors. Rolex model-view document and all rendered card data were available; no listing load error, timeout, or unresolved retry occurred."
+  ]
+}

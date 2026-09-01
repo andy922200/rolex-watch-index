@@ -1,0 +1,450 @@
+{
+  "marketCode": "CH",
+  "validationCompletedAt": "2026-09-01T18:34:58+02:00",
+  "evidencePath": "data/evidence/CH/2026-09-01",
+  "fiveLayerValidation": {
+    "syntaxAndSchema": {
+      "status": "NOT RUN",
+      "strictJson": {
+        "status": "PASS",
+        "filesChecked": 25,
+        "method": "Python json.loads with duplicate-key and invalid-constant rejection"
+      },
+      "jsonSchema": {
+        "status": "NOT RUN",
+        "reason": "No installed Draft 2020-12 JSON Schema validator (Python jsonschema, Ajv, and Hyperjump were unavailable); no dependency was installed without authorization."
+      }
+    },
+    "crossFileConsistency": {
+      "status": "PASS",
+      "marketsChecked": 9,
+      "catalogWatchCount": 1465,
+      "switzerlandMarketWatchCount": 1465,
+      "switzerlandPriceSeriesCount": 1465,
+      "orphanCount": 0,
+      "method": "Node built-in-module invariant check over every market, history, and catalog reference"
+    },
+    "sourceReconciliation": {
+      "status": "PASS",
+      "evidenceObservationCount": 1465,
+      "marketMetadataMismatchCount": 0,
+      "historyLatestPriceMismatchCount": 0,
+      "priceParseFailureCount": 0,
+      "unmappedOfficialCollectionNameCount": 0
+    },
+    "websiteCompleteness": {
+      "status": "PASS",
+      "primaryPath": "official rendered DOM",
+      "initialConfigurationCount": 56,
+      "renderedCountsAfterEachLoad": [
+        56,
+        392,
+        504,
+        616,
+        728,
+        840,
+        952,
+        1064,
+        1176,
+        1288,
+        1400,
+        1465
+      ],
+      "finalUniqueConfigurationCount": 1465,
+      "loadMorePresentAfterFinalCheck": false,
+      "unresolvedConflictCount": 0
+    },
+    "changeSafety": {
+      "status": "PASS",
+      "catalogStableWatchRecordsUnchanged": true,
+      "catalogChange": "CH appended to sourceMarketCodes and collectedAt updated; 1,465 retained watch records unchanged.",
+      "preservedUnchangedHashes": {
+        "data/markets/rolex-austria-market.json": "22c2e4ef6036334c91c2f72e7fd1463fc431640405482d9b9a41610aa698cb4d",
+        "data/markets/rolex-germany-market.json": "c7261de479db237a2d69b9ef1d7a00daf4e904b511ed73e2bb77bfa86eba318e",
+        "data/markets/rolex-hong-kong-market.json": "94be41312efffd99eb54513151c1002f1242ed96ed8a19fc4bc83bd73680b04d",
+        "data/markets/rolex-japan-market.json": "745c83b720e7f006e0626bee90e67a1fec4a51a99bef9429387f164a164d74f8",
+        "data/markets/rolex-singapore-market.json": "c17351aaa13ebab4f9335ddbbe3986b323cae3f945c9874545b19cabcca8e724",
+        "data/markets/rolex-taiwan-market.json": "4dd3b9e21dc63096878e74dfb33ebc7caa7cabd0ed7aeb067fafbf92b15cd108",
+        "data/markets/rolex-united-kingdom-market.json": "9356ccbb5bca1293e6d2379e9dc2ef23b455abc1e781613a81a9e9278e6c150d",
+        "data/markets/rolex-united-states-market.json": "884d2054d5ef8157b7efbbca97d86eb9b4bb77671de2dbcd5b996cfccd518067",
+        "data/history/AT/rolex-price-history.json": "52fac40862e65f4acc96549e53bcf67f4e09ba57a515a19ad643ee9399afee9c",
+        "data/history/DE/rolex-price-history.json": "1bda15e79c9187a4d409159d7aab6f4112c8d42a2f79db86b3c1c6cf80e2d749",
+        "data/history/GB/rolex-price-history.json": "d6d2752c19cc9b1029babfd7058e4fc3c217d15bff69fccf46072d3ab10c2096",
+        "data/history/HK/rolex-price-history.json": "dd3e1c9c75659ce8ed1639503a4ee93d79bfed5685289d853b75f41fcd8b3d2d",
+        "data/history/JP/rolex-price-history.json": "b094b1d614b53a8c70d3c88c143e6e94cb76c1ef13bda4ff0e301faf3c8bf76c",
+        "data/history/SG/rolex-price-history.json": "a0257c6aacb903e121144b6b3cbf7efbcb2f06f120122566b42be8e5e224d8a1",
+        "data/history/TW/rolex-price-history.json": "01810c11bd8ba632599d8576d47abd8d6cc0f70eb41017fb9a093491c4b865a0",
+        "data/history/US/rolex-price-history.json": "c7fa2dc458a7a25e26a210c4d9522ca1d74d2da4407248a1295f8e56c4463634"
+      },
+      "schemasChanged": false,
+      "readmeChanged": true
+    }
+  },
+  "evidenceTraceability": {
+    "status": "PASS",
+    "acceptedObservations": 1465,
+    "observationsWithMatchingMarketTextAndLatestPrice": 1465,
+    "sensitiveDataScan": {
+      "status": "PASS",
+      "matchedSensitiveValueCount": 0,
+      "termsScanned": [
+        "authorization",
+        "cookie",
+        "token",
+        "session"
+      ]
+    }
+  },
+  "nicknameResearch": {
+    "status": "PASS",
+    "scope": "new-market",
+    "languages": [
+      "de-CH",
+      "de"
+    ],
+    "queries": [
+      "site:ch Rolex Spitzname Pepsi Batman Kermit Uhr Schweiz",
+      "site:ch Rolex Spitzname Panda Root Beer Uhr Schweiz",
+      "site:ch Rolex Spitzname John Mayer Daytona Schweiz"
+    ],
+    "sourcesReviewed": 5,
+    "candidateCount": 8,
+    "acceptedCollectionAliasCount": 0,
+    "acceptedLocalNicknameCount": 0,
+    "rejectedCandidates": [
+      {
+        "name": "Pepsi / Batman / Batgirl / Root Beer / Sprite",
+        "reason": "Swiss German sources support a base reference, bezel color, or bracelet distinction but not an exact current four-digit configuration code."
+      },
+      {
+        "name": "Kermit / Hulk / Panda / John Mayer",
+        "reason": "Sources support historical or discontinued references, or lack a direct mapping to a current Swiss four-digit configuration code."
+      }
+    ],
+    "notes": "PASS with 0 accepted results; official Rolex collection names were not treated as nicknames.",
+    "sources": [
+      {
+        "publisher": "CHRONEXT Schweiz",
+        "url": "https://www.chronext.ch/magazin/stories/coke-pepsi-root-beer-die-spitznamen-der-bekanntesten-rolex-modelle"
+      },
+      {
+        "publisher": "Chrono24 Schweiz Magazin",
+        "url": "https://www.chrono24.ch/magazine/rolex-uhren-mit-spitznamen-wie-ticken-batman-hulk-und-kermit-p_86031/"
+      },
+      {
+        "publisher": "Care of Carl Schweiz",
+        "url": "https://www.careofcarl.ch/de/carlmagazine/uhren/rolex-gmt-fran-pepsi-till-batman-6.html"
+      },
+      {
+        "publisher": "Chrono24 Schweiz Magazin",
+        "url": "https://www.chrono24.ch/magazine/die-top-5-der-meistverkauften-rolex-daytona-referenzen-auf-chrono24-p_137253/"
+      },
+      {
+        "publisher": "Rolex Certified Pre-Owned, Michaud Suisse",
+        "url": "https://rolex.michaud.ch/rcpo/en/watches/cosmograph-daytona/m116508-0013.html"
+      }
+    ]
+  },
+  "independentSpotChecks": {
+    "status": "PASS",
+    "method": "Official Swiss product-page HTTP responses fetched in the same browser session and compared against DOM-derived evidence.",
+    "collectionRepresentativeCount": 17,
+    "sameBaseModelPairs": [
+      [
+        "m228236-0018",
+        "m228236-0002"
+      ],
+      [
+        "m336935-0008",
+        "m336935-0006"
+      ]
+    ],
+    "minimumPriceCheck": "m276200-0001",
+    "maximumPriceCheck": "m279459rbr-0001",
+    "totalChecks": 21,
+    "failureCount": 0,
+    "checks": [
+      {
+        "modelReference": "m127334-0001",
+        "collection": "land-dweller",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/land-dweller/m127334-0001",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m228236-0018",
+        "collection": "day-date",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/day-date/m228236-0018",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m336935-0008",
+        "collection": "sky-dweller",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/sky-dweller/m336935-0008",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m279173-0007",
+        "collection": "lady-datejust",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/lady-datejust/m279173-0007",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m126334-0033",
+        "collection": "datejust",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/datejust/m126334-0033",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m134303-0001",
+        "collection": "oyster-perpetual",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/oyster-perpetual/m134303-0001",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m126506-0001",
+        "collection": "cosmograph-daytona",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/cosmograph-daytona/m126506-0001",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m126613lb-0002",
+        "collection": "submariner",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/submariner/m126613lb-0002",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m126603-0001",
+        "collection": "sea-dweller",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/sea-dweller/m126603-0001",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m136660-0005",
+        "collection": "deepsea",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/deepsea/m136660-0005",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m126710blnr-0003",
+        "collection": "gmt-master-ii",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/gmt-master-ii/m126710blnr-0003",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m226658-0001",
+        "collection": "yacht-master",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/yacht-master/m226658-0001",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m126680-0001",
+        "collection": "yacht-master-ii",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/yacht-master-ii/m126680-0001",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m224270-0001",
+        "collection": "explorer",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/explorer/m224270-0001",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m226570-0001",
+        "collection": "explorer-ii",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/explorer-ii/m226570-0001",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m126900-0001",
+        "collection": "air-king",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/air-king/m126900-0001",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m52508-0008",
+        "collection": "1908",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/1908/m52508-0008",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m228236-0002",
+        "collection": "day-date",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/day-date/m228236-0002",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m336935-0006",
+        "collection": "sky-dweller",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/sky-dweller/m336935-0006",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m276200-0001",
+        "collection": "oyster-perpetual",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/oyster-perpetual/m276200-0001",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m279459rbr-0001",
+        "collection": "lady-datejust",
+        "sourceUrl": "https://www.rolex.com/de-ch/watches/lady-datejust/m279459rbr-0001",
+        "observedAt": "2026-09-01T18:29:36+02:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      }
+    ]
+  },
+  "priceStatistics": {
+    "currencyCode": "CHF",
+    "minimum": {
+      "modelReference": "m276200-0001",
+      "price": 5500
+    },
+    "maximum": {
+      "modelReference": "m279459rbr-0001",
+      "price": 165900
+    },
+    "listedWithPublicPriceCount": 1465,
+    "priceUnavailableCount": 0,
+    "confirmedNotListedCount": 0
+  },
+  "readmeUpdate": {
+    "status": "PASS",
+    "updated": true,
+    "sections": [
+      "badge",
+      "directory structure",
+      "market coverage matrix",
+      "瑞士（CH）2026-09-01 收集紀錄"
+    ],
+    "reason": null
+  },
+  "limitations": [
+    "JSON Schema Draft 2020-12 validation was NOT RUN because no compatible validator was installed; strict parsing and independent contract invariants passed.",
+    "No reproducible public structured listing endpoint was found in the observed Swiss page flow; completeness is evidenced by official rendered-UI batch expansion and disappearance of Mehr ansehen."
+  ]
+}

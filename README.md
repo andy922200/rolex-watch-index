@@ -1,7 +1,7 @@
 # Rolex Watch Index 腕錶索引與多市場價格資料庫
 
 [![Schema: JSON Schema Draft 2020-12](https://img.shields.io/badge/Schema-Draft_2020--12-blue)](data/schemas/)
-[![Markets: 8](https://img.shields.io/badge/Markets-8_Active-green)](#市場涵蓋矩陣與稅制語意)
+[![Markets: 9](https://img.shields.io/badge/Markets-9_Active-green)](#市場涵蓋矩陣與稅制語意)
 [![Catalog Configurations: 1,465](https://img.shields.io/badge/Catalog-1%2C465_Configs-orange)](data/catelog/rolex-catalog.json)
 [![Data Integrity: Audited & Verified](https://img.shields.io/badge/Integrity-Evidence_Audited-success)](#資料完整性與不可變性檢查-invariants)
 
@@ -123,11 +123,12 @@ rolex-watch-index/
 │   │   ├── rolex-hong-kong-market.json   # HK (zh-Hant-HK)
 │   │   ├── rolex-japan-market.json       # JP (ja-JP)
 │   │   ├── rolex-singapore-market.json   # SG (en-SG)
+│   │   ├── rolex-switzerland-market.json # CH (de-CH)
 │   │   ├── rolex-taiwan-market.json      # TW (zh-Hant-TW)
 │   │   ├── rolex-united-kingdom-market.json # GB (en-GB)
 │   │   └── rolex-united-states-market.json  # US (en-US)
 │   ├── history/                          # 依市場劃分的 Append-only 價格歷史
-│   │   ├── [AT|DE|GB|HK|JP|SG|TW|US]/
+│   │   ├── [AT|CH|DE|GB|HK|JP|SG|TW|US]/
 │   │   │   └── rolex-price-history.json
 │   └── evidence/                         # 收集過程審計日誌與驗證快照 (按日期歸檔)
 │       └── [marketCode]/[YYYY-MM-DD]/
@@ -151,14 +152,13 @@ rolex-watch-index/
 | **HK** | 香港 | `zh-Hant-HK` | HKD | `no-tax` | `0%` (無消費稅/增值稅) | 1,465 | HK$49,900 ~ HK$1,506,400 | `/api/catalog/watchgrid` + CDP |
 | **JP** | 日本 | `ja-JP` | JPY | `tax-include` | `10%` (消費税) | 1,465 | ¥898,700 ~ ¥26,829,000 | `/api/catalog/watchgrid` |
 | **SG** | 新加坡 | `en-SG` | SGD | `tax-include` | `9%` (GST) | 1,465 | S$8,650 ~ S$262,500 | `/api/catalog/watchgrid` + CDP |
+| **CH** | 瑞士 | `de-CH` | CHF | `tax-include` | `8.1%` (MWST) | 1,465 | CHF 5'500 ~ CHF 165'900 | 官方 `de-ch` 模型視圖 + Chrome DevTools DOM |
 | **TW** | 台灣 | `zh-Hant-TW` | TWD | `tax-include` | `5%` (營業稅) | 1,465 | NT$208,000 ~ NT$6,279,000 | `/api/catalog/watchgrid` |
 | **US** | 美國 | `en-US` | USD | `tax-exclude` | `null` (依各州/地區而異) | 1,465 | $6,200 ~ $186,200 | Coveo API + Rolex Detail Batch |
 
 > [!NOTE]
 > **稅率語意審計說明**：
 > 部分市場（如香港）官方頁面雖使用通用制式文案（如「已含增值税之參照零售價」），但本專案不盲從前端 UI 樣板字串，而是依據各國稅務主管機關（如香港稅務局 IRD、新加坡 IRAS、奧地利 USP.gv.at）進行法定稽核，如實記錄為 `no-tax` (`0%`) 或 `tax-include` (`9% GST`)。
-
----
 
 ## 資料工程與採集機制 (Data Engineering & Scraping Notes)
 
