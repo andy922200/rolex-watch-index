@@ -1,0 +1,57 @@
+{
+  "market": "Germany",
+  "marketCode": "DE",
+  "locale": "de-DE",
+  "officialEntryUrl": "https://www.rolex.com/de-de/watches/find-rolex?group=0",
+  "startedAt": "2026-09-01T12:18:33+02:00",
+  "completedAt": "2026-09-01T12:25:18+02:00",
+  "status": "completed",
+  "networkDiscovery": {
+    "required": true,
+    "builtInBrowserStatus": "available",
+    "chromeDevtoolsMcpConfigured": true,
+    "chromeDevtoolsMcpAttempted": true,
+    "chromeDevtoolsMcpResult": "PASS",
+    "fallbackTool": null,
+    "notes": "Chrome DevTools inspected the Rolex page's Fetch/XHR traffic. A non-listing bootstrap endpoint was excluded from evidence; the public watchgrid endpoint was used instead."
+  },
+  "primaryCollectionPath": {
+    "type": "official structured endpoint",
+    "endpoint": "https://www.rolex.com/api/catalog/watchgrid?language=de&firstResult=0&numberOfResults=1872&grid=all&countryCode=DE&group=%280%29",
+    "responseFields": {
+      "modelReference": "rmc",
+      "collection": "family and familyCode",
+      "modelName": "title",
+      "caseDescription": "facet_case_title",
+      "dialAlt": "alt",
+      "newModel": "newmodelselection",
+      "rawPrice": "formattedPrice",
+      "parsedPrice": "price"
+    },
+    "pagination": "The page requested cumulative numberOfResults values 432, 576, 720, 864, 1008, 1152, 1296, 1440, 1584, 1728, and 1872, with firstResult=0. The final response reported totalCount=1465; the rendered Mehr ansehen control then disappeared.",
+    "structuredResultCount": 1465,
+    "structuredUniqueModelReferenceCount": 1465
+  },
+  "renderedCrossCheck": {
+    "view": "Modellansicht; group=0; no restrictive collection, size, material, or new-model filters",
+    "initialRenderedConfigurationCount": 56,
+    "buttonText": "Mehr ansehen",
+    "renderedCountsAfterEachLoad": [392, 504, 616, 728, 840, 952, 1064, 1176, 1288, 1400, 1465],
+    "finalButtonPresent": false,
+    "finalRenderedConfigurationCount": 1465,
+    "structuredVsRenderedMismatchCount": 0
+  },
+  "counts": {
+    "rawConfigurationCount": 1465,
+    "uniqueModelReferenceCount": 1465,
+    "duplicateCount": 0,
+    "conflictCount": 0,
+    "listedWithPublicPriceCount": 1465,
+    "priceUnavailableCount": 0,
+    "confirmedNotListedCount": 0,
+    "parseFailureCount": 0
+  },
+  "errors": [
+    "The unrelated Coveo analytics request failed DNS resolution; catalog/watchgrid requests succeeded and were unaffected."
+  ]
+}

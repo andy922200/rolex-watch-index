@@ -1,0 +1,264 @@
+{
+  "marketCode": "GB",
+  "validationCompletedAt": "2026-09-01T13:58:13+01:00",
+  "evidencePath": "data/evidence/GB/2026-09-01",
+  "fiveLayerValidation": {
+    "syntaxAndSchema": {
+      "status": "NOT RUN",
+      "strictJson": {
+        "status": "PASS",
+        "filesChecked": 26,
+        "method": "Python json.loads over data/catelog, data/markets, data/history, data/schemas, data/evidence with object_pairs_hook rejecting duplicate keys and parse_constant rejecting NaN/Infinity (guide section 7.11.1)."
+      },
+      "jsonSchema": {
+        "status": "NOT RUN",
+        "reason": "No installed Draft 2020-12 JSON Schema validator (no Python jsonschema module, no Node ajv) and no dependency was installed without authorization.",
+        "supplementaryCheck": {
+          "status": "PASS",
+          "method": "Manual field-by-field conformance script written directly against the text of rolex-market.schema.json and rolex-price-history.schema.json: verified exact top-level key sets (additionalProperties:false equivalent), required fields, marketCode/modelReference/currencyCode regex patterns, enum values for priceType/listingStatus, taxRatePercent range, listed-price integer/non-negative rule, null price for non-listed statuses, source/alias/nickname object shapes, and URI validity, for the new GB market and history files, plus re-verified the catalog's structural invariants after the sourceMarketCodes edit.",
+          "errorsFound": 0
+        }
+      }
+    },
+    "crossFileConsistency": {
+      "status": "PASS",
+      "method": "The guide's Node.js cross-file invariant script (section 7.11.2), run unmodified against this repo's data/catelog, data/markets, data/history paths.",
+      "marketsChecked": ["AT", "DE", "GB", "JP", "TW", "US"],
+      "catalogWatchCount": 1465,
+      "unitedKingdomMarketWatchCount": 1465,
+      "unitedKingdomPriceSeriesCount": 1465,
+      "orphanCount": 0
+    },
+    "sourceReconciliation": {
+      "status": "PASS",
+      "evidenceObservationCount": 1465,
+      "marketAndHistoryReconciliationMismatchCount": 0,
+      "structuredVsRenderedMismatchCount": 0,
+      "priceParseFailureCount": 0,
+      "method": "Programmatic reconciliation of all 1,465 evidence observations against data/markets/rolex-united-kingdom-market.json (modelName, caseDescription, dialDescription, isNewModel, productUrl) and data/history/GB/rolex-price-history.json (currency, last listed price). 0 mismatches in either direction; 0 market watches or price-history series were orphaned from the evidence observations or from the catalog."
+    },
+    "websiteCompleteness": {
+      "status": "PASS",
+      "endpointTotalCount": 1465,
+      "endpointUniqueConfigurationCount": 1465,
+      "renderedFinalConfigurationCount": null,
+      "loadMorePresentAfterFinalCheck": null,
+      "unresolvedConflictCount": 0,
+      "notes": "Stop condition was the structured endpoint itself: a single request with numberOfResults=2000 (exceeding the true total) returned results.length === totalCount === 1465, independently corroborated by a second request with numberOfResults=500 that reported the same fixed totalCount=1465 (showing totalCount does not vary with the requested page size). Full click-through UI pagination to 1,465 was not separately re-walked; instead 19 individual official product pages (17 collection representatives + both members of 2 same-base-model pairs) were independently fetched from the live browser session as raw rendered HTML and reconciled 1:1 against the structured dataset with 0 mismatches (see independentSpotChecks below). Additionally, the full 1,465 GB modelReference set was diffed against the pre-existing 1,465-entry cross-market catalog: 0 references in GB only, 0 references in the catalog only — an exact set match, consistent with every prior market's terminal collection."
+    },
+    "changeSafety": {
+      "status": "PASS",
+      "method": "Enumerated every JSON file under data/ before and after this run; confirmed byte-for-byte content for all files this task did not intend to touch, and confirmed the only intentional change (catalog sourceMarketCodes) altered nothing else in that file.",
+      "unchangedFiles": [
+        "data/schemas/rolex-catalog.schema.json",
+        "data/schemas/rolex-market.schema.json",
+        "data/schemas/rolex-price-history.schema.json",
+        "data/markets/rolex-austria-market.json",
+        "data/markets/rolex-germany-market.json",
+        "data/markets/rolex-japan-market.json",
+        "data/markets/rolex-taiwan-market.json",
+        "data/markets/rolex-united-states-market.json",
+        "data/history/AT/rolex-price-history.json",
+        "data/history/DE/rolex-price-history.json",
+        "data/history/JP/rolex-price-history.json",
+        "data/history/TW/rolex-price-history.json",
+        "data/history/US/rolex-price-history.json",
+        "data/evidence/AT/2026-09-01/collection-summary.json",
+        "data/evidence/AT/2026-09-01/observations.json",
+        "data/evidence/AT/2026-09-01/validation-summary.json",
+        "data/evidence/DE/2026-09-01/collection-summary.json",
+        "data/evidence/DE/2026-09-01/observations.json",
+        "data/evidence/DE/2026-09-01/validation-summary.json",
+        "data/evidence/US/2026-09-01/collection-summary.json",
+        "data/evidence/US/2026-09-01/observations.json",
+        "data/evidence/US/2026-09-01/validation-summary.json"
+      ],
+      "intentionallyChangedFiles": {
+        "data/catelog/rolex-catalog.json": "sourceMarketCodes gained 'GB' (now [JP, TW, DE, US, AT, GB]); watches array (1465 entries, byte-for-byte identical structure and content), watchCount (1465), and collectedAt (2026-08-31T21:17:28+08:00) are unchanged because every GB modelReference already existed in the catalog (0 new configurations). File grew by exactly 1 line (10270 -> 10271) matching the single new array element."
+      },
+      "newFiles": [
+        "data/markets/rolex-united-kingdom-market.json",
+        "data/history/GB/rolex-price-history.json",
+        "data/evidence/GB/2026-09-01/observations.json",
+        "data/evidence/GB/2026-09-01/collection-summary.json",
+        "data/evidence/GB/2026-09-01/validation-summary.json"
+      ],
+      "schemasChanged": false,
+      "catalogWatchesArrayChanged": false
+    }
+  },
+  "evidenceTraceability": {
+    "status": "PASS",
+    "acceptedObservations": 1465,
+    "observationsWithMatchingMarketTextAndLatestPrice": 1465,
+    "sensitiveDataScan": {
+      "status": "PASS",
+      "method": "grep -riE 'authorization|cookie|session|token|bearer|password|secret' across all new GB evidence, market, and history files.",
+      "matchedSensitiveValueCount": 0,
+      "notes": "No matches of any kind (not even descriptive prose uses of these words) were found in the new GB files."
+    }
+  },
+  "nicknameResearch": {
+    "status": "PASS",
+    "scope": "new-market",
+    "languages": ["en"],
+    "queries": [
+      "Rolex Daytona 126500LN \"Panda\" nickname white dial UK",
+      "Rolex Daytona Panda nickname watchfinder.co.uk OR oracletime.com OR watchpro.com",
+      "Rolex GMT-Master II 126710BLNR \"Batman\" nickname UK Watches of Switzerland",
+      "Rolex GMT-Master II Batman Batgirl nickname site:watchfinder.co.uk",
+      "Rolex Submariner 126610LV \"Kermit\" nickname UK current model",
+      "Rolex GMT-Master II 126711CHNR \"Root Beer\" nickname UK",
+      "\"Rolex\" nicknames Pepsi Hulk Batman Kermit guide watches of switzerland UK journal",
+      "Rolex Daytona 126500LN \"Panda\" site:watchfinder.co.uk OR site:watches-of-switzerland.co.uk OR site:chrono24.co.uk",
+      "\"Rolex Daytona\" \"Panda\" white dial 126500LN Watches of Switzerland UK"
+    ],
+    "sourcesReviewed": 9,
+    "candidateCount": 15,
+    "acceptedCollectionAliasCount": 1,
+    "acceptedLocalNicknameCount": 5,
+    "rejectedCandidates": [
+      {
+        "name": "Kermit (Submariner)",
+        "reason": "The UK retailer source (Watchfinder & Co.) explicitly ties 'Kermit' to the discontinued reference 16610LV, and separately labels the current 126610LV (the only Submariner-with-green-bezel configuration in the current GB catalog, m126610lv-0002) as 'Starbucks'. Applying 'Kermit' to the current configuration would contradict the source's own generational distinction."
+      },
+      {
+        "name": "Hulk (Submariner green dial + green bezel)",
+        "reason": "Source describes the Hulk as 'now discontinued'; no green-dial Submariner configuration exists in the current GB structured catalog (the only green-bezel Submariner, m126610lv-0002, has a black dial)."
+      },
+      {
+        "name": "Smurf (white gold blue dial/bezel Submariner, ref. 116619LB/126619LB)",
+        "reason": "No modelReference beginning with 116619LB or 126619LB exists anywhere in the current 1,465-entry GB structured catalog; the current GB Submariner family lists only 7 configurations, none matching this reference."
+      },
+      {
+        "name": "Pepsi (GMT-Master II red/blue 'BLRO' bezel)",
+        "reason": "No modelReference containing 'blro' exists in the current GB structured catalog; the reference is not currently offered in this market's collection."
+      },
+      {
+        "name": "Coke (GMT-Master II black/red bezel)",
+        "reason": "Source states this was discontinued in 2005 and has not returned; not present in the current GB catalog."
+      },
+      {
+        "name": "Sprite / Green Lantern / Riddler (left-handed GMT-Master II, black/green bezel)",
+        "reason": "Configurations with a matching black/green ('VTNR') bezel do exist in the current GB catalog (m126720vtnr-0001, m126720vtnr-0002), but the source specifically describes this nickname as naming the left-handed (destro) GMT-Master II; crown-side/handedness could not be confirmed against either configuration within this run, and the 5-nickname cap (guide section G.1.6) was already met by higher-confidence candidates, so this candidate was left unaccepted rather than guessed."
+      },
+      {
+        "name": "John Mayer Daytona (yellow-gold green dial, ref. 116508)",
+        "reason": "The source cites the superseded reference number 116508, not the current catalog's 126508 series. The current catalog does include a yellow-gold green-dial configuration (m126508-0008), but no reviewed source ties the nickname specifically to this current-generation configuration code, so the association was not extended without direct support."
+      },
+      {
+        "name": "Rainbow / Leopard / Eye of the Tiger Daytona (gem-set special editions)",
+        "reason": "Searched the full current GB Cosmograph Daytona configuration list for gem-set dial/bezel descriptions; none match a rainbow-sapphire bezel, leopard-print dial, or tiger-pattern diamond dial. Not currently offered in this market's collection."
+      },
+      {
+        "name": "Stella (colourful lacquered vintage dial)",
+        "reason": "Source describes this as a vintage 1970s dial style aimed at the historical Middle Eastern market; does not correspond to any current-catalog configuration. Historical/out of scope."
+      },
+      {
+        "name": "Buckley (painted Roman-numeral vintage dial)",
+        "reason": "Source describes this as commonly found on vintage 1970s-80s Datejust models; does not correspond to any current-catalog configuration. Historical/out of scope."
+      }
+    ],
+    "accepted": [
+      {
+        "modelReference": "m126500ln-0001",
+        "name": "Panda",
+        "scope": "localNickname (dial-specific: white dial with black counter rings; the sibling m126500ln-0002 black-dial configuration is not called Panda and was excluded)",
+        "sources": [
+          "https://www.chrono24.co.uk/rolex/panda--imod3041.htm",
+          "https://www.lbjwatches.co.uk/products/rolex-daytona-panda-126500ln-year-2025"
+        ]
+      },
+      {
+        "modelReference": "m126710blnr-0003",
+        "name": "Batman",
+        "scope": "localNickname (bracelet-specific: Oyster, three-piece solid-link bracelet, confirmed on Rolex's own GB product page; the sibling m126710blnr-0002 Jubilee-bracelet configuration is called Batgirl, not Batman)",
+        "sources": [
+          "https://www.watchfinder.co.uk/articles/feature-essential-guide-to-rolex-nicknames",
+          "https://www.rolex.com/en-gb/watches/gmt-master-ii/m126710blnr-0003"
+        ]
+      },
+      {
+        "modelReference": "m126710blnr-0002",
+        "name": "Batgirl",
+        "scope": "localNickname (bracelet-specific: Jubilee, five-piece-link bracelet, confirmed on Rolex's own GB product page)",
+        "sources": [
+          "https://www.watchfinder.co.uk/articles/feature-essential-guide-to-rolex-nicknames",
+          "https://www.rolex.com/en-gb/watches/gmt-master-ii/m126710blnr-0002"
+        ]
+      },
+      {
+        "modelReference": "m126610lv-0002",
+        "name": "Starbucks",
+        "scope": "localNickname (the only current green-bezel/black-dial Submariner Date configuration in the GB catalog)",
+        "sources": [
+          "https://www.watchfinder.co.uk/articles/feature-essential-guide-to-rolex-nicknames"
+        ]
+      },
+      {
+        "modelReference": "m126711chnr-0002",
+        "name": "Root Beer",
+        "scope": "localNickname (the only current two-tone Oystersteel/Everose-gold GMT-Master II with the black-and-brown ceramic 'CHNR' bezel in the GB catalog)",
+        "sources": [
+          "https://www.watchfinder.co.uk/articles/feature-essential-guide-to-rolex-nicknames"
+        ]
+      }
+    ],
+    "acceptedCollectionAliases": [
+      {
+        "collectionId": "day-date",
+        "name": "President",
+        "scope": "collection-wide (Day-Date; the source states the whole watch, not just the bracelet component, has come to be known by this name)",
+        "sources": [
+          "https://www.watchfinder.co.uk/articles/feature-essential-guide-to-rolex-nicknames"
+        ]
+      }
+    ],
+    "notes": "PASS with 5 accepted local nicknames (the guide's stated maximum) and 1 accepted collection-wide alias. Official Rolex collection/family names (e.g. 'Cosmograph Daytona', 'GMT-Master II', 'Day-Date') were not themselves treated as nicknames. Candidates were accepted only when at least one UK-market source (a London-headquartered or .co.uk-domain retailer/publication) was found, and where two same-base-reference configurations existed in the catalog, only accepted when a source (including, for Batman/Batgirl, Rolex's own official GB product pages) could distinguish which specific configuration the name applies to."
+  },
+  "independentSpotChecks": {
+    "status": "PASS",
+    "method": "17 official product pages (one per collection, matching the GB structured dataset's family list, using the same representative modelReference set as the AT/DE/US runs for direct cross-market comparability) plus both members of 2 same-base-model configuration pairs were fetched as same-origin fetch() calls from inside the live chrome-devtools MCP browser session (reading raw rendered HTML, not the JSON API used to build the structured dataset) and checked for the presence of the exact modelReference and the exact GBP price string from the structured watchgrid response.",
+    "collectionRepresentativeCount": 17,
+    "sameBaseModelPairs": [
+      ["m228236-0018", "m228236-0002"],
+      ["m336935-0008", "m336935-0006"]
+    ],
+    "totalChecks": 19,
+    "failureCount": 0,
+    "checks": [
+      { "modelReference": "m127334-0001", "collection": "land-dweller", "sourceUrl": "https://www.rolex.com/en-gb/watches/land-dweller/m127334-0001", "observedAt": "2026-09-01T13:52:00+01:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "£13,700", "status": "PASS" },
+      { "modelReference": "m228236-0018", "collection": "day-date", "sourceUrl": "https://www.rolex.com/en-gb/watches/day-date/m228236-0018", "observedAt": "2026-09-01T13:52:00+01:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "£57,400", "status": "PASS" },
+      { "modelReference": "m336935-0008", "collection": "sky-dweller", "sourceUrl": "https://www.rolex.com/en-gb/watches/sky-dweller/m336935-0008", "observedAt": "2026-09-01T13:52:00+01:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "£54,200", "status": "PASS" },
+      { "modelReference": "m279173-0007", "collection": "lady-datejust", "sourceUrl": "https://www.rolex.com/en-gb/watches/lady-datejust/m279173-0007", "observedAt": "2026-09-01T13:52:00+01:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "£12,600", "status": "PASS" },
+      { "modelReference": "m126334-0033", "collection": "datejust", "sourceUrl": "https://www.rolex.com/en-gb/watches/datejust/m126334-0033", "observedAt": "2026-09-01T13:52:00+01:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "£9,750", "status": "PASS" },
+      { "modelReference": "m134303-0001", "collection": "oyster-perpetual", "sourceUrl": "https://www.rolex.com/en-gb/watches/oyster-perpetual/m134303-0001", "observedAt": "2026-09-01T13:52:00+01:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "£8,050", "status": "PASS" },
+      { "modelReference": "m126506-0001", "collection": "cosmograph-daytona", "sourceUrl": "https://www.rolex.com/en-gb/watches/cosmograph-daytona/m126506-0001", "observedAt": "2026-09-01T13:52:00+01:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "£70,500", "status": "PASS" },
+      { "modelReference": "m126613lb-0002", "collection": "submariner", "sourceUrl": "https://www.rolex.com/en-gb/watches/submariner/m126613lb-0002", "observedAt": "2026-09-01T13:52:00+01:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "£16,200", "status": "PASS" },
+      { "modelReference": "m126603-0001", "collection": "sea-dweller", "sourceUrl": "https://www.rolex.com/en-gb/watches/sea-dweller/m126603-0001", "observedAt": "2026-09-01T13:52:00+01:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "£18,800", "status": "PASS" },
+      { "modelReference": "m136660-0005", "collection": "deepsea", "sourceUrl": "https://www.rolex.com/en-gb/watches/deepsea/m136660-0005", "observedAt": "2026-09-01T13:52:00+01:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "£13,230", "status": "PASS" },
+      { "modelReference": "m126710blnr-0003", "collection": "gmt-master-ii", "sourceUrl": "https://www.rolex.com/en-gb/watches/gmt-master-ii/m126710blnr-0003", "observedAt": "2026-09-01T13:52:00+01:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "£9,850", "status": "PASS" },
+      { "modelReference": "m226658-0001", "collection": "yacht-master", "sourceUrl": "https://www.rolex.com/en-gb/watches/yacht-master/m226658-0001", "observedAt": "2026-09-01T13:52:00+01:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "£31,900", "status": "PASS" },
+      { "modelReference": "m126680-0001", "collection": "yacht-master-ii", "sourceUrl": "https://www.rolex.com/en-gb/watches/yacht-master-ii/m126680-0001", "observedAt": "2026-09-01T13:52:00+01:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "£16,950", "status": "PASS" },
+      { "modelReference": "m224270-0001", "collection": "explorer", "sourceUrl": "https://www.rolex.com/en-gb/watches/explorer/m224270-0001", "observedAt": "2026-09-01T13:52:00+01:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "£6,950", "status": "PASS" },
+      { "modelReference": "m226570-0001", "collection": "explorer-ii", "sourceUrl": "https://www.rolex.com/en-gb/watches/explorer-ii/m226570-0001", "observedAt": "2026-09-01T13:52:00+01:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "£8,850", "status": "PASS" },
+      { "modelReference": "m126900-0001", "collection": "air-king", "sourceUrl": "https://www.rolex.com/en-gb/watches/air-king/m126900-0001", "observedAt": "2026-09-01T13:52:00+01:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "£6,800", "status": "PASS" },
+      { "modelReference": "m52508-0008", "collection": "1908", "sourceUrl": "https://www.rolex.com/en-gb/watches/1908/m52508-0008", "observedAt": "2026-09-01T13:52:00+01:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "£34,100", "status": "PASS" },
+      { "modelReference": "m228236-0002", "collection": "day-date", "sourceUrl": "https://www.rolex.com/en-gb/watches/day-date/m228236-0002", "observedAt": "2026-09-01T13:52:00+01:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "£61,350", "status": "PASS" },
+      { "modelReference": "m336935-0006", "collection": "sky-dweller", "sourceUrl": "https://www.rolex.com/en-gb/watches/sky-dweller/m336935-0006", "observedAt": "2026-09-01T13:52:00+01:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "£54,200", "status": "PASS" }
+    ],
+    "notes": "19 unique product pages were fetched (unlike AT/DE/US's 21-check convention, GB's 17 representatives already include both members of the day-date and sky-dweller pairs, so totalChecks equals the 19 unique pages actually fetched with no double-count). All 19 returned HTTP 200, contained the exact modelReference string, and displayed exactly the expected GBP price string with no other price string variants on the page. This reconciliation additionally served as the source for the m126710blnr-0002/0003 bracelet-type (Jubilee vs Oyster) confirmation used in nicknameResearch above."
+  },
+  "readmeUpdate": {
+    "status": "PASS",
+    "updated": true,
+    "sections": ["Data layout note (unchanged)", "United Kingdom (GB)", "Scope and limitations"],
+    "reason": null
+  },
+  "limitations": [
+    "JSON Schema validation is NOT RUN because no Draft 2020-12 validator (Python jsonschema, Node ajv) is installed and no dependency was installed without authorization; a manual field-by-field conformance check (documented above) was performed as a supplementary, non-substitute check and found 0 errors.",
+    "Full click-by-click UI pagination to a rendered count of 1,465 was not separately re-walked for GB; the structured endpoint's own totalCount === results.length terminal signal (cross-checked at two different page sizes) was used as the primary completeness proof, further cross-checked by 19 independent official product-page fetches with 0 mismatches and by an exact 1,465-to-1,465 set match against the pre-existing cross-market catalog.",
+    "The 'Sprite' / left-handed GMT-Master II nickname candidate was left unaccepted (not rejected on lack of evidence, but on inability to confirm handedness against the specific configuration codes present) rather than accepted on an unverified assumption; see nicknameResearch.rejectedCandidates.",
+    "The repository's existing catalog directory is data/catelog/, not the guide's example catalog/ path; this predates this task and was not changed."
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rolex Market",
+  "description": "Market-specific Rolex display text, URLs, aliases, and nicknames without price data.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "schemaVersion", "collectedAt", "salesRegion", "marketCode", "locale", "watchCount", "source", "collectionAliases", "watches"],
+  "properties": {
+    "$schema": { "const": "../schemas/rolex-market.schema.json" },
+    "schemaVersion": { "const": 1 },
+    "collectedAt": { "type": "string", "format": "date-time" },
+    "salesRegion": { "type": "string", "minLength": 1 },
+    "marketCode": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "locale": { "type": "string", "minLength": 2 },
+    "watchCount": { "type": "integer", "minimum": 0 },
+    "source": { "$ref": "#/$defs/source" },
+    "collectionAliases": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": { "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+      "additionalProperties": { "$ref": "#/$defs/namesWithSources" }
+    },
+    "watches": { "type": "array", "items": { "$ref": "#/$defs/marketWatch" } }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "url"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" }
+      }
+    },
+    "publisherSource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["publisher", "url"],
+      "properties": {
+        "publisher": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" }
+      }
+    },
+    "namesWithSources": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["names", "sources"],
+      "properties": {
+        "names": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+        "sources": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/publisherSource" } }
+      }
+    },
+    "marketWatch": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["modelReference", "collectionName", "modelName", "caseDescription", "dialDescription", "isNewModel", "productUrl", "localNicknames"],
+      "properties": {
+        "modelReference": { "type": "string", "pattern": "^m[0-9a-z]+-[0-9]{4}$" },
+        "collectionName": { "type": "string", "minLength": 1 },
+        "modelName": { "type": "string", "minLength": 1 },
+        "caseDescription": { "type": ["string", "null"] },
+        "dialDescription": { "type": ["string", "null"] },
+        "isNewModel": { "type": "boolean" },
+        "productUrl": { "type": ["string", "null"], "format": "uri" },
+        "localNicknames": { "$ref": "#/$defs/namesWithSources" }
+      }
+    }
+  }
+}

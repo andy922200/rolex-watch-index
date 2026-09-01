@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rolex Price History",
+  "description": "Append-only Rolex price and listing-status changes for one market.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "schemaVersion", "marketCode", "currencyCode", "priceType", "taxRatePercent", "collectionRuns", "priceSeries"],
+  "properties": {
+    "$schema": { "const": "../../schemas/rolex-price-history.schema.json" },
+    "schemaVersion": { "const": 1 },
+    "marketCode": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "currencyCode": { "type": "string", "pattern": "^[A-Z]{3}$" },
+    "priceType": { "enum": ["tax-include", "tax-exclude", "no-tax"] },
+    "taxRatePercent": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+    "collectionRuns": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/collectionRun" }
+    },
+    "priceSeries": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": { "pattern": "^m[0-9a-z]+-[0-9]{4}$" },
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 1,
+        "items": { "$ref": "#/$defs/pricePoint" }
+      }
+    }
+  },
+  "$defs": {
+    "collectionRun": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["runId", "collectedAt", "recordCount"],
+      "properties": {
+        "runId": { "type": "integer", "minimum": 1 },
+        "collectedAt": { "type": "string", "format": "date-time" },
+        "recordCount": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "pricePoint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["runId", "listingStatus", "price"],
+      "properties": {
+        "runId": { "type": "integer", "minimum": 1 },
+        "listingStatus": { "enum": ["listed", "price-unavailable", "not-listed"] },
+        "price": { "type": ["integer", "null"], "minimum": 0 }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "listingStatus": { "const": "listed" } } },
+          "then": { "properties": { "price": { "type": "integer", "minimum": 0 } } }
+        },
+        {
+          "if": { "properties": { "listingStatus": { "enum": ["price-unavailable", "not-listed"] } } },
+          "then": { "properties": { "price": { "type": "null" } } }
+        }
+      ]
+    }
+  }
+}

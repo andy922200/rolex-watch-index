@@ -1,0 +1,192 @@
+{
+  "marketCode": "SG",
+  "validatedAt": "2026-09-01T22:48:57+08:00",
+  "deliveryStatus": "PARTIAL: all applicable collection and data checks passed; formal Draft 2020-12 Schema validation was not run because no validator was available",
+  "fiveLayerValidation": {
+    "syntaxAndSchema": {
+      "status": "NOT RUN",
+      "strictJsonParsing": "PASS",
+      "strictJsonFileCount": 62,
+      "duplicateKeyErrors": 0,
+      "invalidJsonConstantErrors": 0,
+      "manualFieldByFieldConformanceAgainstActualSchemas": "PASS",
+      "manualConformanceErrors": 0,
+      "formalValidator": null,
+      "reason": "Python jsonschema, Node ajv, check-jsonschema, and jsonschema CLI were unavailable; no dependency was installed without authorization."
+    },
+    "crossFileConsistency": {
+      "status": "PASS",
+      "catalogWatchCount": 1465,
+      "marketWatchCount": 1465,
+      "historySeriesCount": 1465,
+      "evidenceObservationCount": 1465,
+      "catalogMarketIntersection": 1465,
+      "marketOnlyReferences": 0,
+      "catalogOnlyReferences": 0,
+      "marketHistoryOrphans": 0,
+      "historyCatalogOrphans": 0,
+      "unknownRunIdPoints": 0,
+      "runIdOrderErrors": 0,
+      "priceStatusErrors": 0,
+      "redundantAdjacentPricePoints": 0,
+      "recordCount": 1465
+    },
+    "sourceReconciliation": {
+      "status": "PASS",
+      "officialApiObservations": 1465,
+      "marketObservationMismatches": 0,
+      "historyPriceMismatches": 0,
+      "apiUiModelReferenceSetDifference": 0,
+      "apiUiAltMismatches": 0,
+      "priceParsingFailures": 0,
+      "unknownCurrencyCount": 0,
+      "acceptedListingStatusCounts": {
+        "listed": 1465,
+        "price-unavailable": 0,
+        "not-listed": 0
+      }
+    },
+    "websiteCompleteness": {
+      "status": "PASS",
+      "networkDiscovery": {
+        "required": true,
+        "chromeDevtoolsMcpConfigured": true,
+        "chromeDevtoolsMcpAttempted": true,
+        "chromeDevtoolsMcpResult": "PASS",
+        "officialStructuredEndpointFound": true,
+        "endpoint": "https://www.rolex.com/api/catalog/watchgrid",
+        "fullRequest": {"firstResult": 0, "numberOfResults": 2000, "totalCount": 1465, "resultCount": 1465, "httpStatus": 200},
+        "corroborationRequest": {"firstResult": 0, "numberOfResults": 500, "totalCount": 1465, "resultCount": 500, "httpStatus": 200},
+        "terminalRequest": {"firstResult": 1465, "numberOfResults": 2000, "totalCount": 1465, "resultCount": 0, "httpStatus": 200}
+      },
+      "renderedUi": {
+        "initialResultCount": 56,
+        "loadMoreRounds": 9,
+        "finalUniqueModelLinks": 1465,
+        "remainingViewMoreControl": false,
+        "uiTerminalRequestNumberOfResults": 1872
+      },
+      "dataPathErrors": 0,
+      "nonDataAnalyticsError": "Coveo analytics POST returned net::ERR_NAME_NOT_RESOLVED; it did not affect the first-party Rolex catalog or product-page requests."
+    },
+    "changeSafety": {
+      "status": "PASS",
+      "preExistingSingaporeMarketFile": false,
+      "preExistingSingaporeHistoryFile": false,
+      "newHistoryRunId": 1,
+      "oldSingaporePricePointsOverwritten": 0,
+      "catalogWatchesChanged": false,
+      "catalogCollectedAtChanged": false,
+      "catalogExpectedChange": "Appended SG exactly once to sourceMarketCodes",
+      "catalogBeforeSha256": "ad304054383353aff35fe2869a9fcaeabab3fcf565d41c7791f99dacb2cc9809",
+      "catalogAfterSha256": "187c7e6971ee9dbff3531560cc3f7a69aff7a8d73b00c180799c852f5690817a",
+      "nonTargetExistingMarketHistorySchemaFilesChanged": false,
+      "oldHistoryRunsPreserved": true,
+      "notes": "No existing SG market/history was present. Existing non-target market, history, and schema files were not edited; the only intentional existing-data edit was the catalog sourceMarketCodes line."
+    }
+  },
+  "evidenceTraceability": {
+    "status": "PASS",
+    "observationCount": 1465,
+    "uniqueObservationModelReferences": 1465,
+    "collectionSummaryCount": 1465,
+    "marketReferencesWithEvidence": 1465,
+    "historyReferencesWithEvidence": 1465,
+    "officialApiPriceToHistoryMismatches": 0,
+    "officialApiTextToMarketMismatches": 0,
+    "renderedOfficialImageReferenceMismatches": 0,
+    "sensitiveValueFindings": 0,
+    "sensitiveWordScanNotes": "The scan matched only narrative words such as cookies/session in collection-summary prose; no credential or identifier values were stored."
+  },
+  "independentOfficialSpotChecks": {
+    "status": "PASS",
+    "method": "Rendered official Rolex Singapore product pages, separate from the watchgrid normalization path",
+    "collectionRepresentativeCount": 17,
+    "sameBaseModelPairs": [
+      ["m126710blnr-0002", "m126710blnr-0003"],
+      ["m126500ln-0001", "m126500ln-0002"]
+    ],
+    "uniqueProductPagesChecked": 19,
+    "logicalChecks": 21,
+    "logicalChecksPassed": 21,
+    "passedUniqueProductPages": 19,
+    "failed": 0,
+    "checkedFields": ["full modelReference in URL", "official page title", "displayed reference", "model identity", "SGD price"],
+    "evidenceFile": "official-spot-checks.json"
+  },
+  "nicknameResearch": {
+    "status": "PASS",
+    "scope": "new-market",
+    "languages": ["English"],
+    "queries": [
+      "Singapore Rolex watch nickname Panda Batman Pepsi",
+      "site:.sg Rolex nickname Batman Batgirl Panda Singapore",
+      "Rolex nicknames Singapore Starbucks Cermit James Cameron President"
+    ],
+    "sourcesReviewed": 2,
+    "sourceUrls": [
+      "https://watchexchange.sg/blog/guide/rolex-nicknames/",
+      "https://www.rolex.com/en-sg/watches/find-rolex?group=0"
+    ],
+    "candidateCount": 18,
+    "acceptedCollectionAliasCount": 1,
+    "acceptedLocalNicknameCount": 5,
+    "acceptedCollectionAliases": {"day-date": ["President"]},
+    "acceptedLocalNicknames": {
+      "m126500ln-0001": ["Panda"],
+      "m126710blnr-0002": ["Batgirl"],
+      "m126610lv-0002": ["Starbucks"],
+      "m126711chnr-0002": ["Root Beer"],
+      "m136660-0005": ["James Cameron"]
+    },
+    "rejectedCandidates": [
+      "Batman: reviewed source ties it to discontinued 116710BLNR and does not directly name current SG m126710blnr-0003",
+      "Cermit: alternative synonym for accepted Starbucks, not duplicated",
+      "Kermit/Hulk/Smurf: discontinued or non-matching current configuration scope",
+      "Pepsi/Coke: no exact current SG configuration-and-name pairing established in this conservative pass",
+      "John Mayer/Paul Newman/Stella/Leopard/Zenith Daytona: historical, celebrity, or broad variants without exact current SG four-digit scope"
+    ],
+    "notes": "PASS with accepted results; no frequency or Internet-wide top-five claim is made. Full research evidence is in nickname-research.json."
+  },
+  "priceStatistics": {
+    "currencyCode": "SGD",
+    "priceType": "tax-include",
+    "taxRatePercent": 9,
+    "listedWithPrice": 1465,
+    "priceUnavailable": 0,
+    "confirmedNotListed": 0,
+    "min": {"price": 8650, "modelReference": "m276200-0009"},
+    "max": {"price": 262500, "modelReference": "m279459rbr-0001"},
+    "taxSource": {
+      "publisher": "Inland Revenue Authority of Singapore",
+      "url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/basics-of-gst/current-gst-rates",
+      "observedClaim": "The current GST rate in Singapore is 9%.",
+      "checkedAt": "2026-09-01T22:48:57+08:00"
+    },
+    "rolexPricePolicySource": {
+      "url": "https://www.rolex.com/en-sg/watches/find-rolex?group=0",
+      "observedText": "Suggested retail price inclusive of V.A.T."
+    }
+  },
+  "readmeUpdate": {
+    "status": "PASS",
+    "updated": true,
+    "sections": ["Singapore (SG)", "Data layout remains aligned with the existing data/catelog spelling"],
+    "reason": "README was updated with the SG source, coverage, endpoint/UI termination evidence, price semantics, history run, evidence path, nickname research, validation status, and limitations."
+  },
+  "limitations": [
+    "Formal JSON Schema Draft 2020-12 validation is NOT RUN because no validator was installed and no new dependency was authorized.",
+    "Coverage means the publicly listed Singapore Rolex configuration catalog at the recorded time; it does not claim global configurations, discontinued models, retailer inventory, or unpublished offerings.",
+    "The official Singapore price dialog uses generic V.A.T. wording; the stored 9% tax rate is based on Singapore GST guidance, not on treating that wording as a Singapore VAT claim.",
+    "The unrelated Coveo analytics request failed DNS resolution; official Rolex catalog and product-page data paths succeeded."
+  ],
+  "evidenceFiles": {
+    "collectionSummary": "collection-summary.json",
+    "observations": "observations.json",
+    "rawStructuredResponses": "watchgrid-responses.json",
+    "renderedUiCards": "rendered-ui-cards.json",
+    "renderedUiImages": "rendered-ui-images.json",
+    "officialSpotChecks": "official-spot-checks.json",
+    "nicknameResearch": "nickname-research.json"
+  }
+}

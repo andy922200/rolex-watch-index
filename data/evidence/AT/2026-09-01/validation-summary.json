@@ -1,0 +1,191 @@
+{
+  "marketCode": "AT",
+  "validationCompletedAt": "2026-09-01T14:39:20+02:00",
+  "evidencePath": "data/evidence/AT/2026-09-01",
+  "fiveLayerValidation": {
+    "syntaxAndSchema": {
+      "status": "NOT RUN",
+      "strictJson": {
+        "status": "PASS",
+        "filesChecked": 22,
+        "method": "Python json.loads over data/catelog, data/markets, data/history, data/schemas, data/evidence with object_pairs_hook rejecting duplicate keys and parse_constant rejecting NaN/Infinity."
+      },
+      "jsonSchema": {
+        "status": "NOT RUN",
+        "reason": "No installed Draft 2020-12 JSON Schema validator (no Python jsonschema module, no Node ajv) and no dependency was installed without authorization.",
+        "supplementaryCheck": {
+          "status": "PASS",
+          "method": "Manual field-by-field conformance check written against the actual rolex-market.schema.json and rolex-price-history.schema.json text: verified exact top-level key sets (additionalProperties:false equivalent), required fields, marketCode/modelReference/currencyCode regex patterns, enum values for priceType/listingStatus, taxRatePercent range, listed-price integer/non-negative rule, and null price for non-listed statuses, for the new AT market and history files plus the catalog's sourceMarketCodes delta.",
+          "errorsFound": 0
+        }
+      }
+    },
+    "crossFileConsistency": {
+      "status": "PASS",
+      "method": "Adapted version of the guide's Node.js cross-file invariant script (7.11.2), pointed at this repo's actual data/catelog, data/markets, data/history paths.",
+      "marketsChecked": ["AT", "DE", "JP", "TW", "US"],
+      "catalogWatchCount": 1465,
+      "austriaMarketWatchCount": 1465,
+      "austriaPriceSeriesCount": 1465,
+      "orphanCount": 0
+    },
+    "sourceReconciliation": {
+      "status": "PASS",
+      "evidenceObservationCount": 1465,
+      "marketAndHistoryReconciliationMismatchCount": 0,
+      "structuredVsRenderedMismatchCount": 0,
+      "priceParseFailureCount": 0,
+      "method": "Programmatic reconciliation of all 1,465 evidence observations against data/markets/rolex-austria-market.json (modelName, caseDescription, dialDescription, isNewModel, productUrl) and data/history/AT/rolex-price-history.json (currency, last listed price). 0 mismatches in either direction; 0 market watches or observations were orphaned from each other or from the catalog."
+    },
+    "websiteCompleteness": {
+      "status": "PASS",
+      "endpointTotalCount": 1465,
+      "endpointUniqueConfigurationCount": 1465,
+      "renderedFinalConfigurationCount": null,
+      "loadMorePresentAfterFinalCheck": null,
+      "unresolvedConflictCount": 0,
+      "notes": "Stop condition was the structured endpoint itself: a single request with numberOfResults=2000 (exceeding the true total) returned results.length === totalCount === 1465, with a separate numberOfResults=432 request confirming totalCount is a fixed server-side total independent of requested page size. Full click-through UI pagination to 1,465 was not separately re-enumerated; instead 19 individual official product pages (17 collection representatives + both members of 2 same-base-model pairs) were independently fetched from the live browser session and reconciled 1:1 against the structured dataset with 0 mismatches (see independentSpotChecks below)."
+    },
+    "changeSafety": {
+      "status": "PASS",
+      "method": "SHA-256 of every JSON file under data/ taken before and after this run and diffed.",
+      "unchangedFiles": [
+        "data/schemas/rolex-catalog.schema.json",
+        "data/schemas/rolex-market.schema.json",
+        "data/schemas/rolex-price-history.schema.json",
+        "data/markets/rolex-germany-market.json",
+        "data/markets/rolex-japan-market.json",
+        "data/markets/rolex-taiwan-market.json",
+        "data/markets/rolex-united-states-market.json",
+        "data/history/DE/rolex-price-history.json",
+        "data/history/JP/rolex-price-history.json",
+        "data/history/TW/rolex-price-history.json",
+        "data/history/US/rolex-price-history.json",
+        "data/evidence/DE/2026-09-01/collection-summary.json",
+        "data/evidence/DE/2026-09-01/observations.json",
+        "data/evidence/DE/2026-09-01/validation-summary.json",
+        "data/evidence/US/2026-09-01/collection-summary.json",
+        "data/evidence/US/2026-09-01/observations.json",
+        "data/evidence/US/2026-09-01/validation-summary.json"
+      ],
+      "intentionallyChangedFiles": {
+        "data/catelog/rolex-catalog.json": "sourceMarketCodes gained 'AT'; watches array (1465 entries), watchCount, and collectedAt are byte-for-byte unchanged because every AT modelReference already existed in the catalog (0 new configurations)."
+      },
+      "newFiles": [
+        "data/markets/rolex-austria-market.json",
+        "data/history/AT/rolex-price-history.json",
+        "data/evidence/AT/2026-09-01/observations.json",
+        "data/evidence/AT/2026-09-01/collection-summary.json",
+        "data/evidence/AT/2026-09-01/validation-summary.json"
+      ],
+      "schemasChanged": false,
+      "catalogWatchesArrayChanged": false
+    }
+  },
+  "evidenceTraceability": {
+    "status": "PASS",
+    "acceptedObservations": 1465,
+    "observationsWithMatchingMarketTextAndLatestPrice": 1465,
+    "sensitiveDataScan": {
+      "status": "PASS",
+      "method": "grep -riE 'authorization|cookie|session|token|bearer|password|secret' across all new AT evidence, market, and history files.",
+      "matchedSensitiveValueCount": 0,
+      "notes": "The only textual hits were the descriptive word 'session' inside collection-summary.json narrative (e.g. 'browser session', 'live browser session') referring to which browsing context issued a request; no cookie value, authorization header value, token, or credential was captured or stored anywhere."
+    }
+  },
+  "nicknameResearch": {
+    "status": "PASS",
+    "scope": "new-market",
+    "languages": ["de"],
+    "queries": [
+      "Rolex Spitznamen Österreich Batman Pepsi Hulk Kermit Uhr Chrono24.at",
+      "Rolex Daytona \"Panda\" Zifferblatt weiß schwarze Totalisatoren 126500LN Spitzname",
+      "\"Rolex Daytona\" \"Panda\" 126500LN uhrforum.de ODER chrono24.de ODER watchmaster.com Zifferblatt",
+      "Rolex Submariner 126610LV \"Kermit\" aktuelles Modell Spitzname grüne Lünette uhrforum",
+      "Rolex GMT-Master II 126711CHNR \"Root Beer\" Spitzname deutsch Everose braun Lünette"
+    ],
+    "sourcesReviewed": 13,
+    "candidateCount": 6,
+    "acceptedCollectionAliasCount": 0,
+    "acceptedLocalNicknameCount": 1,
+    "rejectedCandidates": [
+      {
+        "name": "Batman / Batgirl (GMT-Master II 126710BLNR)",
+        "reason": "German-language sources (chrono24.at magazine, derStandard.at, chrono24.ch) attribute 'Batman' to the base reference 126710BLNR generally; the AT catalog contains two distinct configurations of that reference (m126710blnr-0002 and m126710blnr-0003, differing by bracelet) and no reviewed source distinguishes which configuration code the nickname covers."
+      },
+      {
+        "name": "Pepsi (GMT-Master II two-tone blue/red bezel)",
+        "reason": "No modelReference in the current AT structured catalog carries a blue/red ('BLRO') bezel configuration; the reference is not currently offered in this market's collection, so there is no configuration for the name to attach to."
+      },
+      {
+        "name": "Kermit / Starbucks (Submariner 126610LV)",
+        "reason": "Sources found for the current 126610LV were English-language international retailer/blog sites, not Austria's primary market language (German); they also disagreed with each other on whether 'Kermit' or 'Starbucks' is now the more common name for the same current reference, indicating unsettled/ambiguous naming rather than an established local usage."
+      },
+      {
+        "name": "Root Beer (GMT-Master II 126711CHNR)",
+        "reason": "Sources found were predominantly English-language international dealer sites, not German-language Austrian-market sources; the name's origin is explicitly tied to a 1970s vintage reference (1675/3) and its extension to the modern two-tone piece was not independently corroborated by German-language sources reviewed."
+      },
+      {
+        "name": "Hulk (Submariner, green dial + green bezel)",
+        "reason": "No green-dial Submariner configuration exists in the current AT structured catalog (the only green-bezel Submariner, m126610lv-0002, has a black dial); the historical Hulk reference (116610LV) is discontinued and out of scope for a current-catalog configuration nickname."
+      }
+    ],
+    "accepted": [
+      {
+        "modelReference": "m126500ln-0001",
+        "name": "Panda",
+        "scope": "localNickname (dial-specific: white dial with black totalizer rings; the sibling m126500ln-0002 black-dial configuration is not called Panda and was excluded)",
+        "sources": [
+          "https://uhrforum.de/threads/neun-jahre-spaeter-rolex-daytona-126500ln-weisses-blatt.617296/",
+          "https://www.chrono24.de/rolex/daytona--mod2.htm"
+        ]
+      }
+    ],
+    "notes": "PASS with 1 accepted local nickname and 0 accepted collection-wide aliases. Official Rolex collection/family names (e.g. 'Cosmograph Daytona', 'GMT-Master II') were not treated as nicknames. Candidates were accepted only when at least one config-unambiguous, German-language source was found; broader or cross-generation-ambiguous candidates were rejected even when frequently mentioned in English-language retailer content."
+  },
+  "independentSpotChecks": {
+    "status": "PASS",
+    "method": "17 official product pages (one per collection, matching the AT structured dataset's family list) plus both members of 2 same-base-model configuration pairs were fetched as same-origin fetch() calls from inside the live chrome-devtools MCP browser session (not from the same code path used to build the structured dataset) and compared for model reference presence and displayed EUR price against the structured watchgrid response.",
+    "collectionRepresentativeCount": 17,
+    "sameBaseModelPairs": [
+      ["m228236-0018", "m228236-0002"],
+      ["m336935-0008", "m336935-0006"]
+    ],
+    "totalChecks": 21,
+    "failureCount": 0,
+    "checks": [
+      { "modelReference": "m127334-0001", "collection": "land-dweller", "sourceUrl": "https://www.rolex.com/de-at/watches/land-dweller/m127334-0001", "observedAt": "2026-09-01T14:33:00+02:00", "comparedFields": ["modelReference", "rawPrice"], "status": "PASS" },
+      { "modelReference": "m228236-0018", "collection": "day-date", "sourceUrl": "https://www.rolex.com/de-at/watches/day-date/m228236-0018", "observedAt": "2026-09-01T14:33:00+02:00", "comparedFields": ["modelReference", "rawPrice"], "status": "PASS" },
+      { "modelReference": "m336935-0008", "collection": "sky-dweller", "sourceUrl": "https://www.rolex.com/de-at/watches/sky-dweller/m336935-0008", "observedAt": "2026-09-01T14:33:00+02:00", "comparedFields": ["modelReference", "rawPrice"], "status": "PASS" },
+      { "modelReference": "m279173-0007", "collection": "lady-datejust", "sourceUrl": "https://www.rolex.com/de-at/watches/lady-datejust/m279173-0007", "observedAt": "2026-09-01T14:33:00+02:00", "comparedFields": ["modelReference", "rawPrice"], "status": "PASS" },
+      { "modelReference": "m126334-0033", "collection": "datejust", "sourceUrl": "https://www.rolex.com/de-at/watches/datejust/m126334-0033", "observedAt": "2026-09-01T14:33:00+02:00", "comparedFields": ["modelReference", "rawPrice"], "status": "PASS" },
+      { "modelReference": "m134303-0001", "collection": "oyster-perpetual", "sourceUrl": "https://www.rolex.com/de-at/watches/oyster-perpetual/m134303-0001", "observedAt": "2026-09-01T14:33:00+02:00", "comparedFields": ["modelReference", "rawPrice"], "status": "PASS" },
+      { "modelReference": "m126506-0001", "collection": "cosmograph-daytona", "sourceUrl": "https://www.rolex.com/de-at/watches/cosmograph-daytona/m126506-0001", "observedAt": "2026-09-01T14:33:00+02:00", "comparedFields": ["modelReference", "rawPrice"], "status": "PASS" },
+      { "modelReference": "m126613lb-0002", "collection": "submariner", "sourceUrl": "https://www.rolex.com/de-at/watches/submariner/m126613lb-0002", "observedAt": "2026-09-01T14:33:00+02:00", "comparedFields": ["modelReference", "rawPrice"], "status": "PASS" },
+      { "modelReference": "m126603-0001", "collection": "sea-dweller", "sourceUrl": "https://www.rolex.com/de-at/watches/sea-dweller/m126603-0001", "observedAt": "2026-09-01T14:33:00+02:00", "comparedFields": ["modelReference", "rawPrice"], "status": "PASS" },
+      { "modelReference": "m136660-0005", "collection": "deepsea", "sourceUrl": "https://www.rolex.com/de-at/watches/deepsea/m136660-0005", "observedAt": "2026-09-01T14:33:00+02:00", "comparedFields": ["modelReference", "rawPrice"], "status": "PASS" },
+      { "modelReference": "m126710blnr-0003", "collection": "gmt-master-ii", "sourceUrl": "https://www.rolex.com/de-at/watches/gmt-master-ii/m126710blnr-0003", "observedAt": "2026-09-01T14:33:00+02:00", "comparedFields": ["modelReference", "rawPrice"], "status": "PASS" },
+      { "modelReference": "m226658-0001", "collection": "yacht-master", "sourceUrl": "https://www.rolex.com/de-at/watches/yacht-master/m226658-0001", "observedAt": "2026-09-01T14:33:00+02:00", "comparedFields": ["modelReference", "rawPrice"], "status": "PASS" },
+      { "modelReference": "m126680-0001", "collection": "yacht-master-ii", "sourceUrl": "https://www.rolex.com/de-at/watches/yacht-master-ii/m126680-0001", "observedAt": "2026-09-01T14:33:00+02:00", "comparedFields": ["modelReference", "rawPrice"], "status": "PASS" },
+      { "modelReference": "m224270-0001", "collection": "explorer", "sourceUrl": "https://www.rolex.com/de-at/watches/explorer/m224270-0001", "observedAt": "2026-09-01T14:33:00+02:00", "comparedFields": ["modelReference", "rawPrice"], "status": "PASS" },
+      { "modelReference": "m226570-0001", "collection": "explorer-ii", "sourceUrl": "https://www.rolex.com/de-at/watches/explorer-ii/m226570-0001", "observedAt": "2026-09-01T14:33:00+02:00", "comparedFields": ["modelReference", "rawPrice"], "status": "PASS" },
+      { "modelReference": "m126900-0001", "collection": "air-king", "sourceUrl": "https://www.rolex.com/de-at/watches/air-king/m126900-0001", "observedAt": "2026-09-01T14:33:00+02:00", "comparedFields": ["modelReference", "rawPrice"], "status": "PASS" },
+      { "modelReference": "m52508-0008", "collection": "1908", "sourceUrl": "https://www.rolex.com/de-at/watches/1908/m52508-0008", "observedAt": "2026-09-01T14:33:00+02:00", "comparedFields": ["modelReference", "rawPrice"], "status": "PASS" },
+      { "modelReference": "m228236-0002", "collection": "day-date", "sourceUrl": "https://www.rolex.com/de-at/watches/day-date/m228236-0002", "observedAt": "2026-09-01T14:33:00+02:00", "comparedFields": ["modelReference", "rawPrice"], "status": "PASS" },
+      { "modelReference": "m336935-0006", "collection": "sky-dweller", "sourceUrl": "https://www.rolex.com/de-at/watches/sky-dweller/m336935-0006", "observedAt": "2026-09-01T14:33:00+02:00", "comparedFields": ["modelReference", "rawPrice"], "status": "PASS" }
+    ],
+    "notes": "totalChecks (21) follows the same convention as the DE/US runs: 17 unique collection representatives + both members of 2 same-base-model pairs, where the pair's first member (m228236-0018 and m336935-0008) is also one of the 17 representatives and is counted in both groupings. 19 unique product pages were actually fetched."
+  },
+  "readmeUpdate": {
+    "status": "PASS",
+    "updated": true,
+    "sections": ["Data layout note (unchanged)", "Austria (AT)", "Scope and limitations"],
+    "reason": null
+  },
+  "limitations": [
+    "JSON Schema validation is NOT RUN because no Draft 2020-12 validator (Python jsonschema, Node ajv) is installed and no dependency was installed without authorization; a manual field-by-field conformance check (documented above) was performed as a supplementary, non-substitute check.",
+    "Direct curl access to www.rolex.com (both the API and rendered HTML) is blocked by Akamai bot protection (403 Access Denied); all AT collection and spot-check requests were issued as fetch() calls from within the live chrome-devtools MCP browser session instead.",
+    "Full click-by-click UI pagination to a rendered count of 1,465 was not separately re-walked for AT; the structured endpoint's own totalCount === results.length terminal signal was used as the primary completeness proof, cross-checked by 19 independent official product-page fetches with 0 mismatches.",
+    "The repository's existing catalog directory is data/catelog/, not the guide's example catalog/ path; this predates this task and was not changed."
+  ]
+}

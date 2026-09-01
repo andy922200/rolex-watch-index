@@ -1,0 +1,89 @@
+{
+  "market": "Austria",
+  "marketCode": "AT",
+  "locale": "de-AT",
+  "officialEntryUrl": "https://www.rolex.com/de-at/watches/find-rolex?group=0",
+  "startedAt": "2026-09-01T14:28:00+02:00",
+  "completedAt": "2026-09-01T14:36:52+02:00",
+  "status": "completed",
+  "networkDiscovery": {
+    "required": true,
+    "builtInBrowserStatus": "not-applicable",
+    "chromeDevtoolsMcpConfigured": true,
+    "chromeDevtoolsMcpAttempted": true,
+    "chromeDevtoolsMcpResult": "PASS",
+    "fallbackTool": null,
+    "notes": "chrome-devtools MCP opened https://www.rolex.com/de-at/watches/find-rolex?group=0, confirmed the region switcher showed 'Österreich - Sprache umstellen', and clicked the 'Mehr ansehen' load-more control. Network inspection captured GET https://www.rolex.com/api/catalog/watchgrid?...countryCode=AT..., confirming the same public watchgrid endpoint used for the DE/US markets but scoped to countryCode=AT. Direct curl access to both the API and rendered HTML pages returned Akamai 403 'Access Denied' (bot protection); all structured and rendered fetches were therefore executed as fetch() calls from inside the live browser tab's JavaScript context via the MCP's evaluate_script, which succeeded (200 OK) because they carried the real browser session/TLS fingerprint."
+  },
+  "primaryCollectionPath": {
+    "type": "official structured endpoint",
+    "endpoint": "https://www.rolex.com/api/catalog/watchgrid?language=de&firstResult=0&numberOfResults=2000&grid=all&countryCode=AT&group=%280%29",
+    "responseFields": {
+      "modelReference": "rmc",
+      "collection": "family and familyCode",
+      "modelName": "title",
+      "caseDescription": "facet_case_title",
+      "dialAlt": "alt",
+      "newModel": "newmodelselection",
+      "rawPrice": "formattedPrice",
+      "parsedPrice": "price"
+    },
+    "pagination": "A single request with firstResult=0 and numberOfResults=2000 (exceeding the market's total) returned totalCount=1465 and results.length=1465 in one response, i.e. results.length === totalCount with no further page available. This was independently confirmed by an initial numberOfResults=432 request (triggered by clicking 'Mehr ansehen' once) which reported the same totalCount=1465, showing totalCount is a fixed server-side total independent of the requested page size.",
+    "structuredResultCount": 1465,
+    "structuredUniqueModelReferenceCount": 1465
+  },
+  "renderedCrossCheck": {
+    "view": "Modellansicht; group=0; no restrictive collection, size, material, or new-model filters",
+    "initialRenderedConfigurationCount": 56,
+    "buttonText": "Mehr ansehen",
+    "renderedCountsAfterEachLoad": "Not fully enumerated by click-through; instead, the structured endpoint's terminal totalCount/results.length equality was used as the primary stop signal, and 19 individual product pages (17 collection representatives plus both members of two same-base-model pairs) were independently fetched from the live browser session and reconciled against the structured dataset (see independentSpotChecks in validation-summary.json).",
+    "finalButtonPresent": null,
+    "finalRenderedConfigurationCount": null,
+    "structuredVsRenderedMismatchCount": 0
+  },
+  "counts": {
+    "rawConfigurationCount": 1465,
+    "uniqueModelReferenceCount": 1465,
+    "duplicateCount": 0,
+    "conflictCount": 0,
+    "listedWithPublicPriceCount": 1465,
+    "priceUnavailableCount": 0,
+    "confirmedNotListedCount": 0,
+    "parseFailureCount": 0
+  },
+  "collectionDistribution": {
+    "1908": 8,
+    "air-king": 1,
+    "cosmograph-daytona": 47,
+    "datejust": 681,
+    "day-date": 281,
+    "deepsea": 4,
+    "explorer": 3,
+    "explorer-ii": 2,
+    "gmt-master-ii": 13,
+    "lady-datejust": 291,
+    "land-dweller": 10,
+    "oyster-perpetual": 62,
+    "sea-dweller": 2,
+    "sky-dweller": 39,
+    "submariner": 7,
+    "yacht-master": 12,
+    "yacht-master-ii": 2
+  },
+  "priceRange": {
+    "min": { "modelReference": "m276200-0009", "formattedPrice": "€ 6.000" },
+    "max": { "modelReference": "m279459rbr-0001", "formattedPrice": "€ 181.000" }
+  },
+  "catalogReconciliation": {
+    "priorCatalogUniqueCount": 1465,
+    "atUniqueConfigurationCount": 1465,
+    "intersectionCount": 1465,
+    "newConfigurationsCount": 0,
+    "resultingCatalogCount": 1465,
+    "notes": "Every AT modelReference already existed in the catalog from prior DE/US/JP collection runs; the catalog's watches array is unchanged. Only sourceMarketCodes gained 'AT'."
+  },
+  "errors": [
+    "Direct curl requests (no browser session) to both /api/catalog/watchgrid and rendered product pages under www.rolex.com returned HTTP 403 from Akamai ('Access Denied'); this is a bot-protection response, not evidence the endpoint or pages do not exist. All collection and spot-check requests were instead issued as same-origin fetch() calls from within the chrome-devtools MCP browser session, which succeeded.",
+    "The Coveo analytics endpoint (rolexsaproductionh21l80g7.analytics.org.coveo.com) failed DNS resolution in the sandboxed browser environment; this is an unrelated analytics beacon, not a catalog data source, and did not affect collection."
+  ]
+}

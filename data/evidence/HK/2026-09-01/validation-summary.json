@@ -1,0 +1,269 @@
+{
+  "marketCode": "HK",
+  "validationCompletedAt": "2026-09-01T21:29:11+08:00",
+  "evidencePath": "data/evidence/HK/2026-09-01",
+  "fiveLayerValidation": {
+    "syntaxAndSchema": {
+      "status": "NOT RUN",
+      "strictJson": {
+        "status": "PASS",
+        "filesChecked": 32,
+        "method": "Python json.loads over data/catelog, data/markets, data/history, data/schemas, data/evidence with object_pairs_hook rejecting duplicate keys and parse_constant rejecting NaN/Infinity (guide section 7.11.1)."
+      },
+      "jsonSchema": {
+        "status": "NOT RUN",
+        "reason": "No installed Draft 2020-12 JSON Schema validator (no Python jsonschema module, no Node ajv) and no dependency was installed without authorization.",
+        "supplementaryCheck": {
+          "status": "PASS",
+          "method": "Manual field-by-field conformance script written directly against the text of rolex-market.schema.json, rolex-price-history.schema.json, and rolex-catalog.schema.json: verified exact top-level key sets (additionalProperties:false equivalent), required fields, marketCode/modelReference/currencyCode regex patterns, enum values for priceType/listingStatus, taxRatePercent range, listed-price integer/non-negative rule, null price for non-listed statuses, source/alias/nickname object shapes (including that any watch with non-empty localNicknames.names also has non-empty sources), and URI validity, for the new HK market and history files, plus re-verified the catalog's structural invariants after the sourceMarketCodes edit.",
+          "errorsFound": 0
+        }
+      }
+    },
+    "crossFileConsistency": {
+      "status": "PASS",
+      "method": "The guide's Node.js cross-file invariant script (section 7.11.2), run unmodified against this repo's data/catelog, data/markets, data/history paths.",
+      "marketsChecked": ["AT", "DE", "GB", "HK", "JP", "TW", "US"],
+      "catalogWatchCount": 1465,
+      "hongKongMarketWatchCount": 1465,
+      "hongKongPriceSeriesCount": 1465,
+      "orphanCount": 0
+    },
+    "sourceReconciliation": {
+      "status": "PASS",
+      "evidenceObservationCount": 1465,
+      "marketAndHistoryReconciliationMismatchCount": 0,
+      "structuredVsRenderedMismatchCount": 0,
+      "priceParseFailureCount": 0,
+      "method": "Programmatic reconciliation of all 1,465 evidence observations against data/markets/rolex-hong-kong-market.json (modelName, caseDescription, dialDescription, isNewModel, productUrl) and data/history/HK/rolex-price-history.json (currency, last listed price). 0 mismatches in either direction; 0 market watches were orphaned from the evidence observations."
+    },
+    "websiteCompleteness": {
+      "status": "PASS",
+      "endpointTotalCount": 1465,
+      "endpointUniqueConfigurationCount": 1465,
+      "renderedFinalConfigurationCount": null,
+      "loadMorePresentAfterFinalCheck": null,
+      "unresolvedConflictCount": 0,
+      "notes": "Stop condition was the structured endpoint itself: a single request with numberOfResults=2000 (exceeding the true total) returned results.length === totalCount === 1465, independently corroborated by (1) a second request with numberOfResults=500 that reported the same fixed totalCount=1465 (showing totalCount does not vary with the requested page size), and (2) a third request with firstResult=1465 (past the reported end) that returned results.length=0 with totalCount still 1465, proving no further page exists. Full click-through UI pagination was not separately re-walked; instead 19 individual official product pages (17 collection representatives + both members of 2 same-base-model pairs) were independently fetched from the live browser session as raw rendered HTML and reconciled 1:1 against the structured dataset with 0 mismatches (see independentSpotChecks below). Additionally, the full 1,465 HK modelReference set was diffed against the pre-existing 1,465-entry cross-market catalog: 0 references in HK only, 0 references in the catalog only -- an exact set match, consistent with every prior market's terminal collection, and every HK familyCode matched the existing catalog collectionId for the same modelReference with 0 mismatches."
+    },
+    "changeSafety": {
+      "status": "PASS",
+      "method": "This task only used the Edit tool on data/catelog/rolex-catalog.json (appending 'HK' to sourceMarketCodes) and the Write tool to create new files under data/markets/rolex-hong-kong-market.json, data/history/HK/, and data/evidence/HK/2026-09-01/. No other Read/Edit/Write calls touched any other file in this session, so every other market/history/evidence/schema file is unmodified by construction. The catalog file grew from 10,271 to 10,272 lines (the single new 'HK' array element), matching the same +1-line growth pattern seen when GB was added to sourceMarketCodes; watches array (1,465 entries), watchCount (1,465), and collectedAt (2026-08-31T21:17:28+08:00) are unchanged because every HK modelReference already existed in the catalog (0 new configurations).",
+      "unchangedFiles": [
+        "data/schemas/rolex-catalog.schema.json",
+        "data/schemas/rolex-market.schema.json",
+        "data/schemas/rolex-price-history.schema.json",
+        "data/markets/rolex-austria-market.json",
+        "data/markets/rolex-germany-market.json",
+        "data/markets/rolex-japan-market.json",
+        "data/markets/rolex-taiwan-market.json",
+        "data/markets/rolex-united-kingdom-market.json",
+        "data/markets/rolex-united-states-market.json",
+        "data/history/AT/rolex-price-history.json",
+        "data/history/DE/rolex-price-history.json",
+        "data/history/JP/rolex-price-history.json",
+        "data/history/TW/rolex-price-history.json",
+        "data/history/GB/rolex-price-history.json",
+        "data/history/US/rolex-price-history.json",
+        "data/evidence/AT/2026-09-01/collection-summary.json",
+        "data/evidence/AT/2026-09-01/observations.json",
+        "data/evidence/AT/2026-09-01/validation-summary.json",
+        "data/evidence/DE/2026-09-01/collection-summary.json",
+        "data/evidence/DE/2026-09-01/observations.json",
+        "data/evidence/DE/2026-09-01/validation-summary.json",
+        "data/evidence/GB/2026-09-01/collection-summary.json",
+        "data/evidence/GB/2026-09-01/observations.json",
+        "data/evidence/GB/2026-09-01/validation-summary.json",
+        "data/evidence/US/2026-09-01/collection-summary.json",
+        "data/evidence/US/2026-09-01/observations.json",
+        "data/evidence/US/2026-09-01/validation-summary.json"
+      ],
+      "intentionallyChangedFiles": {
+        "data/catelog/rolex-catalog.json": "sourceMarketCodes gained 'HK' (now [JP, TW, DE, US, AT, GB, HK]); watches array (1465 entries, byte-for-byte identical structure and content), watchCount (1465), and collectedAt (2026-08-31T21:17:28+08:00) are unchanged because every HK modelReference already existed in the catalog (0 new configurations). File grew by exactly 1 line (10271 -> 10272) matching the single new array element."
+      },
+      "newFiles": [
+        "data/markets/rolex-hong-kong-market.json",
+        "data/history/HK/rolex-price-history.json",
+        "data/evidence/HK/2026-09-01/observations.json",
+        "data/evidence/HK/2026-09-01/collection-summary.json",
+        "data/evidence/HK/2026-09-01/validation-summary.json"
+      ],
+      "schemasChanged": false,
+      "catalogWatchesArrayChanged": false
+    }
+  },
+  "evidenceTraceability": {
+    "status": "PASS",
+    "acceptedObservations": 1465,
+    "observationsWithMatchingMarketTextAndLatestPrice": 1465,
+    "sensitiveDataScan": {
+      "status": "PASS",
+      "method": "grep -riE 'authorization|cookie|session|token|bearer|password|secret' across all new HK evidence, market, and history files.",
+      "matchedSensitiveValueCount": 0,
+      "notes": "The only matches were the descriptive word 'session' inside narrative prose describing which live browser tab session issued a request (collection-summary.json networkDiscovery.notes and renderedCrossCheck.renderedCountsAfterEachLoad); no cookie, authorization header, token, or credential value of any kind is present anywhere in the new HK files."
+    }
+  },
+  "nicknameResearch": {
+    "status": "PASS",
+    "scope": "new-market",
+    "languages": ["zh-Hant (Traditional Chinese, Hong Kong Cantonese usage)"],
+    "queries": [
+      "勞力士 水鬼 潛航者 香港 綽號 由來",
+      "勞力士 總統錶 Day-Date 香港 名稱 由來",
+      "勞力士 迪通拿 熊貓 126500LN 香港 白面 綽號",
+      "勞力士 GMT-Master II 蝙蝠俠 126710BLNR 香港 手鏈 蠔式 積及",
+      "勞力士 126710BLNR-0002 積及帶 Batgirl 香港",
+      "勞力士 126710BLNR-0002 \"蝙蝠女俠\" OR \"蝙蝠妹\"",
+      "勞力士 鬼王 Sea-Dweller 香港 由來 綽號",
+      "\"鬼王\" 勞力士 Sea-Dweller 東方表行 OR wristcheck OR 太子珠寶",
+      "勞力士 \"鬼王\" 香港 Sea-Dweller 潛水錶 vipstation OR carousell OR chrono24",
+      "勞力士 126711CHNR 根啤 OR 薑餅 香港 綽號",
+      "勞力士 126610LV 綠水鬼 香港 星巴克"
+    ],
+    "sourcesReviewed": 13,
+    "candidateCount": 10,
+    "acceptedCollectionAliasCount": 3,
+    "acceptedLocalNicknameCount": 5,
+    "rejectedCandidates": [
+      {
+        "name": "鬼王 (Ghost King) applied to Sea-Dweller (m126603-0001, m126600-0002)",
+        "reason": "Scope conflict between sources: clubwatchhk.com titles an article '...Sea-Dweller 鬼王由來' but the article body never actually uses the term; horoguides.com/hk and an HK01 headline ('...必屬鬼王Deepsea...') instead directly and explicitly tie 鬼王 to the Deepsea (126660/136660 references), contrasting it with 水鬼 Submariner. Given the conflicting scope evidence, 鬼王 was accepted only for the deepsea collectionId (where a live HK source gives a direct, quotable explanation) and not extended to sea-dweller."
+      },
+      {
+        "name": "根啤 / 薑餅 (Root Beer) for m126711chnr-0002",
+        "reason": "No Hong Kong-specific or Traditional-Chinese-language source was found in this run's queries tying a Cantonese/Chinese nickname to the CHNR two-tone bezel GMT-Master II configuration; results were dominated by English-language international retailer listings. Left unaccepted rather than translating the English 'Root Beer' term without a local source."
+      },
+      {
+        "name": "百事圈 / Pepsi (blue/red 'BLRO' bezel GMT-Master II)",
+        "reason": "No modelReference containing 'blro' exists anywhere in the current 1,465-entry HK structured catalog; the reference is not currently offered in this market's collection."
+      },
+      {
+        "name": "Kermit (older green-bezel/green-dial Submariner, ref. 16610LV)",
+        "reason": "No modelReference beginning with 16610LV exists in the current HK structured catalog; sources describe this as a discontinued/historical reference distinct from the current 126610LV (Starbucks/綠水鬼), which was accepted instead."
+      },
+      {
+        "name": "蝙蝠女俠 (Chinese-character rendering of Batgirl) for m126710blnr-0002",
+        "reason": "The Chinese-character form appeared mainly in a Taiwan-labelled source (world-wrist-watch.com); the confirmed Hong Kong sources for this configuration (VIP STATION, Wristcheck HK) use the English loanword 'Batgirl' directly rather than a Chinese-character translation, so 'Batgirl' (not 蝙蝠女俠) was accepted to match actual local-market usage."
+      },
+      {
+        "name": "126610LN (black dial, black ceramic bezel, current Submariner Date) as 黑水鬼",
+        "reason": "The accepted 黑水鬼 source (Esquire HK) ties that specific nickname to the no-date classic Submariner 124060 ('最經典的黑圈黑面Submariner「黑水鬼」'), not to the newer date/cyclops 126610LN configuration; extending the name to 126610LN was not supported by the reviewed source and was left unaccepted to avoid guessing scope."
+      }
+    ],
+    "accepted": [
+      {
+        "modelReference": "m126500ln-0001",
+        "name": "熊貓",
+        "scope": "localNickname (dial-specific: white dial with black counter rings; the sibling m126500ln-0002 black-dial configuration is not called 熊貓 and was excluded)",
+        "sources": [
+          "https://www.esquirehk.com/watches/story-behind-rolex-daytona-126500ln",
+          "https://www.vipstation.com.hk/tc/item/rolex-126500ln-0001-watches-daytona.html"
+        ]
+      },
+      {
+        "modelReference": "m126710blnr-0003",
+        "name": "蝙蝠俠",
+        "scope": "localNickname (bracelet-specific: Oyster/蠔式 bracelet; confirmed directly on Rolex's own zh-hant-hk product page text '...搭配蠔式（Oyster）錶帶', not just a third-party source)",
+        "sources": [
+          "https://horoguides.com/hk/w/rolex/gmt-master-ii/126710blnr-0003-1",
+          "https://www.vipstation.com.hk/tc/item/rolex-126710-blnr-0003-watches-gmt-master-ii.html"
+        ]
+      },
+      {
+        "modelReference": "m126710blnr-0002",
+        "name": "Batgirl",
+        "scope": "localNickname (bracelet-specific: Jubilee/紀念型 bracelet; confirmed directly on Rolex's own zh-hant-hk product page text '...搭配紀念型（Jubilee）錶帶', not just a third-party source)",
+        "sources": [
+          "https://www.vipstation.com.hk/tc/item/rolex-126710-blnr-0002-watches-gmt-master-ii.html",
+          "https://wristcheck.com/zh-hk/buy/rolex/gmt-master-ii-batgirl/180"
+        ]
+      },
+      {
+        "modelReference": "m124060-0001",
+        "name": "黑水鬼",
+        "scope": "localNickname (the classic no-date Submariner, black dial/black bezel; distinct from the date-window m126610ln-0001 and m126610lv-0002 siblings)",
+        "sources": [
+          "https://www.esquirehk.com/watches/rolex-new-watches-submariner-steel"
+        ]
+      },
+      {
+        "modelReference": "m126610lv-0002",
+        "name": "綠水鬼",
+        "scope": "localNickname (green ceramic bezel, black dial; the only current green-bezel Submariner configuration in the HK catalog)",
+        "sources": [
+          "https://www.esquirehk.com/watches/rolex-new-watches-submariner-steel"
+        ]
+      }
+    ],
+    "acceptedCollectionAliases": [
+      {
+        "collectionId": "submariner",
+        "name": "水鬼",
+        "scope": "collection-wide (the source explicitly states the name describes the whole Submariner line's diving/waterproof performance, not one configuration; color-specific derivatives like 黑水鬼/綠水鬼 were separately accepted as configuration-level localNicknames, not folded into this collection-wide entry)",
+        "sources": ["https://goodwatchhk.com/%E7%82%BA%E4%BB%80%E9%BA%BC%E5%8B%9E%E5%8A%9B%E5%A3%ABsubmariner-%E5%8F%AB%E6%B0%B4%E9%AC%BC/"]
+      },
+      {
+        "collectionId": "day-date",
+        "name": "總統錶",
+        "scope": "collection-wide (sources describe it as naming Day-Date models in precious metals; Day-Date has never been offered in steel, so this covers the entire current HK Day-Date collection)",
+        "sources": [
+          "https://www.hk01.com/%E5%BD%A2%E8%80%8C/257065/rolex-day-date%E5%B0%8A%E4%BA%AB-%E7%B8%BD%E7%B5%B1%E9%8C%B6-%E7%BE%8E%E5%90%8D-%E6%AD%B7%E5%8F%B2%E6%95%85%E4%BA%8B%E7%94%B11945%E5%B9%B4%E8%AC%9B%E8%B5%B7",
+          "https://www.clubwatchhk.com/post/%E5%8B%9E%E5%8A%9B%E5%A3%ABrolex-day-date%E7%82%BA%E4%BB%80%E9%BA%BC%E5%8F%88%E5%8F%AB%E7%B8%BD%E7%B5%B1%E9%8C%B6%EF%BC%9F"
+        ]
+      },
+      {
+        "collectionId": "deepsea",
+        "name": "鬼王",
+        "scope": "collection-wide (source directly explains: '由於勞的Submariner被暱稱為水鬼，這款深度更深，因此被稱為水鬼王或是鬼王', naming the whole Deepsea line by its greater depth rating relative to the Submariner)",
+        "sources": ["https://horoguides.com/hk/w/rolex/sea-dweller/126660-98220"]
+      }
+    ],
+    "notes": "PASS with 3 accepted collection-wide aliases and 5 accepted local nicknames (the guide's stated maximum for local nicknames). Official Rolex family names (e.g. 'Cosmograph Daytona', 'GMT-Master II', 'Day-Date') were not themselves treated as nicknames. Candidates were accepted only when at least one Hong Kong-market source was found (an HK-domiciled retailer with a physical HK address/phone, an HK-headquartered media outlet such as Esquire HK or HK01, or an HK-region page on a pan-Chinese guide site such as horoguides.com/hk), and where two same-base-reference configurations existed, only accepted when a source -- including Rolex's own official zh-hant-hk product pages for the GMT-Master II bracelet distinction -- could tie the name to one specific configuration."
+  },
+  "independentSpotChecks": {
+    "status": "PASS",
+    "method": "17 official product pages (one per collection, matching the same representative modelReference set used in the AT/DE/US/GB runs for direct cross-market comparability) plus both members of 2 same-base-model configuration pairs were fetched as same-origin fetch() calls from inside the live chrome-devtools MCP browser session (reading raw rendered HTML, not the JSON API used to build the structured dataset) and checked for the presence of the exact modelReference and the exact HKD price string from the structured watchgrid response. The GMT-Master II Batman/Batgirl bracelet distinction used for nickname research was additionally confirmed directly from the intro text of Rolex's own official product pages (Oyster vs Jubilee).",
+    "collectionRepresentativeCount": 17,
+    "sameBaseModelPairs": [
+      ["m228236-0018", "m228236-0002"],
+      ["m336935-0008", "m336935-0006"]
+    ],
+    "totalChecks": 19,
+    "failureCount": 0,
+    "checks": [
+      { "modelReference": "m127334-0001", "collection": "land-dweller", "sourceUrl": "https://www.rolex.com/zh-hant-hk/watches/land-dweller/m127334-0001", "observedAt": "2026-09-01T21:20:00+08:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "HKD 132,700", "status": "PASS" },
+      { "modelReference": "m228236-0018", "collection": "day-date", "sourceUrl": "https://www.rolex.com/zh-hant-hk/watches/day-date/m228236-0018", "observedAt": "2026-09-01T21:20:00+08:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "HKD 556,700", "status": "PASS" },
+      { "modelReference": "m336935-0008", "collection": "sky-dweller", "sourceUrl": "https://www.rolex.com/zh-hant-hk/watches/sky-dweller/m336935-0008", "observedAt": "2026-09-01T21:20:00+08:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "HKD 525,400", "status": "PASS" },
+      { "modelReference": "m279173-0007", "collection": "lady-datejust", "sourceUrl": "https://www.rolex.com/zh-hant-hk/watches/lady-datejust/m279173-0007", "observedAt": "2026-09-01T21:20:00+08:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "HKD 122,000", "status": "PASS" },
+      { "modelReference": "m126334-0033", "collection": "datejust", "sourceUrl": "https://www.rolex.com/zh-hant-hk/watches/datejust/m126334-0033", "observedAt": "2026-09-01T21:20:00+08:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "HKD 94,400", "status": "PASS" },
+      { "modelReference": "m134303-0001", "collection": "oyster-perpetual", "sourceUrl": "https://www.rolex.com/zh-hant-hk/watches/oyster-perpetual/m134303-0001", "observedAt": "2026-09-01T21:20:00+08:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "HKD 78,000", "status": "PASS" },
+      { "modelReference": "m126506-0001", "collection": "cosmograph-daytona", "sourceUrl": "https://www.rolex.com/zh-hant-hk/watches/cosmograph-daytona/m126506-0001", "observedAt": "2026-09-01T21:20:00+08:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "HKD 684,000", "status": "PASS" },
+      { "modelReference": "m126613lb-0002", "collection": "submariner", "sourceUrl": "https://www.rolex.com/zh-hant-hk/watches/submariner/m126613lb-0002", "observedAt": "2026-09-01T21:20:00+08:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "HKD 157,200", "status": "PASS" },
+      { "modelReference": "m126603-0001", "collection": "sea-dweller", "sourceUrl": "https://www.rolex.com/zh-hant-hk/watches/sea-dweller/m126603-0001", "observedAt": "2026-09-01T21:20:00+08:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "HKD 181,700", "status": "PASS" },
+      { "modelReference": "m136660-0005", "collection": "deepsea", "sourceUrl": "https://www.rolex.com/zh-hant-hk/watches/deepsea/m136660-0005", "observedAt": "2026-09-01T21:20:00+08:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "HKD 128,300", "status": "PASS" },
+      { "modelReference": "m126710blnr-0003", "collection": "gmt-master-ii", "sourceUrl": "https://www.rolex.com/zh-hant-hk/watches/gmt-master-ii/m126710blnr-0003", "observedAt": "2026-09-01T21:20:00+08:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "HKD 95,300", "status": "PASS" },
+      { "modelReference": "m226658-0001", "collection": "yacht-master", "sourceUrl": "https://www.rolex.com/zh-hant-hk/watches/yacht-master/m226658-0001", "observedAt": "2026-09-01T21:20:00+08:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "HKD 308,600", "status": "PASS" },
+      { "modelReference": "m126680-0001", "collection": "yacht-master-ii", "sourceUrl": "https://www.rolex.com/zh-hant-hk/watches/yacht-master-ii/m126680-0001", "observedAt": "2026-09-01T21:20:00+08:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "HKD 163,800", "status": "PASS" },
+      { "modelReference": "m224270-0001", "collection": "explorer", "sourceUrl": "https://www.rolex.com/zh-hant-hk/watches/explorer/m224270-0001", "observedAt": "2026-09-01T21:20:00+08:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "HKD 67,600", "status": "PASS" },
+      { "modelReference": "m226570-0001", "collection": "explorer-ii", "sourceUrl": "https://www.rolex.com/zh-hant-hk/watches/explorer-ii/m226570-0001", "observedAt": "2026-09-01T21:20:00+08:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "HKD 85,900", "status": "PASS" },
+      { "modelReference": "m126900-0001", "collection": "air-king", "sourceUrl": "https://www.rolex.com/zh-hant-hk/watches/air-king/m126900-0001", "observedAt": "2026-09-01T21:20:00+08:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "HKD 65,900", "status": "PASS" },
+      { "modelReference": "m52508-0008", "collection": "1908", "sourceUrl": "https://www.rolex.com/zh-hant-hk/watches/1908/m52508-0008", "observedAt": "2026-09-01T21:20:00+08:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "HKD 331,300", "status": "PASS" },
+      { "modelReference": "m228236-0002", "collection": "day-date", "sourceUrl": "https://www.rolex.com/zh-hant-hk/watches/day-date/m228236-0002", "observedAt": "2026-09-01T21:20:00+08:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "HKD 595,000", "status": "PASS" },
+      { "modelReference": "m336935-0006", "collection": "sky-dweller", "sourceUrl": "https://www.rolex.com/zh-hant-hk/watches/sky-dweller/m336935-0006", "observedAt": "2026-09-01T21:20:00+08:00", "comparedFields": ["modelReference", "rawPrice"], "expectedPrice": "HKD 525,400", "status": "PASS" }
+    ],
+    "notes": "19 unique product pages were fetched (the 17 representatives already include both members of the day-date and sky-dweller pairs, so totalChecks equals the 19 unique pages actually fetched with no double-count). All 19 returned HTTP 200, contained the exact modelReference string, and displayed exactly the expected HKD price string. Additionally, m126710blnr-0002 and m126710blnr-0003 (both already representative/pair members above) were separately re-fetched and their intro text extracted verbatim, confirming '...蠔式（Oyster）錶帶' for -0003 and '...紀念型（Jubilee）錶帶' for -0002, which is the first-party basis for the Batman/Batgirl nickname scope."
+  },
+  "readmeUpdate": {
+    "status": "PASS",
+    "updated": true,
+    "sections": ["Data layout note (unchanged)", "Hong Kong (HK)", "Scope and limitations"],
+    "reason": null
+  },
+  "limitations": [
+    "JSON Schema validation is NOT RUN because no Draft 2020-12 validator (Python jsonschema, Node ajv) is installed and no dependency was installed without authorization; a manual field-by-field conformance check (documented above) was performed as a supplementary, non-substitute check and found 0 errors.",
+    "Full click-by-click UI pagination to a rendered count of 1,465 was not separately re-walked for HK; the structured endpoint's own totalCount === results.length terminal signal, cross-checked at a second page size and by an empty-results probe past the reported end, was used as the primary completeness proof, further cross-checked by 19 independent official product-page fetches with 0 mismatches and by an exact 1,465-to-1,465 set match against the pre-existing cross-market catalog.",
+    "Hong Kong has no VAT, GST, or general sales tax of any kind (confirmed against the Inland Revenue Department's own enumeration of administered taxes and the GovHK residents' tax pages, which list only Salaries Tax, Profits Tax, Property Tax, Stamp Duty, and several narrow duties -- no consumption tax). The official Rolex HK price-info dialog's boilerplate legal text ('已含增值税之參照零售價', i.e. 'reference price already includes VAT') is copied across Rolex's markets regardless of whether the local market actually levies a VAT/consumption tax, so it was not taken at face value; priceType is recorded as 'no-tax' with taxRatePercent 0 (a verified true zero, not an unknown treated as zero) rather than 'tax-include'.",
+    "The 'Root Beer' (CHNR bezel GMT-Master II) and a Sea-Dweller-specific '鬼王' candidate were left unaccepted rather than accepted on ambiguous or non-local-market evidence; see nicknameResearch.rejectedCandidates for the specific reasoning on each.",
+    "The repository's existing catalog directory is data/catelog/, not the guide's example catalog/ path; this predates this task and was not changed."
+  ]
+}

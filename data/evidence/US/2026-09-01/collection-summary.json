@@ -1,0 +1,85 @@
+{
+  "market": "United States",
+  "marketCode": "US",
+  "locale": "en-US",
+  "officialEntryUrl": "https://www.rolex.com/en-us/watches/find-rolex?group=0",
+  "startedAt": "2026-09-01T07:23:02-04:00",
+  "completedAt": "2026-09-01T07:32:01-04:00",
+  "status": "completed",
+  "networkDiscovery": {
+    "required": true,
+    "builtInBrowserStatus": "available",
+    "chromeDevtoolsMcpConfigured": true,
+    "chromeDevtoolsMcpAttempted": true,
+    "chromeDevtoolsMcpResult": "PASS",
+    "fallbackTool": "Node.js fetch for the public Rolex Coveo endpoint only",
+    "notes": "Chrome DevTools inspected the page, token bootstrap, and failed Coveo network request. The browser reported net::ERR_NAME_NOT_RESOLVED for the Coveo host, while Node.js successfully fetched the exact public endpoint configured in the official page. Chrome DevTools was then used successfully for the official US price endpoint and rendered-product-page checks. No tokens, cookies, headers, or session data were persisted."
+  },
+  "primaryCollectionPath": {
+    "type": "official structured endpoints",
+    "endpoints": {
+      "listing": "https://rolexsaproductionh21l80g7.org.coveo.com/rest/search/v2",
+      "detail": "https://www.rolex.com/api/catalog/watches?language=en&rmc=(...)",
+      "price": "https://www.rolex.com/api/prices/pricelist?countryCode=US&lang=en&sort=price:desc"
+    },
+    "responseFields": {
+      "modelReference": "rlx_rmc / rmc",
+      "collection": "rlx_familycode / familyCode and family",
+      "modelName": "title",
+      "caseDescription": "facet_case_title",
+      "dialAlt": "alt",
+      "newModel": "newmodelselection",
+      "rawPrice": "formattedPrice",
+      "parsedPrice": "price"
+    },
+    "pagination": "Coveo search used firstResult=0 and numberOfResults=2000 with @rlx_contenttype==watch AND @rlx_lang==en. It returned totalCount=1465 and 1465 unique results, so the requested range exceeded the terminal result count. Detail and price responses were cross-checked in 15 batches of at most 100 references each.",
+    "structuredResultCount": 1465,
+    "structuredUniqueModelReferenceCount": 1465
+  },
+  "renderedCrossCheck": {
+    "view": "Model view; group=0; no restrictive collection, size, material, or new-model filters",
+    "initialRenderedConfigurationCount": 56,
+    "buttonText": "View more",
+    "renderedLoadMoreResult": "NOT RUN to completion: clicking View more did not produce a further catalog request because the browser Coveo host lookup failed with net::ERR_NAME_NOT_RESOLVED.",
+    "productDetailBatchCrossCheck": "PASS: the official /api/catalog/watches endpoint returned exactly the requested model set in 15 batches.",
+    "structuredVsDetailMismatchCount": 0
+  },
+  "counts": {
+    "rawConfigurationCount": 1465,
+    "uniqueModelReferenceCount": 1465,
+    "duplicateCount": 0,
+    "conflictCount": 0,
+    "listedWithPublicPriceCount": 1465,
+    "priceUnavailableCount": 0,
+    "confirmedNotListedCount": 0,
+    "parseFailureCount": 0,
+    "priceRange": {
+      "minimum": 6200,
+      "minimumModelReference": "m276200-0009",
+      "maximum": 186200,
+      "maximumModelReference": "m279459rbr-0001"
+    }
+  },
+  "collectionCounts": {
+    "1908": 8,
+    "land-dweller": 10,
+    "day-date": 281,
+    "sky-dweller": 39,
+    "lady-datejust": 291,
+    "datejust": 681,
+    "oyster-perpetual": 62,
+    "cosmograph-daytona": 47,
+    "submariner": 7,
+    "sea-dweller": 2,
+    "deepsea": 4,
+    "gmt-master-ii": 13,
+    "yacht-master": 12,
+    "yacht-master-ii": 2,
+    "explorer": 3,
+    "explorer-ii": 2,
+    "air-king": 1
+  },
+  "errors": [
+    "Chrome DevTools browser resolution of rolexsaproductionh21l80g7.org.coveo.com failed with net::ERR_NAME_NOT_RESOLVED. The exact endpoint successfully returned the complete structured result through Node.js; this is recorded as a browser-specific capability limitation, not as an absence of a structured endpoint."
+  ]
+}

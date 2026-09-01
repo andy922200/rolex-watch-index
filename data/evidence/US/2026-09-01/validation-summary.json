@@ -1,0 +1,425 @@
+{
+  "marketCode": "US",
+  "validationCompletedAt": "2026-09-01T07:34:44-04:00",
+  "evidencePath": "data/evidence/US/2026-09-01",
+  "fiveLayerValidation": {
+    "syntaxAndSchema": {
+      "status": "NOT RUN",
+      "strictJson": {
+        "status": "PASS",
+        "filesChecked": 15,
+        "method": "Python json.loads with duplicate-key and invalid-constant rejection"
+      },
+      "jsonSchema": {
+        "status": "NOT RUN",
+        "reason": "No installed Draft 2020-12 JSON Schema validator; no dependency was installed without authorization."
+      }
+    },
+    "crossFileConsistency": {
+      "status": "PASS",
+      "marketsChecked": [
+        "DE",
+        "JP",
+        "TW",
+        "US"
+      ],
+      "catalogWatchCount": 1465,
+      "unitedStatesMarketWatchCount": 1465,
+      "unitedStatesPriceSeriesCount": 1465,
+      "orphanCount": 0
+    },
+    "sourceReconciliation": {
+      "status": "PASS",
+      "evidenceObservationCount": 1465,
+      "marketAndHistoryReconciliationMismatchCount": 0,
+      "structuredVsDetailMismatchCount": 0,
+      "priceParseFailureCount": 0
+    },
+    "websiteCompleteness": {
+      "status": "PASS",
+      "endpointTotalCount": 1465,
+      "endpointUniqueConfigurationCount": 1465,
+      "detailEndpointAcceptedConfigurationCount": 1465,
+      "priceEndpointAcceptedConfigurationCount": 1465,
+      "loadMorePresentAfterFinalCheck": "NOT RUN: browser DNS failure is separately recorded; structured endpoint termination was used as the primary stop evidence.",
+      "unresolvedConflictCount": 0
+    },
+    "changeSafety": {
+      "status": "PASS",
+      "preservedUnchangedHashes": {
+        "data/markets/rolex-germany-market.json": {
+          "expected": "c7261de479db237a2d69b9ef1d7a00daf4e904b511ed73e2bb77bfa86eba318e",
+          "actual": "c7261de479db237a2d69b9ef1d7a00daf4e904b511ed73e2bb77bfa86eba318e",
+          "preserved": true
+        },
+        "data/markets/rolex-japan-market.json": {
+          "expected": "745c83b720e7f006e0626bee90e67a1fec4a51a99bef9429387f164a164d74f8",
+          "actual": "745c83b720e7f006e0626bee90e67a1fec4a51a99bef9429387f164a164d74f8",
+          "preserved": true
+        },
+        "data/markets/rolex-taiwan-market.json": {
+          "expected": "4dd3b9e21dc63096878e74dfb33ebc7caa7cabd0ed7aeb067fafbf92b15cd108",
+          "actual": "4dd3b9e21dc63096878e74dfb33ebc7caa7cabd0ed7aeb067fafbf92b15cd108",
+          "preserved": true
+        },
+        "data/history/DE/rolex-price-history.json": {
+          "expected": "1bda15e79c9187a4d409159d7aab6f4112c8d42a2f79db86b3c1c6cf80e2d749",
+          "actual": "1bda15e79c9187a4d409159d7aab6f4112c8d42a2f79db86b3c1c6cf80e2d749",
+          "preserved": true
+        },
+        "data/history/JP/rolex-price-history.json": {
+          "expected": "b094b1d614b53a8c70d3c88c143e6e94cb76c1ef13bda4ff0e301faf3c8bf76c",
+          "actual": "b094b1d614b53a8c70d3c88c143e6e94cb76c1ef13bda4ff0e301faf3c8bf76c",
+          "preserved": true
+        },
+        "data/history/TW/rolex-price-history.json": {
+          "expected": "01810c11bd8ba632599d8576d47abd8d6cc0f70eb41017fb9a093491c4b865a0",
+          "actual": "01810c11bd8ba632599d8576d47abd8d6cc0f70eb41017fb9a093491c4b865a0",
+          "preserved": true
+        },
+        "data/schemas/rolex-catalog.schema.json": {
+          "expected": "27342ad8be3f59be0e834e19504bfc7c148446edbb3e568a059b5ba87dcd6120",
+          "actual": "27342ad8be3f59be0e834e19504bfc7c148446edbb3e568a059b5ba87dcd6120",
+          "preserved": true
+        },
+        "data/schemas/rolex-market.schema.json": {
+          "expected": "f2a7802e3bc052c95956ca4c47a7dc97206bea01fcf52926adfbed8398ff93b7",
+          "actual": "f2a7802e3bc052c95956ca4c47a7dc97206bea01fcf52926adfbed8398ff93b7",
+          "preserved": true
+        },
+        "data/schemas/rolex-price-history.schema.json": {
+          "expected": "499e82688f9913cbe2afcfcab2be3985f77b29a7aab6a12bfc4f5e60e4daf219",
+          "actual": "499e82688f9913cbe2afcfcab2be3985f77b29a7aab6a12bfc4f5e60e4daf219",
+          "preserved": true
+        }
+      },
+      "schemasChanged": false,
+      "catalogChanged": true,
+      "catalogChange": "US was appended to sourceMarketCodes; configuration count and stable configuration records were unchanged.",
+      "historicalPriceSeriesPrefixCheck": "PASS: US is a new history file; DE, JP, and TW history files exactly match their pre-run hashes."
+    }
+  },
+  "evidenceTraceability": {
+    "status": "PASS",
+    "acceptedObservations": 1465,
+    "observationsWithMatchingMarketTextAndLatestPrice": 1465,
+    "sourceUrlTargetMarketMismatchCount": 0,
+    "sensitiveDataScan": {
+      "status": "PASS",
+      "matchedSensitiveValueCount": 0,
+      "notes": "No credential values were found. Descriptive prose mentioning the absence of tokens, cookies, and session data is not a persisted secret."
+    }
+  },
+  "nicknameResearch": {
+    "status": "PASS",
+    "scope": "new-market",
+    "languages": [
+      "en-US"
+    ],
+    "queries": [
+      "Rolex 126500LN-0001 Panda",
+      "Rolex 126710BLNR-0002 Batgirl",
+      "Rolex 126710BLNR-0003 Batman",
+      "Rolex 126710BLRO Pepsi current 2026"
+    ],
+    "sourcesReviewed": 6,
+    "candidateCount": 6,
+    "acceptedCollectionAliasCount": 0,
+    "acceptedLocalNicknameCount": 3,
+    "rejectedCandidates": [
+      {
+        "name": "Pepsi",
+        "reason": "The 2026 source reviewed describes the 126710BLRO as discontinued; it was not accepted for the current US configuration set."
+      },
+      {
+        "name": "Hulk / Kermit",
+        "reason": "The available sources describe historical or broad color variants, not one exact current US four-digit configuration."
+      },
+      {
+        "name": "John Mayer",
+        "reason": "Available evidence did not establish a current exact US configuration scope."
+      }
+    ],
+    "notes": "Three configuration-level names were accepted only where a public English-language source explicitly named the relevant current four-digit configuration. Official Rolex collection names were not treated as nicknames."
+  },
+  "independentSpotChecks": {
+    "status": "PASS",
+    "method": "Rendered official US product pages in Chrome DevTools; URL, displayed model name, and displayed USD price were compared with the evidence observation.",
+    "collectionRepresentativeCount": 17,
+    "sameBaseModelPairs": [
+      [
+        "m228236-0018",
+        "m228236-0002"
+      ],
+      [
+        "m126710blnr-0002",
+        "m126710blnr-0003"
+      ]
+    ],
+    "totalChecks": 21,
+    "failureCount": 0,
+    "checks": [
+      {
+        "modelReference": "m127334-0001",
+        "collection": "land-dweller",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/land-dweller/m127334-0001",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m228236-0018",
+        "collection": "day-date",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/day-date/m228236-0018",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m336935-0008",
+        "collection": "sky-dweller",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/sky-dweller/m336935-0008",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m279173-0007",
+        "collection": "lady-datejust",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/lady-datejust/m279173-0007",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m126334-0033",
+        "collection": "datejust",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/datejust/m126334-0033",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m134303-0001",
+        "collection": "oyster-perpetual",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/oyster-perpetual/m134303-0001",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m126506-0001",
+        "collection": "cosmograph-daytona",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/cosmograph-daytona/m126506-0001",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m126613lb-0002",
+        "collection": "submariner",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/submariner/m126613lb-0002",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m126603-0001",
+        "collection": "sea-dweller",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/sea-dweller/m126603-0001",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m136660-0005",
+        "collection": "deepsea",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/deepsea/m136660-0005",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m126710blnr-0003",
+        "collection": "gmt-master-ii",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/gmt-master-ii/m126710blnr-0003",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m226658-0001",
+        "collection": "yacht-master",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/yacht-master/m226658-0001",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m126680-0001",
+        "collection": "yacht-master-ii",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/yacht-master-ii/m126680-0001",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m224270-0001",
+        "collection": "explorer",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/explorer/m224270-0001",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m226570-0001",
+        "collection": "explorer-ii",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/explorer-ii/m226570-0001",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m126900-0001",
+        "collection": "air-king",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/air-king/m126900-0001",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m52508-0008",
+        "collection": "1908",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/1908/m52508-0008",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m228236-0018",
+        "collection": "day-date",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/day-date/m228236-0018",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m228236-0002",
+        "collection": "day-date",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/day-date/m228236-0002",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m126710blnr-0002",
+        "collection": "gmt-master-ii",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/gmt-master-ii/m126710blnr-0002",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      },
+      {
+        "modelReference": "m126710blnr-0003",
+        "collection": "gmt-master-ii",
+        "sourceUrl": "https://www.rolex.com/en-us/watches/gmt-master-ii/m126710blnr-0003",
+        "observedAt": "2026-09-01T07:32:01-04:00",
+        "comparedFields": [
+          "modelReference",
+          "modelName",
+          "rawPrice"
+        ],
+        "status": "PASS"
+      }
+    ]
+  },
+  "readmeUpdate": {
+    "status": "PASS",
+    "updated": true,
+    "sections": [
+      "United States (US)",
+      "Scope and limitations"
+    ],
+    "reason": null
+  }
+}

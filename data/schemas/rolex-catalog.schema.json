@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rolex Catalog",
+  "description": "Market-independent union of observed Rolex watch configurations across contributing markets, deduplicated by full modelReference. Historical configurations are retained.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "schemaVersion", "collectedAt", "sourceMarketCodes", "watchCount", "watches"],
+  "properties": {
+    "$schema": { "const": "../schemas/rolex-catalog.schema.json" },
+    "schemaVersion": { "const": 1 },
+    "collectedAt": { "type": "string", "format": "date-time" },
+    "sourceMarketCodes": {
+      "description": "Market codes whose collected data have been reconciled with this catalog; this does not assert complete market coverage or availability of every configuration in every market.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[A-Z]{2}$" }
+    },
+    "watchCount": { "description": "Number of unique full modelReference values; must equal watches.length.", "type": "integer", "minimum": 0 },
+    "watches": {
+      "type": "array",
+      "uniqueItems": true,
+      "$comment": "JSON Schema uniqueItems rejects identical objects, not different objects sharing a modelReference. Validate modelReference uniqueness, watchCount equality, and modelReference = modelNumber + '-' + configurationCode separately.",
+      "items": { "$ref": "#/$defs/watch" }
+    }
+  },
+  "$defs": {
+    "watch": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["collectionId", "modelNumber", "configurationCode", "modelReference", "imageUrl"],
+      "properties": {
+        "collectionId": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "modelNumber": { "type": "string", "pattern": "^m[0-9a-z]+$" },
+        "configurationCode": { "type": "string", "pattern": "^[0-9]{4}$" },
+        "modelReference": { "type": "string", "pattern": "^m[0-9a-z]+-[0-9]{4}$" },
+        "imageUrl": { "type": "string", "format": "uri" }
+      }
+    }
+  }
+}

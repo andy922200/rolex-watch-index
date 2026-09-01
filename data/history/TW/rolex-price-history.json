@@ -1,0 +1,10272 @@
+{
+  "$schema": "../../schemas/rolex-price-history.schema.json",
+  "schemaVersion": 1,
+  "marketCode": "TW",
+  "currencyCode": "TWD",
+  "priceType": "tax-include",
+  "taxRatePercent": 5,
+  "collectionRuns": [
+    {
+      "runId": 1,
+      "collectedAt": "2026-08-31T21:17:28+08:00",
+      "recordCount": 1465
+    }
+  ],
+  "priceSeries": {
+    "m127334-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 556000
+      }
+    ],
+    "m228236-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2331500
+      }
+    ],
+    "m336935-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2201000
+      }
+    ],
+    "m279173-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 511000
+      }
+    ],
+    "m126334-0033": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 395000
+      }
+    ],
+    "m134303-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 326000
+      }
+    ],
+    "m126506-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2865000
+      }
+    ],
+    "m126613lb-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 658000
+      }
+    ],
+    "m126603-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 761000
+      }
+    ],
+    "m136660-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 537000
+      }
+    ],
+    "m126710blnr-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 399000
+      }
+    ],
+    "m226658-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1292500
+      }
+    ],
+    "m126680-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 686500
+      }
+    ],
+    "m224270-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 283500
+      }
+    ],
+    "m226570-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 360000
+      }
+    ],
+    "m126900-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 276000
+      }
+    ],
+    "m52508-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1388000
+      }
+    ],
+    "m126000-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 227500
+      }
+    ],
+    "m127336-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2316500
+      }
+    ],
+    "m126500ln-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 570500
+      }
+    ],
+    "m126000-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 227500
+      }
+    ],
+    "m126710grnr-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 406500
+      }
+    ],
+    "m52506-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1138000
+      }
+    ],
+    "m52509-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1026000
+      }
+    ],
+    "m126505-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2005000
+      }
+    ],
+    "m228239-0033": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1837500
+      }
+    ],
+    "m136668lb-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2307500
+      }
+    ],
+    "m126610ln-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 384500
+      }
+    ],
+    "m276208-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1071000
+      }
+    ],
+    "m126203-0058": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 509500
+      }
+    ],
+    "m228238-0042": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1708500
+      }
+    ],
+    "m127286tbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3462500
+      }
+    ],
+    "m126515ln-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1520500
+      }
+    ],
+    "m124205-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1356000
+      }
+    ],
+    "m126622-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 447500
+      }
+    ],
+    "m268621-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 602500
+      }
+    ],
+    "m226659-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1356500
+      }
+    ],
+    "m126610lv-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 403000
+      }
+    ],
+    "m126333-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 600500
+      }
+    ],
+    "m279135rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1837500
+      }
+    ],
+    "m126284rbr-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 716000
+      }
+    ],
+    "m126715chnr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1950500
+      }
+    ],
+    "m278241-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 481500
+      }
+    ],
+    "m226627-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 545000
+      }
+    ],
+    "m336934-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 600500
+      }
+    ],
+    "m228238-0069": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1708500
+      }
+    ],
+    "m126718grnr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1723500
+      }
+    ],
+    "m336239-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1809500
+      }
+    ],
+    "m126688-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2057500
+      }
+    ],
+    "m126300-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 302000
+      }
+    ],
+    "m127335-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1833500
+      }
+    ],
+    "m128236-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2171000
+      }
+    ],
+    "m124060-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 341500
+      }
+    ],
+    "m126234-0051": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 343000
+      }
+    ],
+    "m126509-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2005000
+      }
+    ],
+    "m279171-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 522500
+      }
+    ],
+    "m126711chnr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 681000
+      }
+    ],
+    "m126508-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1872500
+      }
+    ],
+    "m126720vtnr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 417500
+      }
+    ],
+    "m126518ln-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1445500
+      }
+    ],
+    "m124200-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 216000
+      }
+    ],
+    "m126613ln-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 658000
+      }
+    ],
+    "m126234-0071": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 432500
+      }
+    ],
+    "m128235-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1788500
+      }
+    ],
+    "m278274-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 324500
+      }
+    ],
+    "m126713grnr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 692000
+      }
+    ],
+    "m128399tbr-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3501000
+      }
+    ],
+    "m126600-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 492000
+      }
+    ],
+    "m126655-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1278000
+      }
+    ],
+    "m126503-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 832000
+      }
+    ],
+    "m126333-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 574500
+      }
+    ],
+    "m279160-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 264500
+      }
+    ],
+    "m127285tbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3514500
+      }
+    ],
+    "m336933-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 815000
+      }
+    ],
+    "m126331-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 664000
+      }
+    ],
+    "m126067-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 985000
+      }
+    ],
+    "m276200-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 208500
+      }
+    ],
+    "m124270-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 268500
+      }
+    ],
+    "m228235-0055": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1837500
+      }
+    ],
+    "m278240-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 268500
+      }
+    ],
+    "m134300-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 238500
+      }
+    ],
+    "m126000-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 227500
+      }
+    ],
+    "m124208-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1257500
+      }
+    ],
+    "m278288rbr-0041": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1919500
+      }
+    ],
+    "m126334-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 402500
+      }
+    ],
+    "m279174-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 309500
+      }
+    ],
+    "m126231-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 595000
+      }
+    ],
+    "m127234-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 520500
+      }
+    ],
+    "m126618ln-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1727000
+      }
+    ],
+    "m126300-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 302000
+      }
+    ],
+    "m126200-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 276000
+      }
+    ],
+    "m278343rbr-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 634500
+      }
+    ],
+    "m127235-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1673000
+      }
+    ],
+    "m277200-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 212500
+      }
+    ],
+    "m126589rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2727500
+      }
+    ],
+    "m128238-0045": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1555500
+      }
+    ],
+    "m124273-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 494000
+      }
+    ],
+    "m278384rbr-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 675500
+      }
+    ],
+    "m126231-0053": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 621000
+      }
+    ],
+    "m134300-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 238500
+      }
+    ],
+    "m128345rbr-0069": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4814500
+      }
+    ],
+    "m279174-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 317000
+      }
+    ],
+    "m279161-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 511500
+      }
+    ],
+    "m278343rbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 600500
+      }
+    ],
+    "m126333-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 645500
+      }
+    ],
+    "m126284rbr-0038": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 611500
+      }
+    ],
+    "m278381rbr-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 847000
+      }
+    ],
+    "m128348rbr-0064": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2214000
+      }
+    ],
+    "m126303-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 597000
+      }
+    ],
+    "m228345rbr-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2606000
+      }
+    ],
+    "m279178-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1270500
+      }
+    ],
+    "m278341rbr-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 589500
+      }
+    ],
+    "m279171-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 451500
+      }
+    ],
+    "m126334-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 395000
+      }
+    ],
+    "m126331-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 664000
+      }
+    ],
+    "m278344rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 440000
+      }
+    ],
+    "m279381rbr-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 785500
+      }
+    ],
+    "m126509-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2005000
+      }
+    ],
+    "m278240-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 261000
+      }
+    ],
+    "m278241-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 515000
+      }
+    ],
+    "m279175-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1261000
+      }
+    ],
+    "m126233-0054": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 513000
+      }
+    ],
+    "m279383rbr-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 684500
+      }
+    ],
+    "m126200-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 276000
+      }
+    ],
+    "m279174-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 309500
+      }
+    ],
+    "m228398tbr-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3799500
+      }
+    ],
+    "m128348rbr-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2322000
+      }
+    ],
+    "m279175-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1332000
+      }
+    ],
+    "m279381rbr-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 699500
+      }
+    ],
+    "m279178-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1199500
+      }
+    ],
+    "m278243-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 552000
+      }
+    ],
+    "m278383rbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 749500
+      }
+    ],
+    "m278274-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 380500
+      }
+    ],
+    "m126284rbr-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 611500
+      }
+    ],
+    "m126234-0060": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 335500
+      }
+    ],
+    "m279383rbr-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 755500
+      }
+    ],
+    "m278240-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 268500
+      }
+    ],
+    "m126281rbr-0038": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 901000
+      }
+    ],
+    "m128396tbr-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3637000
+      }
+    ],
+    "m336933-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 815000
+      }
+    ],
+    "m279161-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 496500
+      }
+    ],
+    "m278271-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 541000
+      }
+    ],
+    "m126283rbr-0042": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 796500
+      }
+    ],
+    "m126515ln-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1520500
+      }
+    ],
+    "m128398tbr-0035": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3372500
+      }
+    ],
+    "m279381rbr-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 677000
+      }
+    ],
+    "m279139rbr-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1837500
+      }
+    ],
+    "m126331-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 593000
+      }
+    ],
+    "m126233-0056": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 513000
+      }
+    ],
+    "m278271-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 462500
+      }
+    ],
+    "m279384rbr-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 563000
+      }
+    ],
+    "m278243-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 522000
+      }
+    ],
+    "m126333-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 574500
+      }
+    ],
+    "m126203-0056": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 509500
+      }
+    ],
+    "m279381rbr-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 699500
+      }
+    ],
+    "m278341rbr-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 683000
+      }
+    ],
+    "m278271-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 571000
+      }
+    ],
+    "m126334-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 473500
+      }
+    ],
+    "m128345rbr-0078": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4695000
+      }
+    ],
+    "m278343rbr-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 664500
+      }
+    ],
+    "m278383rbr-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 727500
+      }
+    ],
+    "m276200-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 208500
+      }
+    ],
+    "m278289rbr-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1962500
+      }
+    ],
+    "m279161-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 541500
+      }
+    ],
+    "m268621-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 602500
+      }
+    ],
+    "m124200-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 216000
+      }
+    ],
+    "m126231-0050": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 613500
+      }
+    ],
+    "m279171-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 522500
+      }
+    ],
+    "m128345rbr-0045": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4863000
+      }
+    ],
+    "m278384rbr-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 645500
+      }
+    ],
+    "m278383rbr-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 820500
+      }
+    ],
+    "m228236-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2492000
+      }
+    ],
+    "m126303-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 597000
+      }
+    ],
+    "m126200-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 276000
+      }
+    ],
+    "m126303-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 571000
+      }
+    ],
+    "m278344rbr-0033": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 511000
+      }
+    ],
+    "m279161-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 425500
+      }
+    ],
+    "m228396tbr-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4122500
+      }
+    ],
+    "m278344rbr-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 511000
+      }
+    ],
+    "m278383rbr-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 835500
+      }
+    ],
+    "m126201-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 546500
+      }
+    ],
+    "m228398tbr-0040": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3799500
+      }
+    ],
+    "m278384rbr-0037": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 589500
+      }
+    ],
+    "m126303-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 642000
+      }
+    ],
+    "m279175-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1303500
+      }
+    ],
+    "m126201-0046": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 520500
+      }
+    ],
+    "m128235-0078": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1878000
+      }
+    ],
+    "m128349rbr-0048": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4497500
+      }
+    ],
+    "m126333-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 671500
+      }
+    ],
+    "m278383rbr-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 805500
+      }
+    ],
+    "m279135rbr-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1701500
+      }
+    ],
+    "m126234-0072": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 425000
+      }
+    ],
+    "m279135rbr-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1744000
+      }
+    ],
+    "m278243-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 530000
+      }
+    ],
+    "m279161-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 425500
+      }
+    ],
+    "m126508-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1872500
+      }
+    ],
+    "m126201-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 617500
+      }
+    ],
+    "m279174-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 395500
+      }
+    ],
+    "m228238-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1708500
+      }
+    ],
+    "m278383rbr-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 805500
+      }
+    ],
+    "m278288rbr-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1919500
+      }
+    ],
+    "m278274-0033": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 317000
+      }
+    ],
+    "m228348rbr-0046": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2673000
+      }
+    ],
+    "m228238-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1708500
+      }
+    ],
+    "m278274-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 317000
+      }
+    ],
+    "m279173-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 417500
+      }
+    ],
+    "m278383rbr-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 783500
+      }
+    ],
+    "m126284rbr-0059": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 708500
+      }
+    ],
+    "m226570-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 360000
+      }
+    ],
+    "m126284rbr-0063": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 708500
+      }
+    ],
+    "m336934-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 608000
+      }
+    ],
+    "m279161-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 425500
+      }
+    ],
+    "m228349rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2766500
+      }
+    ],
+    "m128396tbr-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3517500
+      }
+    ],
+    "m126710grnr-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 399000
+      }
+    ],
+    "m126505-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2076000
+      }
+    ],
+    "m126203-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 535500
+      }
+    ],
+    "m136660-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 526000
+      }
+    ],
+    "m126519ln-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1591500
+      }
+    ],
+    "m228348rbr-0042": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2475500
+      }
+    ],
+    "m126303-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 642000
+      }
+    ],
+    "m228345rbr-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2606000
+      }
+    ],
+    "m126203-0052": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 599000
+      }
+    ],
+    "m128398tbr-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3346500
+      }
+    ],
+    "m278241-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 552500
+      }
+    ],
+    "m279178-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1199500
+      }
+    ],
+    "m228236-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2529000
+      }
+    ],
+    "m126231-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 647000
+      }
+    ],
+    "m228239-0078": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2035000
+      }
+    ],
+    "m278381rbr-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 761000
+      }
+    ],
+    "m279175-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1303500
+      }
+    ],
+    "m126509-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2076000
+      }
+    ],
+    "m278341rbr-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 668000
+      }
+    ],
+    "m279138rbr-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1591000
+      }
+    ],
+    "m278273-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 526000
+      }
+    ],
+    "m279381rbr-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 770500
+      }
+    ],
+    "m279160-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 257000
+      }
+    ],
+    "m126334-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 466000
+      }
+    ],
+    "m278271-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 462500
+      }
+    ],
+    "m279384rbr-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 656500
+      }
+    ],
+    "m126333-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 600500
+      }
+    ],
+    "m128396tbr-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3480500
+      }
+    ],
+    "m126334-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 395000
+      }
+    ],
+    "m128345rbr-0071": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4497500
+      }
+    ],
+    "m126331-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 615500
+      }
+    ],
+    "m278271-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 533500
+      }
+    ],
+    "m336938-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2038500
+      }
+    ],
+    "m279383rbr-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 755500
+      }
+    ],
+    "m278274-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 317000
+      }
+    ],
+    "m279173-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 440000
+      }
+    ],
+    "m126003-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 285000
+      }
+    ],
+    "m278271-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 533500
+      }
+    ],
+    "m279175-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1397000
+      }
+    ],
+    "m278341rbr-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 612000
+      }
+    ],
+    "m126333-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 600500
+      }
+    ],
+    "m126284rbr-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 682500
+      }
+    ],
+    "m278343rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 578500
+      }
+    ],
+    "m278274-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 324500
+      }
+    ],
+    "m128238-0081": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1555500
+      }
+    ],
+    "m128349rbr-0082": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2447000
+      }
+    ],
+    "m126300-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 309500
+      }
+    ],
+    "m279138rbr-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2137500
+      }
+    ],
+    "m128236-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2488000
+      }
+    ],
+    "m128396tbr-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3320000
+      }
+    ],
+    "m126231-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 550000
+      }
+    ],
+    "m279161-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 519000
+      }
+    ],
+    "m278271-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 541000
+      }
+    ],
+    "m279138rbr-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1677000
+      }
+    ],
+    "m228235-0045": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2214500
+      }
+    ],
+    "m126200-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 283500
+      }
+    ],
+    "m278275-0033": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1509000
+      }
+    ],
+    "m128348rbr-0047": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2214000
+      }
+    ],
+    "m279174-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 317000
+      }
+    ],
+    "m278383rbr-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 805500
+      }
+    ],
+    "m278344rbr-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 496000
+      }
+    ],
+    "m128345rbr-0085": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2339000
+      }
+    ],
+    "m279138rbr-0031": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1634000
+      }
+    ],
+    "m126300-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 302000
+      }
+    ],
+    "m126000-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 227500
+      }
+    ],
+    "m279171-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 522500
+      }
+    ],
+    "m126203-0054": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 509500
+      }
+    ],
+    "m279135rbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1795000
+      }
+    ],
+    "m278344rbr-0034": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 518500
+      }
+    ],
+    "m128349rbr-0085": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2339000
+      }
+    ],
+    "m278278-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1391500
+      }
+    ],
+    "m279163-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 530000
+      }
+    ],
+    "m278288rbr-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1904500
+      }
+    ],
+    "m278241-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 459000
+      }
+    ],
+    "m279138rbr-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1662000
+      }
+    ],
+    "m128349rbr-0044": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4497500
+      }
+    ],
+    "m279163-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 530000
+      }
+    ],
+    "m278344rbr-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 440000
+      }
+    ],
+    "m278241-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 537500
+      }
+    ],
+    "m228396tbr-0042": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4122500
+      }
+    ],
+    "m279174-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 317000
+      }
+    ],
+    "m279175-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1354500
+      }
+    ],
+    "m279135rbr-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1815000
+      }
+    ],
+    "m126000-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 227500
+      }
+    ],
+    "m128345rbr-0075": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2339000
+      }
+    ],
+    "m278289rbr-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1962500
+      }
+    ],
+    "m228396tbr-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4283000
+      }
+    ],
+    "m128238-0132": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1716000
+      }
+    ],
+    "m126201-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 617500
+      }
+    ],
+    "m128345rbr-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2447000
+      }
+    ],
+    "m126284rbr-0052": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 611500
+      }
+    ],
+    "m279383rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 684500
+      }
+    ],
+    "m278274-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 373000
+      }
+    ],
+    "m278384rbr-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 589500
+      }
+    ],
+    "m278381rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 738500
+      }
+    ],
+    "m279161-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 448000
+      }
+    ],
+    "m278384rbr-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 645500
+      }
+    ],
+    "m278285rbr-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2033500
+      }
+    ],
+    "m278271-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 541000
+      }
+    ],
+    "m279178-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1227500
+      }
+    ],
+    "m128235-0070": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1680500
+      }
+    ],
+    "m277200-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 212500
+      }
+    ],
+    "m126281rbr-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 811500
+      }
+    ],
+    "m279171-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 429000
+      }
+    ],
+    "m279381rbr-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 699500
+      }
+    ],
+    "m279175-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1332000
+      }
+    ],
+    "m279138rbr-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1720000
+      }
+    ],
+    "m126508-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1872500
+      }
+    ],
+    "m278343rbr-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 649500
+      }
+    ],
+    "m278343rbr-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 634500
+      }
+    ],
+    "m278344rbr-0031": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 511000
+      }
+    ],
+    "m126283rbr-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 919500
+      }
+    ],
+    "m278344rbr-0036": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 447500
+      }
+    ],
+    "m336938-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2080000
+      }
+    ],
+    "m126284rbr-0043": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 619000
+      }
+    ],
+    "m228345rbr-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2766500
+      }
+    ],
+    "m126331-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 593000
+      }
+    ],
+    "m126283rbr-0039": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 822500
+      }
+    ],
+    "m126284rbr-0054": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 611500
+      }
+    ],
+    "m278274-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 324500
+      }
+    ],
+    "m278384rbr-0031": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 638000
+      }
+    ],
+    "m279138rbr-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1634000
+      }
+    ],
+    "m126281rbr-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 908500
+      }
+    ],
+    "m278274-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 324500
+      }
+    ],
+    "m228396tbr-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4122500
+      }
+    ],
+    "m278344rbr-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 496000
+      }
+    ],
+    "m279178-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1270500
+      }
+    ],
+    "m278341rbr-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 675500
+      }
+    ],
+    "m126301-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 611500
+      }
+    ],
+    "m278383rbr-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 835500
+      }
+    ],
+    "m278289rbr-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1962500
+      }
+    ],
+    "m278344rbr-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 440000
+      }
+    ],
+    "m228238-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1869000
+      }
+    ],
+    "m278289rbr-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1962500
+      }
+    ],
+    "m276245rbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1311500
+      }
+    ],
+    "m126233-0053": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 539000
+      }
+    ],
+    "m228239-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1998000
+      }
+    ],
+    "m278240-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 268500
+      }
+    ],
+    "m278381rbr-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 824500
+      }
+    ],
+    "m128398tbr-0037": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3372500
+      }
+    ],
+    "m278243-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 515000
+      }
+    ],
+    "m128345rbr-0082": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4658000
+      }
+    ],
+    "m128349rbr-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4497500
+      }
+    ],
+    "m128235-0087": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1841000
+      }
+    ],
+    "m268655-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1100500
+      }
+    ],
+    "m279135rbr-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1744000
+      }
+    ],
+    "m126300-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 302000
+      }
+    ],
+    "m126334-0035": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 395000
+      }
+    ],
+    "m128238-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1663500
+      }
+    ],
+    "m278344rbr-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 503500
+      }
+    ],
+    "m278288rbr-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1919500
+      }
+    ],
+    "m126203-0050": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 599000
+      }
+    ],
+    "m126518ln-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1445500
+      }
+    ],
+    "m278241-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 552500
+      }
+    ],
+    "m126231-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 550000
+      }
+    ],
+    "m126231-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 621000
+      }
+    ],
+    "m279135rbr-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2205000
+      }
+    ],
+    "m124245rbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1552000
+      }
+    ],
+    "m126233-0051": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 628500
+      }
+    ],
+    "m126201-0047": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 636000
+      }
+    ],
+    "m279384rbr-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 626500
+      }
+    ],
+    "m128395tbr-0032": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3501000
+      }
+    ],
+    "m278275-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1453000
+      }
+    ],
+    "m128349rbr-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4814500
+      }
+    ],
+    "m126283rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 822500
+      }
+    ],
+    "m278381rbr-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 809500
+      }
+    ],
+    "m134300-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 238500
+      }
+    ],
+    "m126233-0035": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 539000
+      }
+    ],
+    "m278285rbr-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2018500
+      }
+    ],
+    "m124200-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 216000
+      }
+    ],
+    "m278289rbr-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1962500
+      }
+    ],
+    "m279173-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 488500
+      }
+    ],
+    "m124200-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 216000
+      }
+    ],
+    "m279163-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 507500
+      }
+    ],
+    "m127386tbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4264000
+      }
+    ],
+    "m128398tbr-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3320000
+      }
+    ],
+    "m126201-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 520500
+      }
+    ],
+    "m228239-0055": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2166000
+      }
+    ],
+    "m126203-0048": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 509500
+      }
+    ],
+    "m279174-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 388000
+      }
+    ],
+    "m126231-0048": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 613500
+      }
+    ],
+    "m336238-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1744000
+      }
+    ],
+    "m278240-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 268500
+      }
+    ],
+    "m278278-0038": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1421500
+      }
+    ],
+    "m277200-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 212500
+      }
+    ],
+    "m278243-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 466000
+      }
+    ],
+    "m279171-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 522500
+      }
+    ],
+    "m126284rbr-0057": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 708500
+      }
+    ],
+    "m279173-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 417500
+      }
+    ],
+    "m126281rbr-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 908500
+      }
+    ],
+    "m279175-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1303500
+      }
+    ],
+    "m279138rbr-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1634000
+      }
+    ],
+    "m126203-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 580500
+      }
+    ],
+    "m126281rbr-0039": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 837500
+      }
+    ],
+    "m126234-0059": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 343000
+      }
+    ],
+    "m279160-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 264500
+      }
+    ],
+    "m126331-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 593000
+      }
+    ],
+    "m126720vtnr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 425000
+      }
+    ],
+    "m278343rbr-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 656500
+      }
+    ],
+    "m126281rbr-0033": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 837500
+      }
+    ],
+    "m126203-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 606500
+      }
+    ],
+    "m126203-0055": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 535500
+      }
+    ],
+    "m126234-0052": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 335500
+      }
+    ],
+    "m126334-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 395000
+      }
+    ],
+    "m126234-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 335500
+      }
+    ],
+    "m278241-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 515000
+      }
+    ],
+    "m278381rbr-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 794500
+      }
+    ],
+    "m268622-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 421500
+      }
+    ],
+    "m278271-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 556000
+      }
+    ],
+    "m279161-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 496500
+      }
+    ],
+    "m128348rbr-0081": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4505000
+      }
+    ],
+    "m126333-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 645500
+      }
+    ],
+    "m134300-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 238500
+      }
+    ],
+    "m126300-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 309500
+      }
+    ],
+    "m128235-0039": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2777500
+      }
+    ],
+    "m126201-0045": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 546500
+      }
+    ],
+    "m278278-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1335500
+      }
+    ],
+    "m279161-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 496500
+      }
+    ],
+    "m128348rbr-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4479000
+      }
+    ],
+    "m126234-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 440000
+      }
+    ],
+    "m279171-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 545000
+      }
+    ],
+    "m278344rbr-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 447500
+      }
+    ],
+    "m128349rbr-0088": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2499500
+      }
+    ],
+    "m336933-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 815000
+      }
+    ],
+    "m278285rbr-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2048500
+      }
+    ],
+    "m279383rbr-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 770500
+      }
+    ],
+    "m126538tbr-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4982500
+      }
+    ],
+    "m336935-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2201000
+      }
+    ],
+    "m228239-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1837500
+      }
+    ],
+    "m126334-0034": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 402500
+      }
+    ],
+    "m128398tbr-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3212000
+      }
+    ],
+    "m279178-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1227500
+      }
+    ],
+    "m126300-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 302000
+      }
+    ],
+    "m228238-0061": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1708500
+      }
+    ],
+    "m278278-0049": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1406500
+      }
+    ],
+    "m126518ln-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1445500
+      }
+    ],
+    "m126331-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 615500
+      }
+    ],
+    "m128395tbr-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3340500
+      }
+    ],
+    "m126231-0047": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 639500
+      }
+    ],
+    "m128349rbr-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 5594500
+      }
+    ],
+    "m126200-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 283500
+      }
+    ],
+    "m126519ln-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1677000
+      }
+    ],
+    "m128348rbr-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4452500
+      }
+    ],
+    "m128239-0071": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1841000
+      }
+    ],
+    "m128399tbr-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3538000
+      }
+    ],
+    "m127236-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2156500
+      }
+    ],
+    "m126234-0065": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 432500
+      }
+    ],
+    "m128238-0118": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1555500
+      }
+    ],
+    "m279175-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1261000
+      }
+    ],
+    "m279173-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 440000
+      }
+    ],
+    "m228235-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1837500
+      }
+    ],
+    "m126233-0047": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 539000
+      }
+    ],
+    "m126300-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 309500
+      }
+    ],
+    "m336934-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 600500
+      }
+    ],
+    "m278383rbr-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 798500
+      }
+    ],
+    "m278275-0037": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1453000
+      }
+    ],
+    "m278341rbr-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 589500
+      }
+    ],
+    "m126710blnr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 406500
+      }
+    ],
+    "m278274-0031": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 388000
+      }
+    ],
+    "m278381rbr-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 738500
+      }
+    ],
+    "m128348rbr-0065": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4344500
+      }
+    ],
+    "m126301-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 611500
+      }
+    ],
+    "m278285rbr-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1962500
+      }
+    ],
+    "m128398tbr-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3212000
+      }
+    ],
+    "m228396tbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4283000
+      }
+    ],
+    "m336235-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1809500
+      }
+    ],
+    "m128348rbr-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3311000
+      }
+    ],
+    "m278271-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 485000
+      }
+    ],
+    "m128348rbr-0035": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2322000
+      }
+    ],
+    "m126300-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 302000
+      }
+    ],
+    "m279173-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 440000
+      }
+    ],
+    "m52509-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1026000
+      }
+    ],
+    "m279178-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1293000
+      }
+    ],
+    "m279384rbr-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 634000
+      }
+    ],
+    "m126301-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 611500
+      }
+    ],
+    "m278243-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 530000
+      }
+    ],
+    "m126234-0038": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 406500
+      }
+    ],
+    "m126201-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 520500
+      }
+    ],
+    "m278341rbr-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 660500
+      }
+    ],
+    "m278344rbr-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 447500
+      }
+    ],
+    "m278275-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1524000
+      }
+    ],
+    "m128396tbr-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3480500
+      }
+    ],
+    "m278273-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 541000
+      }
+    ],
+    "m126284rbr-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 690000
+      }
+    ],
+    "m128398tbr-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3212000
+      }
+    ],
+    "m279174-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 309500
+      }
+    ],
+    "m278285rbr-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1962500
+      }
+    ],
+    "m126333-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 600500
+      }
+    ],
+    "m278288rbr-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1904500
+      }
+    ],
+    "m228238-0067": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1708500
+      }
+    ],
+    "m278344rbr-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 440000
+      }
+    ],
+    "m128345rbr-0040": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2447000
+      }
+    ],
+    "m278271-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 556000
+      }
+    ],
+    "m126233-0058": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 513000
+      }
+    ],
+    "m279138rbr-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1705000
+      }
+    ],
+    "m126331-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 593000
+      }
+    ],
+    "m126334-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 402500
+      }
+    ],
+    "m126231-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 621000
+      }
+    ],
+    "m278275-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1509000
+      }
+    ],
+    "m126506-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3089000
+      }
+    ],
+    "m278384rbr-0033": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 653000
+      }
+    ],
+    "m278274-0032": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 395500
+      }
+    ],
+    "m279175-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1374500
+      }
+    ],
+    "m126303-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 571000
+      }
+    ],
+    "m228345rbr-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2606000
+      }
+    ],
+    "m126281rbr-0031": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 837500
+      }
+    ],
+    "m228349rbr-0046": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2803500
+      }
+    ],
+    "m278289rbr-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2018500
+      }
+    ],
+    "m279384rbr-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 649000
+      }
+    ],
+    "m278243-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 466000
+      }
+    ],
+    "m279163-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 414000
+      }
+    ],
+    "m279174-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 403000
+      }
+    ],
+    "m126234-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 343000
+      }
+    ],
+    "m228238-0066": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1708500
+      }
+    ],
+    "m126503-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 832000
+      }
+    ],
+    "m126508-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1872500
+      }
+    ],
+    "m279171-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 537500
+      }
+    ],
+    "m278273-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 534000
+      }
+    ],
+    "m124200-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 216000
+      }
+    ],
+    "m228235-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1998000
+      }
+    ],
+    "m126579rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3105500
+      }
+    ],
+    "m278241-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 530000
+      }
+    ],
+    "m278344rbr-0035": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 440000
+      }
+    ],
+    "m228348rbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2636000
+      }
+    ],
+    "m228348rbr-0040": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2475500
+      }
+    ],
+    "m126283rbr-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 822500
+      }
+    ],
+    "m126331-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 615500
+      }
+    ],
+    "m126283rbr-0043": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 822500
+      }
+    ],
+    "m278285rbr-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2018500
+      }
+    ],
+    "m278384rbr-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 589500
+      }
+    ],
+    "m126201-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 591500
+      }
+    ],
+    "m128345rbr-0068": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2656000
+      }
+    ],
+    "m52508-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 979000
+      }
+    ],
+    "m126284rbr-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 619000
+      }
+    ],
+    "m279384rbr-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 555500
+      }
+    ],
+    "m278384rbr-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 638000
+      }
+    ],
+    "m228238-0059": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2085500
+      }
+    ],
+    "m126508-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1943500
+      }
+    ],
+    "m278384rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 582000
+      }
+    ],
+    "m128238-0088": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1872500
+      }
+    ],
+    "m126508-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1872500
+      }
+    ],
+    "m279135rbr-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1837500
+      }
+    ],
+    "m228345rbr-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2803500
+      }
+    ],
+    "m128349rbr-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4605500
+      }
+    ],
+    "m128345rbr-0052": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2447000
+      }
+    ],
+    "m126333-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 574500
+      }
+    ],
+    "m126203-0057": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 535500
+      }
+    ],
+    "m128395tbr-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3448500
+      }
+    ],
+    "m278384rbr-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 653000
+      }
+    ],
+    "m128235-0068": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1997500
+      }
+    ],
+    "m279135rbr-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1815000
+      }
+    ],
+    "m126203-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 606500
+      }
+    ],
+    "m336938-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2038500
+      }
+    ],
+    "m278243-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 444000
+      }
+    ],
+    "m126301-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 660000
+      }
+    ],
+    "m279139rbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1938000
+      }
+    ],
+    "m279175-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1807000
+      }
+    ],
+    "m126284rbr-0053": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 619000
+      }
+    ],
+    "m279139rbr-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1830000
+      }
+    ],
+    "m126301-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 682500
+      }
+    ],
+    "m228236-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3152000
+      }
+    ],
+    "m128239-0069": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1841000
+      }
+    ],
+    "m126283rbr-0044": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 796500
+      }
+    ],
+    "m128236-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2331500
+      }
+    ],
+    "m278271-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 518500
+      }
+    ],
+    "m278343rbr-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 649500
+      }
+    ],
+    "m279139rbr-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1744000
+      }
+    ],
+    "m126000-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 227500
+      }
+    ],
+    "m126283rbr-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 893500
+      }
+    ],
+    "m228349rbr-0039": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2606000
+      }
+    ],
+    "m128348rbr-0079": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4505000
+      }
+    ],
+    "m279138rbr-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1591000
+      }
+    ],
+    "m279178-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1156500
+      }
+    ],
+    "m126284rbr-0062": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 611500
+      }
+    ],
+    "m278381rbr-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 794500
+      }
+    ],
+    "m279163-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 414000
+      }
+    ],
+    "m126203-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 606500
+      }
+    ],
+    "m128239-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1815000
+      }
+    ],
+    "m128348rbr-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2214000
+      }
+    ],
+    "m279178-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1156500
+      }
+    ],
+    "m336933-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 837500
+      }
+    ],
+    "m228396tbr-0039": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4122500
+      }
+    ],
+    "m128395tbr-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3538000
+      }
+    ],
+    "m278384rbr-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 638000
+      }
+    ],
+    "m279383rbr-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 733000
+      }
+    ],
+    "m336935-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2160000
+      }
+    ],
+    "m126234-0069": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 343000
+      }
+    ],
+    "m126334-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 395000
+      }
+    ],
+    "m126233-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 636000
+      }
+    ],
+    "m278240-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 261000
+      }
+    ],
+    "m228235-0056": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2035000
+      }
+    ],
+    "m279138rbr-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2094500
+      }
+    ],
+    "m128239-0065": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1878000
+      }
+    ],
+    "m278274-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 380500
+      }
+    ],
+    "m336935-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2201000
+      }
+    ],
+    "m336934-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 608000
+      }
+    ],
+    "m126234-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 343000
+      }
+    ],
+    "m126233-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 610000
+      }
+    ],
+    "m279384rbr-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 626500
+      }
+    ],
+    "m126334-0038": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 402500
+      }
+    ],
+    "m276205-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1164500
+      }
+    ],
+    "m278285rbr-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2033500
+      }
+    ],
+    "m126284rbr-0044": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 611500
+      }
+    ],
+    "m126509-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2005000
+      }
+    ],
+    "m128239-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1997500
+      }
+    ],
+    "m278289rbr-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1962500
+      }
+    ],
+    "m336934-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 600500
+      }
+    ],
+    "m228349rbr-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2606000
+      }
+    ],
+    "m126300-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 302000
+      }
+    ],
+    "m228236-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2331500
+      }
+    ],
+    "m279384rbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 555500
+      }
+    ],
+    "m279160-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 257000
+      }
+    ],
+    "m134300-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 238500
+      }
+    ],
+    "m279135rbr-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1744000
+      }
+    ],
+    "m278381rbr-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 761000
+      }
+    ],
+    "m128235-0041": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2046000
+      }
+    ],
+    "m126201-0052": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 520500
+      }
+    ],
+    "m126539tbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 5078000
+      }
+    ],
+    "m126334-0037": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 395000
+      }
+    ],
+    "m128398tbr-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3212000
+      }
+    ],
+    "m278343rbr-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 671500
+      }
+    ],
+    "m126595tbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 5460000
+      }
+    ],
+    "m128345rbr-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4632000
+      }
+    ],
+    "m126535tbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 5078000
+      }
+    ],
+    "m279174-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 403000
+      }
+    ],
+    "m126200-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 283500
+      }
+    ],
+    "m279135rbr-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1772500
+      }
+    ],
+    "m278289rbr-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1962500
+      }
+    ],
+    "m278344rbr-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 496000
+      }
+    ],
+    "m278240-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 268500
+      }
+    ],
+    "m126233-0055": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 539000
+      }
+    ],
+    "m128349rbr-0081": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3436000
+      }
+    ],
+    "m126303-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 668000
+      }
+    ],
+    "m128348rbr-0068": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2214000
+      }
+    ],
+    "m126231-0045": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 550000
+      }
+    ],
+    "m278240-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 268500
+      }
+    ],
+    "m278344rbr-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 447500
+      }
+    ],
+    "m128235-0089": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1680500
+      }
+    ],
+    "m278273-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 519000
+      }
+    ],
+    "m276205-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1164500
+      }
+    ],
+    "m279384rbr-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 563000
+      }
+    ],
+    "m278343rbr-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 649500
+      }
+    ],
+    "m128398tbr-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3320000
+      }
+    ],
+    "m128236-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2171000
+      }
+    ],
+    "m228236-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2331500
+      }
+    ],
+    "m126283rbr-0033": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 822500
+      }
+    ],
+    "m279381rbr-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 699500
+      }
+    ],
+    "m126200-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 276000
+      }
+    ],
+    "m126234-0070": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 335500
+      }
+    ],
+    "m278343rbr-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 686500
+      }
+    ],
+    "m278343rbr-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 671500
+      }
+    ],
+    "m277200-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 212500
+      }
+    ],
+    "m126233-0036": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 513000
+      }
+    ],
+    "m128395tbr-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3706000
+      }
+    ],
+    "m126334-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 473500
+      }
+    ],
+    "m278273-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 556000
+      }
+    ],
+    "m278271-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 556000
+      }
+    ],
+    "m126333-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 574500
+      }
+    ],
+    "m336933-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 837500
+      }
+    ],
+    "m278243-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 537000
+      }
+    ],
+    "m128395tbr-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3448500
+      }
+    ],
+    "m228348rbr-0034": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2475500
+      }
+    ],
+    "m228348rbr-0043": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2475500
+      }
+    ],
+    "m124245rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1537000
+      }
+    ],
+    "m128239-0059": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1680500
+      }
+    ],
+    "m278278-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1406500
+      }
+    ],
+    "m228235-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1837500
+      }
+    ],
+    "m126234-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 343000
+      }
+    ],
+    "m279384rbr-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 555500
+      }
+    ],
+    "m126231-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 524000
+      }
+    ],
+    "m126283rbr-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 796500
+      }
+    ],
+    "m279135rbr-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1744000
+      }
+    ],
+    "m278240-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 268500
+      }
+    ],
+    "m278343rbr-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 686500
+      }
+    ],
+    "m126284rbr-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 619000
+      }
+    ],
+    "m278384rbr-0034": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 660500
+      }
+    ],
+    "m276208-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1071000
+      }
+    ],
+    "m277200-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 212500
+      }
+    ],
+    "m228349rbr-0041": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2606000
+      }
+    ],
+    "m279175-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1764500
+      }
+    ],
+    "m279174-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 380500
+      }
+    ],
+    "m126334-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 466000
+      }
+    ],
+    "m279135rbr-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1795000
+      }
+    ],
+    "m126303-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 597000
+      }
+    ],
+    "m126334-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 402500
+      }
+    ],
+    "m279163-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 522500
+      }
+    ],
+    "m228236-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2492000
+      }
+    ],
+    "m279160-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 264500
+      }
+    ],
+    "m126284rbr-0060": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 701000
+      }
+    ],
+    "m126284rbr-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 708500
+      }
+    ],
+    "m279163-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 507500
+      }
+    ],
+    "m126300-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 302000
+      }
+    ],
+    "m126333-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 574500
+      }
+    ],
+    "m278274-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 380500
+      }
+    ],
+    "m124205-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1356000
+      }
+    ],
+    "m278384rbr-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 589500
+      }
+    ],
+    "m279173-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 488500
+      }
+    ],
+    "m277200-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 212500
+      }
+    ],
+    "m228396tbr-0031": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4122500
+      }
+    ],
+    "m126333-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 574500
+      }
+    ],
+    "m279174-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 309500
+      }
+    ],
+    "m126231-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 524000
+      }
+    ],
+    "m126284rbr-0058": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 701000
+      }
+    ],
+    "m126203-0053": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 535500
+      }
+    ],
+    "m336934-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 608000
+      }
+    ],
+    "m278240-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 261000
+      }
+    ],
+    "m128348rbr-0071": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4542000
+      }
+    ],
+    "m279173-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 503500
+      }
+    ],
+    "m126515ln-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1591500
+      }
+    ],
+    "m279174-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 388000
+      }
+    ],
+    "m126500ln-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 570500
+      }
+    ],
+    "m126200-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 276000
+      }
+    ],
+    "m279383rbr-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 684500
+      }
+    ],
+    "m279163-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 436500
+      }
+    ],
+    "m279175-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1303500
+      }
+    ],
+    "m336935-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2160000
+      }
+    ],
+    "m126303-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 571000
+      }
+    ],
+    "m279161-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 425500
+      }
+    ],
+    "m128349rbr-0052": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4658000
+      }
+    ],
+    "m126334-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 402500
+      }
+    ],
+    "m278274-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 395500
+      }
+    ],
+    "m126303-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 597000
+      }
+    ],
+    "m126284rbr-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 682500
+      }
+    ],
+    "m126231-0044": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 524000
+      }
+    ],
+    "m126234-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 432500
+      }
+    ],
+    "m279163-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 414000
+      }
+    ],
+    "m228239-0046": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1837500
+      }
+    ],
+    "m278381rbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 761000
+      }
+    ],
+    "m277200-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 212500
+      }
+    ],
+    "m128395tbr-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3475000
+      }
+    ],
+    "m126503-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 903000
+      }
+    ],
+    "m128395tbr-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4437500
+      }
+    ],
+    "m278275-0035": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1453000
+      }
+    ],
+    "m128396tbr-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3320000
+      }
+    ],
+    "m228396tbr-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4943000
+      }
+    ],
+    "m126333-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 600500
+      }
+    ],
+    "m278271-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 462500
+      }
+    ],
+    "m279161-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 519000
+      }
+    ],
+    "m276248rbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1231000
+      }
+    ],
+    "m126283rbr-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 796500
+      }
+    ],
+    "m126201-0050": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 610000
+      }
+    ],
+    "m278243-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 515000
+      }
+    ],
+    "m228396tbr-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4122500
+      }
+    ],
+    "m278289rbr-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2048500
+      }
+    ],
+    "m128349rbr-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4632000
+      }
+    ],
+    "m278341rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 589500
+      }
+    ],
+    "m126303-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 668000
+      }
+    ],
+    "m126233-0048": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 513000
+      }
+    ],
+    "m278243-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 500000
+      }
+    ],
+    "m278278-0034": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1406500
+      }
+    ],
+    "m126283rbr-0035": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 912000
+      }
+    ],
+    "m279171-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 429000
+      }
+    ],
+    "m278273-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 448000
+      }
+    ],
+    "m278274-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 317000
+      }
+    ],
+    "m126300-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 302000
+      }
+    ],
+    "m279135rbr-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1744000
+      }
+    ],
+    "m126233-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 584000
+      }
+    ],
+    "m128399tbr-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3340500
+      }
+    ],
+    "m279174-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 309500
+      }
+    ],
+    "m228348rbr-0045": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2475500
+      }
+    ],
+    "m228235jg-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2065000
+      }
+    ],
+    "m279135rbr-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2247500
+      }
+    ],
+    "m279171-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 515000
+      }
+    ],
+    "m128395tbr-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3501000
+      }
+    ],
+    "m277200-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 212500
+      }
+    ],
+    "m278289rbr-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1962500
+      }
+    ],
+    "m126598tbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 5312500
+      }
+    ],
+    "m278271-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 518500
+      }
+    ],
+    "m336935-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2160000
+      }
+    ],
+    "m278381rbr-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 809500
+      }
+    ],
+    "m279383rbr-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 755500
+      }
+    ],
+    "m278240-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 261000
+      }
+    ],
+    "m279175-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1261000
+      }
+    ],
+    "m126284rbr-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 611500
+      }
+    ],
+    "m278274-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 317000
+      }
+    ],
+    "m128348rbr-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2322000
+      }
+    ],
+    "m128396tbr-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3320000
+      }
+    ],
+    "m276200-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 208500
+      }
+    ],
+    "m128348rbr-0050": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4661500
+      }
+    ],
+    "m278274-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 388000
+      }
+    ],
+    "m126234-0066": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 425000
+      }
+    ],
+    "m279171-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 522500
+      }
+    ],
+    "m126234-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 406500
+      }
+    ],
+    "m128395tbr-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3657500
+      }
+    ],
+    "m279163-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 436500
+      }
+    ],
+    "m279135rbr-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1815000
+      }
+    ],
+    "m278241-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 537500
+      }
+    ],
+    "m126000-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 227500
+      }
+    ],
+    "m126200-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 283500
+      }
+    ],
+    "m126283rbr-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 893500
+      }
+    ],
+    "m126301-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 589000
+      }
+    ],
+    "m126233-0050": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 602500
+      }
+    ],
+    "m228348rbr-0037": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3296000
+      }
+    ],
+    "m279163-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 485000
+      }
+    ],
+    "m336235-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1809500
+      }
+    ],
+    "m228348rbr-0039": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2852500
+      }
+    ],
+    "m228348rbr-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2475500
+      }
+    ],
+    "m279383rbr-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 778000
+      }
+    ],
+    "m279160-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 257000
+      }
+    ],
+    "m126283rbr-0036": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 886000
+      }
+    ],
+    "m336238-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1744000
+      }
+    ],
+    "m276200-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 208500
+      }
+    ],
+    "m126301-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 589000
+      }
+    ],
+    "m279384rbr-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 555500
+      }
+    ],
+    "m278381rbr-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 794500
+      }
+    ],
+    "m228398tbr-0043": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3997000
+      }
+    ],
+    "m279175-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1354500
+      }
+    ],
+    "m128349rbr-0083": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2656000
+      }
+    ],
+    "m279163-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 507500
+      }
+    ],
+    "m126715chnr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1801500
+      }
+    ],
+    "m278344rbr-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 440000
+      }
+    ],
+    "m278274-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 410500
+      }
+    ],
+    "m128396tbr-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3428000
+      }
+    ],
+    "m228345rbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3426500
+      }
+    ],
+    "m126301-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 611500
+      }
+    ],
+    "m126283rbr-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 867500
+      }
+    ],
+    "m278275-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1453000
+      }
+    ],
+    "m278384rbr-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 582000
+      }
+    ],
+    "m126200-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 283500
+      }
+    ],
+    "m278274-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 403000
+      }
+    ],
+    "m126283rbr-0034": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 796500
+      }
+    ],
+    "m228239-0049": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2658000
+      }
+    ],
+    "m336935-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2201000
+      }
+    ],
+    "m126000-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 227500
+      }
+    ],
+    "m278275-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1509000
+      }
+    ],
+    "m278381rbr-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 832000
+      }
+    ],
+    "m279175-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1303500
+      }
+    ],
+    "m228239-0060": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1837500
+      }
+    ],
+    "m279139rbr-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1744000
+      }
+    ],
+    "m228349rbr-0045": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2606000
+      }
+    ],
+    "m278344rbr-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 503500
+      }
+    ],
+    "m279173-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 511000
+      }
+    ],
+    "m126201-0051": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 546500
+      }
+    ],
+    "m279161-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 448000
+      }
+    ],
+    "m126200-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 283500
+      }
+    ],
+    "m278381rbr-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 738500
+      }
+    ],
+    "m228239-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1998000
+      }
+    ],
+    "m279173-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 417500
+      }
+    ],
+    "m278343rbr-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 649500
+      }
+    ],
+    "m279173-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 417500
+      }
+    ],
+    "m278240-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 268500
+      }
+    ],
+    "m279381rbr-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 763000
+      }
+    ],
+    "m228398tbr-0038": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4176500
+      }
+    ],
+    "m279138rbr-0032": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1591000
+      }
+    ],
+    "m126203-0035": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 535500
+      }
+    ],
+    "m126301-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 682500
+      }
+    ],
+    "m126301-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 589000
+      }
+    ],
+    "m279381rbr-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 699500
+      }
+    ],
+    "m278383rbr-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 783500
+      }
+    ],
+    "m228396tbr-0043": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4320000
+      }
+    ],
+    "m278274-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 324500
+      }
+    ],
+    "m126518ln-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1516500
+      }
+    ],
+    "m278243-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 537000
+      }
+    ],
+    "m126284rbr-0055": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 708500
+      }
+    ],
+    "m278343rbr-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 671500
+      }
+    ],
+    "m126505-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2005000
+      }
+    ],
+    "m279458rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 6157500
+      }
+    ],
+    "m278341rbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 612000
+      }
+    ],
+    "m126515ln-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1520500
+      }
+    ],
+    "m278241-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 481500
+      }
+    ],
+    "m128238-0113": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1555500
+      }
+    ],
+    "m279163-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 436500
+      }
+    ],
+    "m278383rbr-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 798500
+      }
+    ],
+    "m228398tbr-0042": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3799500
+      }
+    ],
+    "m279175-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1374500
+      }
+    ],
+    "m278278-0040": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1335500
+      }
+    ],
+    "m228398tbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3960000
+      }
+    ],
+    "m278275-0039": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1524000
+      }
+    ],
+    "m126621-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 669500
+      }
+    ],
+    "m228238-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1869000
+      }
+    ],
+    "m278344rbr-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 447500
+      }
+    ],
+    "m126231-0043": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 550000
+      }
+    ],
+    "m278274-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 317000
+      }
+    ],
+    "m279384rbr-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 563000
+      }
+    ],
+    "m128399tbr-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4437500
+      }
+    ],
+    "m279174-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 410500
+      }
+    ],
+    "m279174-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 309500
+      }
+    ],
+    "m279178-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1293000
+      }
+    ],
+    "m279138rbr-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1705000
+      }
+    ],
+    "m279381rbr-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 748000
+      }
+    ],
+    "m126281rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 837500
+      }
+    ],
+    "m279160-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 264500
+      }
+    ],
+    "m279160-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 257000
+      }
+    ],
+    "m279383rbr-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 684500
+      }
+    ],
+    "m279175-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1374500
+      }
+    ],
+    "m279178-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1156500
+      }
+    ],
+    "m128348rbr-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2348500
+      }
+    ],
+    "m126281rbr-0041": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 908500
+      }
+    ],
+    "m278288rbr-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1904500
+      }
+    ],
+    "m278384rbr-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 582000
+      }
+    ],
+    "m228235-0036": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2658000
+      }
+    ],
+    "m279384rbr-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 555500
+      }
+    ],
+    "m126234-0064": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 425000
+      }
+    ],
+    "m126281rbr-0042": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 882500
+      }
+    ],
+    "m278243-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 537000
+      }
+    ],
+    "m128399tbr-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3657500
+      }
+    ],
+    "m278289rbr-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1962500
+      }
+    ],
+    "m279178-0031": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1703000
+      }
+    ],
+    "m228235-0053": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1837500
+      }
+    ],
+    "m279174-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 317000
+      }
+    ],
+    "m128399tbr-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3340500
+      }
+    ],
+    "m279173-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 417500
+      }
+    ],
+    "m128236-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2171000
+      }
+    ],
+    "m126203-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 632500
+      }
+    ],
+    "m278344rbr-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 447500
+      }
+    ],
+    "m134300-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 238500
+      }
+    ],
+    "m134300-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 238500
+      }
+    ],
+    "m228348rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2636000
+      }
+    ],
+    "m278383rbr-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 783500
+      }
+    ],
+    "m278383rbr-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 798500
+      }
+    ],
+    "m126300-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 309500
+      }
+    ],
+    "m278344rbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 447500
+      }
+    ],
+    "m336935-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2160000
+      }
+    ],
+    "m228349rbr-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2606000
+      }
+    ],
+    "m278384rbr-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 582000
+      }
+    ],
+    "m228349rbr-0040": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2934500
+      }
+    ],
+    "m278243-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 500000
+      }
+    ],
+    "m126281rbr-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 811500
+      }
+    ],
+    "m279163-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 414000
+      }
+    ],
+    "m228396tbr-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4283000
+      }
+    ],
+    "m52508-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 979000
+      }
+    ],
+    "m278243-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 500000
+      }
+    ],
+    "m278384rbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 589500
+      }
+    ],
+    "m279138rbr-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1662000
+      }
+    ],
+    "m278289rbr-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2033500
+      }
+    ],
+    "m278384rbr-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 668000
+      }
+    ],
+    "m128348rbr-0036": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4452500
+      }
+    ],
+    "m126234-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 335500
+      }
+    ],
+    "m279384rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 563000
+      }
+    ],
+    "m128398tbr-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3529000
+      }
+    ],
+    "m278341rbr-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 683000
+      }
+    ],
+    "m279139rbr-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2247500
+      }
+    ],
+    "m126281rbr-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 837500
+      }
+    ],
+    "m128348rbr-0070": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2411500
+      }
+    ],
+    "m126333-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 671500
+      }
+    ],
+    "m336938-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2038500
+      }
+    ],
+    "m278271-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 533500
+      }
+    ],
+    "m278288rbr-0032": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1934500
+      }
+    ],
+    "m278381rbr-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 817000
+      }
+    ],
+    "m126301-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 660000
+      }
+    ],
+    "m126622-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 447500
+      }
+    ],
+    "m278273-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 519000
+      }
+    ],
+    "m278344rbr-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 503500
+      }
+    ],
+    "m128238-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1663500
+      }
+    ],
+    "m228235-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1837500
+      }
+    ],
+    "m278278-0036": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1406500
+      }
+    ],
+    "m279384rbr-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 641500
+      }
+    ],
+    "m126203-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 509500
+      }
+    ],
+    "m228236-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2660000
+      }
+    ],
+    "m279138rbr-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1634000
+      }
+    ],
+    "m279171-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 451500
+      }
+    ],
+    "m279175-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1397000
+      }
+    ],
+    "m278289rbr-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2018500
+      }
+    ],
+    "m278341rbr-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 612000
+      }
+    ],
+    "m278274-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 373000
+      }
+    ],
+    "m278289rbr-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2018500
+      }
+    ],
+    "m126515ln-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1677000
+      }
+    ],
+    "m279175-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1332000
+      }
+    ],
+    "m126300-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 309500
+      }
+    ],
+    "m278344rbr-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 440000
+      }
+    ],
+    "m126201-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 520500
+      }
+    ],
+    "m228236-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2331500
+      }
+    ],
+    "m279383rbr-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 755500
+      }
+    ],
+    "m278343rbr-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 578500
+      }
+    ],
+    "m126284rbr-0056": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 701000
+      }
+    ],
+    "m279383rbr-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 662000
+      }
+    ],
+    "m126234-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 414000
+      }
+    ],
+    "m126519ln-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1520500
+      }
+    ],
+    "m128239-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1788500
+      }
+    ],
+    "m336938-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2080000
+      }
+    ],
+    "m336938-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2080000
+      }
+    ],
+    "m277203-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 261000
+      }
+    ],
+    "m228238-0054": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2529000
+      }
+    ],
+    "m126281rbr-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 934500
+      }
+    ],
+    "m279171-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 429000
+      }
+    ],
+    "m278243-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 537000
+      }
+    ],
+    "m279135rbr-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1772500
+      }
+    ],
+    "m126000-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 227500
+      }
+    ],
+    "m278341rbr-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 683000
+      }
+    ],
+    "m278275-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1539000
+      }
+    ],
+    "m126231-0051": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 550000
+      }
+    ],
+    "m279173-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 533500
+      }
+    ],
+    "m126233-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 610000
+      }
+    ],
+    "m126234-0062": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 335500
+      }
+    ],
+    "m278381rbr-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 817000
+      }
+    ],
+    "m279383rbr-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 778000
+      }
+    ],
+    "m279174-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 309500
+      }
+    ],
+    "m228235-0032": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1837500
+      }
+    ],
+    "m128399tbr-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3448500
+      }
+    ],
+    "m228345rbr-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2606000
+      }
+    ],
+    "m278381rbr-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 809500
+      }
+    ],
+    "m278271-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 518500
+      }
+    ],
+    "m126729vtnr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1855500
+      }
+    ],
+    "m228398tbr-0036": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4620000
+      }
+    ],
+    "m279383rbr-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 662000
+      }
+    ],
+    "m279381rbr-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 677000
+      }
+    ],
+    "m126284rbr-0061": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 619000
+      }
+    ],
+    "m278273-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 541000
+      }
+    ],
+    "m126518ln-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1445500
+      }
+    ],
+    "m279161-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 519000
+      }
+    ],
+    "m126300-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 309500
+      }
+    ],
+    "m126234-0068": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 425000
+      }
+    ],
+    "m134300-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 238500
+      }
+    ],
+    "m126518ln-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1445500
+      }
+    ],
+    "m126201-0044": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 520500
+      }
+    ],
+    "m126331-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 615500
+      }
+    ],
+    "m228238-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1708500
+      }
+    ],
+    "m279383rbr-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 662000
+      }
+    ],
+    "m279381rbr-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 677000
+      }
+    ],
+    "m128235-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1815000
+      }
+    ],
+    "m278241-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 537500
+      }
+    ],
+    "m279173-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 440000
+      }
+    ],
+    "m278271-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 462500
+      }
+    ],
+    "m228235-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1998000
+      }
+    ],
+    "m336235-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1809500
+      }
+    ],
+    "m279171-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 500000
+      }
+    ],
+    "m126518ln-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1602000
+      }
+    ],
+    "m278278-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1406500
+      }
+    ],
+    "m128345rbr-0081": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2499500
+      }
+    ],
+    "m279161-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 425500
+      }
+    ],
+    "m126618lb-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1727000
+      }
+    ],
+    "m126203-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 580500
+      }
+    ],
+    "m278383rbr-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 820500
+      }
+    ],
+    "m126284rbr-0051": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 619000
+      }
+    ],
+    "m126283rbr-0037": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 912000
+      }
+    ],
+    "m278384rbr-0032": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 645500
+      }
+    ],
+    "m228345rbr-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2606000
+      }
+    ],
+    "m126203-0049": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 625000
+      }
+    ],
+    "m278381rbr-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 832000
+      }
+    ],
+    "m278341rbr-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 612000
+      }
+    ],
+    "m126000-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 227500
+      }
+    ],
+    "m228398tbr-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3799500
+      }
+    ],
+    "m128236-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2305500
+      }
+    ],
+    "m279163-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 414000
+      }
+    ],
+    "m128345rbr-0041": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4605500
+      }
+    ],
+    "m126203-0051": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 625000
+      }
+    ],
+    "m126233-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 539000
+      }
+    ],
+    "m124200-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 216000
+      }
+    ],
+    "m279173-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 526000
+      }
+    ],
+    "m126234-0037": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 414000
+      }
+    ],
+    "m278273-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 526000
+      }
+    ],
+    "m128348rbr-0078": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2374500
+      }
+    ],
+    "m336238-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1744000
+      }
+    ],
+    "m228398tbr-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3799500
+      }
+    ],
+    "m279161-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 448000
+      }
+    ],
+    "m126203-0047": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 535500
+      }
+    ],
+    "m228348rbr-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2475500
+      }
+    ],
+    "m128345rbr-0076": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4497500
+      }
+    ],
+    "m278383rbr-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 749500
+      }
+    ],
+    "m279381rbr-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 793000
+      }
+    ],
+    "m128238-0069": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1663500
+      }
+    ],
+    "m126334-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 473500
+      }
+    ],
+    "m126203-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 535500
+      }
+    ],
+    "m279171-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 429000
+      }
+    ],
+    "m279160-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 264500
+      }
+    ],
+    "m126518ln-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1445500
+      }
+    ],
+    "m279139rbr-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1815000
+      }
+    ],
+    "m128345rbr-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4605500
+      }
+    ],
+    "m126300-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 302000
+      }
+    ],
+    "m278381rbr-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 832000
+      }
+    ],
+    "m126519ln-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1520500
+      }
+    ],
+    "m126231-0052": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 524000
+      }
+    ],
+    "m128348rbr-0069": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4344500
+      }
+    ],
+    "m128345rbr-0042": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3436000
+      }
+    ],
+    "m128238-0123": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1753000
+      }
+    ],
+    "m128348rbr-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4344500
+      }
+    ],
+    "m279163-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 436500
+      }
+    ],
+    "m128236-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2331500
+      }
+    ],
+    "m126333-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 574500
+      }
+    ],
+    "m336239-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1809500
+      }
+    ],
+    "m279135rbr-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1787500
+      }
+    ],
+    "m279174-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 380500
+      }
+    ],
+    "m278243-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 522000
+      }
+    ],
+    "m126283rbr-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 867500
+      }
+    ],
+    "m336938-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2080000
+      }
+    ],
+    "m279383rbr-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 684500
+      }
+    ],
+    "m279178-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1250000
+      }
+    ],
+    "m278274-0034": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 324500
+      }
+    ],
+    "m278278-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1421500
+      }
+    ],
+    "m276200-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 208500
+      }
+    ],
+    "m126203-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 509500
+      }
+    ],
+    "m126508-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1872500
+      }
+    ],
+    "m126334-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 395000
+      }
+    ],
+    "m228236-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2331500
+      }
+    ],
+    "m279161-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 534000
+      }
+    ],
+    "m279135rbr-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1701500
+      }
+    ],
+    "m126283rbr-0038": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 886000
+      }
+    ],
+    "m128236-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2331500
+      }
+    ],
+    "m279171-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 451500
+      }
+    ],
+    "m278243-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 515000
+      }
+    ],
+    "m128238-0051": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2652500
+      }
+    ],
+    "m228398tbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3960000
+      }
+    ],
+    "m228345rbr-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2606000
+      }
+    ],
+    "m126301-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 611500
+      }
+    ],
+    "m278271-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 485000
+      }
+    ],
+    "m126281rbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 811500
+      }
+    ],
+    "m278344rbr-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 518500
+      }
+    ],
+    "m279381rbr-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 770500
+      }
+    ],
+    "m278381rbr-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 817000
+      }
+    ],
+    "m278384rbr-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 582000
+      }
+    ],
+    "m279381rbr-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 770500
+      }
+    ],
+    "m126331-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 615500
+      }
+    ],
+    "m128399tbr-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3475000
+      }
+    ],
+    "m278288rbr-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1919500
+      }
+    ],
+    "m279138rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1727500
+      }
+    ],
+    "m128235-0037": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1788500
+      }
+    ],
+    "m278274-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 324500
+      }
+    ],
+    "m279163-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 500000
+      }
+    ],
+    "m278275-0031": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1524000
+      }
+    ],
+    "m279139rbr-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1744000
+      }
+    ],
+    "m128396tbr-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4417000
+      }
+    ],
+    "m279138rbr-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1727500
+      }
+    ],
+    "m279160-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 264500
+      }
+    ],
+    "m279160-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 257000
+      }
+    ],
+    "m128349rbr-0086": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2536500
+      }
+    ],
+    "m279173-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 511000
+      }
+    ],
+    "m126201-0049": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 636000
+      }
+    ],
+    "m278343rbr-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 656500
+      }
+    ],
+    "m279161-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 541500
+      }
+    ],
+    "m279163-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 436500
+      }
+    ],
+    "m278384rbr-0038": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 582000
+      }
+    ],
+    "m278240-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 268500
+      }
+    ],
+    "m126231-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 524000
+      }
+    ],
+    "m279135rbr-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1830000
+      }
+    ],
+    "m278343rbr-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 600500
+      }
+    ],
+    "m278289rbr-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2033500
+      }
+    ],
+    "m279178-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1199500
+      }
+    ],
+    "m126283rbr-0040": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 796500
+      }
+    ],
+    "m126301-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 589000
+      }
+    ],
+    "m126303-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 571000
+      }
+    ],
+    "m128345rbr-0086": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4497500
+      }
+    ],
+    "m278341rbr-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 645500
+      }
+    ],
+    "m228238-0071": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1906000
+      }
+    ],
+    "m279178-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1242500
+      }
+    ],
+    "m279160-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 264500
+      }
+    ],
+    "m336934-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 608000
+      }
+    ],
+    "m278273-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 470000
+      }
+    ],
+    "m278243-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 444000
+      }
+    ],
+    "m278273-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 504000
+      }
+    ],
+    "m279139rbr-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1744000
+      }
+    ],
+    "m126303-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 597000
+      }
+    ],
+    "m126200-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 283500
+      }
+    ],
+    "m278274-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 324500
+      }
+    ],
+    "m128348rbr-0031": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 5441500
+      }
+    ],
+    "m278285rbr-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2033500
+      }
+    ],
+    "m228396tbr-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4122500
+      }
+    ],
+    "m126234-0063": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 432500
+      }
+    ],
+    "m277200-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 212500
+      }
+    ],
+    "m279383rbr-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 662000
+      }
+    ],
+    "m126284rbr-0064": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 701000
+      }
+    ],
+    "m126331-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 593000
+      }
+    ],
+    "m278273-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 470000
+      }
+    ],
+    "m278240-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 261000
+      }
+    ],
+    "m279171-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 500000
+      }
+    ],
+    "m278288rbr-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1848500
+      }
+    ],
+    "m278344rbr-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 440000
+      }
+    ],
+    "m228235jg-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2225500
+      }
+    ],
+    "m278383rbr-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 813500
+      }
+    ],
+    "m278341rbr-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 645500
+      }
+    ],
+    "m279175-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1261000
+      }
+    ],
+    "m278341rbr-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 660500
+      }
+    ],
+    "m278274-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 395500
+      }
+    ],
+    "m278274-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 388000
+      }
+    ],
+    "m279384rbr-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 563000
+      }
+    ],
+    "m128345rbr-0070": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2339000
+      }
+    ],
+    "m128235-0085": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1841000
+      }
+    ],
+    "m279171-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 451500
+      }
+    ],
+    "m278278-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1391500
+      }
+    ],
+    "m279175-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1389500
+      }
+    ],
+    "m228396tbr-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4122500
+      }
+    ],
+    "m126300-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 309500
+      }
+    ],
+    "m126233-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 513000
+      }
+    ],
+    "m279138rbr-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1634000
+      }
+    ],
+    "m126231-0054": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 595000
+      }
+    ],
+    "m278384rbr-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 660500
+      }
+    ],
+    "m128395tbr-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3340500
+      }
+    ],
+    "m126281rbr-0035": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 927000
+      }
+    ],
+    "m126300-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 309500
+      }
+    ],
+    "m228236-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2331500
+      }
+    ],
+    "m278381rbr-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 761000
+      }
+    ],
+    "m228396tbr-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4451000
+      }
+    ],
+    "m278383rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 727500
+      }
+    ],
+    "m278274-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 317000
+      }
+    ],
+    "m126301-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 589000
+      }
+    ],
+    "m128349rbr-0050": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4695000
+      }
+    ],
+    "m124208-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1257500
+      }
+    ],
+    "m126200-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 283500
+      }
+    ],
+    "m278381rbr-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 738500
+      }
+    ],
+    "m278274-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 317000
+      }
+    ],
+    "m228348rbr-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2475500
+      }
+    ],
+    "m128349rbr-0087": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2499500
+      }
+    ],
+    "m128345rbr-0043": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 5594500
+      }
+    ],
+    "m279178-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1199500
+      }
+    ],
+    "m278343rbr-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 671500
+      }
+    ],
+    "m126281rbr-0040": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 811500
+      }
+    ],
+    "m279381rbr-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 770500
+      }
+    ],
+    "m126284rbr-0037": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 619000
+      }
+    ],
+    "m278273-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 519000
+      }
+    ],
+    "m126283rbr-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 822500
+      }
+    ],
+    "m279161-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 519000
+      }
+    ],
+    "m279178-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1156500
+      }
+    ],
+    "m228349rbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2606000
+      }
+    ],
+    "m128349rbr-0054": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4658000
+      }
+    ],
+    "m278384rbr-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 589500
+      }
+    ],
+    "m278241-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 567500
+      }
+    ],
+    "m128238-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1690000
+      }
+    ],
+    "m228398tbr-0039": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3799500
+      }
+    ],
+    "m278241-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 459000
+      }
+    ],
+    "m128345rbr-0077": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2536500
+      }
+    ],
+    "m126281rbr-0037": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 927000
+      }
+    ],
+    "m126303-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 597000
+      }
+    ],
+    "m278243-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 515000
+      }
+    ],
+    "m228349rbr-0036": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3426500
+      }
+    ],
+    "m277200-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 212500
+      }
+    ],
+    "m278383rbr-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 820500
+      }
+    ],
+    "m278273-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 504000
+      }
+    ],
+    "m336938-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2038500
+      }
+    ],
+    "m279174-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 317000
+      }
+    ],
+    "m126331-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 615500
+      }
+    ],
+    "m128396tbr-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3480500
+      }
+    ],
+    "m126201-0054": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 591500
+      }
+    ],
+    "m279135rbr-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1701500
+      }
+    ],
+    "m278384rbr-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 589500
+      }
+    ],
+    "m279173-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 533500
+      }
+    ],
+    "m126283rbr-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 893500
+      }
+    ],
+    "m128349rbr-0080": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2473500
+      }
+    ],
+    "m278383rbr-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 813500
+      }
+    ],
+    "m228239-0076": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1837500
+      }
+    ],
+    "m126284rbr-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 690000
+      }
+    ],
+    "m126200-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 276000
+      }
+    ],
+    "m278274-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 324500
+      }
+    ],
+    "m126303-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 571000
+      }
+    ],
+    "m279160-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 257000
+      }
+    ],
+    "m279178-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1199500
+      }
+    ],
+    "m228239-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1837500
+      }
+    ],
+    "m128345rbr-0084": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4658000
+      }
+    ],
+    "m128239-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2777500
+      }
+    ],
+    "m279381rbr-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 677000
+      }
+    ],
+    "m279381rbr-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 793000
+      }
+    ],
+    "m278240-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 261000
+      }
+    ],
+    "m278285rbr-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1962500
+      }
+    ],
+    "m126234-0046": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 335500
+      }
+    ],
+    "m278384rbr-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 589500
+      }
+    ],
+    "m278344rbr-0032": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 518500
+      }
+    ],
+    "m128348rbr-0080": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2374500
+      }
+    ],
+    "m278289rbr-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2033500
+      }
+    ],
+    "m279175-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1347000
+      }
+    ],
+    "m126233-0057": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 539000
+      }
+    ],
+    "m278241-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 459000
+      }
+    ],
+    "m278241-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 459000
+      }
+    ],
+    "m128395tbr-0033": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3340500
+      }
+    ],
+    "m278271-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 485000
+      }
+    ],
+    "m126334-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 402500
+      }
+    ],
+    "m126231-0046": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 524000
+      }
+    ],
+    "m278384rbr-0036": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 660500
+      }
+    ],
+    "m278341rbr-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 589500
+      }
+    ],
+    "m278274-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 317000
+      }
+    ],
+    "m279135rbr-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1701500
+      }
+    ],
+    "m278271-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 485000
+      }
+    ],
+    "m228345rbr-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2983000
+      }
+    ],
+    "m126234-0067": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 432500
+      }
+    ],
+    "m128236-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2171000
+      }
+    ],
+    "m276200-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 208500
+      }
+    ],
+    "m278241-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 552500
+      }
+    ],
+    "m124248rbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1440000
+      }
+    ],
+    "m279384rbr-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 555500
+      }
+    ],
+    "m279381rbr-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 677000
+      }
+    ],
+    "m279383rbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 662000
+      }
+    ],
+    "m279138rbr-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1591000
+      }
+    ],
+    "m279459rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 6310500
+      }
+    ],
+    "m279138rbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1684500
+      }
+    ],
+    "m124200-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 216000
+      }
+    ],
+    "m228236-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2492000
+      }
+    ],
+    "m276248rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1216000
+      }
+    ],
+    "m126200-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 276000
+      }
+    ],
+    "m126503-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 832000
+      }
+    ],
+    "m279138rbr-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1684500
+      }
+    ],
+    "m126281rbr-0032": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 811500
+      }
+    ],
+    "m228398tbr-0041": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3799500
+      }
+    ],
+    "m128235-0075": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1680500
+      }
+    ],
+    "m279163-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 485000
+      }
+    ],
+    "m336934-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 600500
+      }
+    ],
+    "m279135rbr-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1701500
+      }
+    ],
+    "m126334-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 402500
+      }
+    ],
+    "m276200-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 208500
+      }
+    ],
+    "m278274-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 373000
+      }
+    ],
+    "m128396tbr-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3320000
+      }
+    ],
+    "m279175-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1261000
+      }
+    ],
+    "m278243-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 552000
+      }
+    ],
+    "m279171-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 429000
+      }
+    ],
+    "m126334-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 402500
+      }
+    ],
+    "m279178-0032": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1660000
+      }
+    ],
+    "m278343rbr-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 664500
+      }
+    ],
+    "m279161-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 448000
+      }
+    ],
+    "m278273-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 541000
+      }
+    ],
+    "m128236-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2368500
+      }
+    ],
+    "m126203-0036": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 509500
+      }
+    ],
+    "m126201-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 546500
+      }
+    ],
+    "m128395tbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3448500
+      }
+    ],
+    "m126333-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 600500
+      }
+    ],
+    "m126283rbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 796500
+      }
+    ],
+    "m279384rbr-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 649000
+      }
+    ],
+    "m126303-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 571000
+      }
+    ],
+    "m126505-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2005000
+      }
+    ],
+    "m279174-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 317000
+      }
+    ],
+    "m128345rbr-0053": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4605500
+      }
+    ],
+    "m126334-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 466000
+      }
+    ],
+    "m278344rbr-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 440000
+      }
+    ],
+    "m126233-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 584000
+      }
+    ],
+    "m279160-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 257000
+      }
+    ],
+    "m279383rbr-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 748000
+      }
+    ],
+    "m279173-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 440000
+      }
+    ],
+    "m126201-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 643500
+      }
+    ],
+    "m279161-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 448000
+      }
+    ],
+    "m278384rbr-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 582000
+      }
+    ],
+    "m128238-0130": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1716000
+      }
+    ],
+    "m126201-0048": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 610000
+      }
+    ],
+    "m126333-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 600500
+      }
+    ],
+    "m126231-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 550000
+      }
+    ],
+    "m126331-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 686500
+      }
+    ],
+    "m128399tbr-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3501000
+      }
+    ],
+    "m126284rbr-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 611500
+      }
+    ],
+    "m126334-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 395000
+      }
+    ],
+    "m279383rbr-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 733000
+      }
+    ],
+    "m128235-0050": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1788500
+      }
+    ],
+    "m128349rbr-0084": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2339000
+      }
+    ],
+    "m126233-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 513000
+      }
+    ],
+    "m126201-0043": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 546500
+      }
+    ],
+    "m278343rbr-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 656500
+      }
+    ],
+    "m52508-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 979000
+      }
+    ],
+    "m278289rbr-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2033500
+      }
+    ],
+    "m278285rbr-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2018500
+      }
+    ],
+    "m126283rbr-0041": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 822500
+      }
+    ],
+    "m126621-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 669500
+      }
+    ],
+    "m278344rbr-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 447500
+      }
+    ],
+    "m279135rbr-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1772500
+      }
+    ],
+    "m278243-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 522000
+      }
+    ],
+    "m128348rbr-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4452500
+      }
+    ],
+    "m279139rbr-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1744000
+      }
+    ],
+    "m126718grnr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1872500
+      }
+    ],
+    "m128345rbr-0083": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2499500
+      }
+    ],
+    "m126233-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 539000
+      }
+    ],
+    "m126300-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 309500
+      }
+    ],
+    "m128398tbr-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4309000
+      }
+    ],
+    "m126281rbr-0036": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 901000
+      }
+    ],
+    "m126231-0049": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 639500
+      }
+    ],
+    "m126284rbr-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 619000
+      }
+    ],
+    "m128239-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1680500
+      }
+    ],
+    "m279138rbr-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1591000
+      }
+    ],
+    "m128239-0063": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1680500
+      }
+    ],
+    "m278240-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 261000
+      }
+    ],
+    "m128398tbr-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3320000
+      }
+    ],
+    "m126234-0045": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 343000
+      }
+    ],
+    "m278273-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 541000
+      }
+    ],
+    "m126200-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 276000
+      }
+    ],
+    "m279384rbr-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 555500
+      }
+    ],
+    "m128348rbr-0048": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4344500
+      }
+    ],
+    "m128236-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3268000
+      }
+    ],
+    "m52508-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1388000
+      }
+    ],
+    "m278273-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 534000
+      }
+    ],
+    "m276245rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1326500
+      }
+    ],
+    "m278241-0010": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 481500
+      }
+    ],
+    "m279381rbr-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 748000
+      }
+    ],
+    "m279178-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1156500
+      }
+    ],
+    "m278341rbr-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 698000
+      }
+    ],
+    "m279139rbr-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1744000
+      }
+    ],
+    "m278273-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 519000
+      }
+    ],
+    "m128345rbr-0044": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2704500
+      }
+    ],
+    "m228349rbr-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2766500
+      }
+    ],
+    "m128399tbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3340500
+      }
+    ],
+    "m127385tbr-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 4105500
+      }
+    ],
+    "m126233-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 610000
+      }
+    ],
+    "m134300-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 238500
+      }
+    ],
+    "m128349rbr-0079": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2339000
+      }
+    ],
+    "m126281rbr-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 837500
+      }
+    ],
+    "m124248rbr-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1455000
+      }
+    ],
+    "m278288rbr-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1848500
+      }
+    ],
+    "m278341rbr-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 645500
+      }
+    ],
+    "m126301-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 589000
+      }
+    ],
+    "m128345rbr-0028": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2473500
+      }
+    ],
+    "m336238-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1744000
+      }
+    ],
+    "m278343rbr-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 634500
+      }
+    ],
+    "m126233-0052": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 602500
+      }
+    ],
+    "m228398tbr-0033": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3799500
+      }
+    ],
+    "m279171-0012": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 500000
+      }
+    ],
+    "m128236-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2279000
+      }
+    ],
+    "m278383rbr-0022": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 820500
+      }
+    ],
+    "m126233-0049": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 628500
+      }
+    ],
+    "m126303-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 597000
+      }
+    ],
+    "m126201-0053": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 617500
+      }
+    ],
+    "m126334-0036": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 402500
+      }
+    ],
+    "m279171-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 545000
+      }
+    ],
+    "m126331-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 593000
+      }
+    ],
+    "m279171-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 451500
+      }
+    ],
+    "m278241-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 545000
+      }
+    ],
+    "m279178-0014": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1250000
+      }
+    ],
+    "m128398tbr-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3409500
+      }
+    ],
+    "m278341rbr-0030": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 668000
+      }
+    ],
+    "m278384rbr-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 582000
+      }
+    ],
+    "m279163-0021": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 507500
+      }
+    ],
+    "m126234-0018": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 335500
+      }
+    ],
+    "m278384rbr-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 582000
+      }
+    ],
+    "m279384rbr-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 563000
+      }
+    ],
+    "m126281rbr-0034": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 811500
+      }
+    ],
+    "m126281rbr-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 882500
+      }
+    ],
+    "m278344rbr-0020": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 447500
+      }
+    ],
+    "m278384rbr-0035": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 653000
+      }
+    ],
+    "m279174-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 317000
+      }
+    ],
+    "m279381rbr-0016": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 748000
+      }
+    ],
+    "m279161-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 519000
+      }
+    ],
+    "m278285rbr-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1962500
+      }
+    ],
+    "m128348rbr-0049": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2531000
+      }
+    ],
+    "m228236-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2331500
+      }
+    ],
+    "m278241-0003": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 515000
+      }
+    ],
+    "m278241-0023": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 530000
+      }
+    ],
+    "m278288rbr-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1934500
+      }
+    ],
+    "m278383rbr-0029": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 798500
+      }
+    ],
+    "m278341rbr-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 660500
+      }
+    ],
+    "m279384rbr-0019": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 563000
+      }
+    ],
+    "m278273-0015": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 504000
+      }
+    ],
+    "m278384rbr-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 589500
+      }
+    ],
+    "m278344rbr-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 533500
+      }
+    ],
+    "m278288rbr-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1919500
+      }
+    ],
+    "m279139rbr-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1744000
+      }
+    ],
+    "m126331-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 686500
+      }
+    ],
+    "m278341rbr-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 668000
+      }
+    ],
+    "m279139rbr-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1815000
+      }
+    ],
+    "m126234-0061": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 343000
+      }
+    ],
+    "m278344rbr-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 526000
+      }
+    ],
+    "m336933-0006": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 837500
+      }
+    ],
+    "m278241-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 481500
+      }
+    ],
+    "m278278-0032": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1391500
+      }
+    ],
+    "m126334-0013": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 395000
+      }
+    ],
+    "m279381rbr-0011": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 770500
+      }
+    ],
+    "m278240-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 261000
+      }
+    ],
+    "m128396tbr-0005": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 3454500
+      }
+    ],
+    "m279178-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 1285500
+      }
+    ],
+    "m126300-0002": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 309500
+      }
+    ],
+    "m126201-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 546500
+      }
+    ],
+    "m278241-0027": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 530000
+      }
+    ],
+    "m126301-0026": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 611500
+      }
+    ],
+    "m279384rbr-0017": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 634000
+      }
+    ],
+    "m228345rbr-0007": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2766500
+      }
+    ],
+    "m278240-0009": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 261000
+      }
+    ],
+    "m279173-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 511000
+      }
+    ],
+    "m228236-0008": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 2331500
+      }
+    ],
+    "m278273-0024": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 556000
+      }
+    ],
+    "m278273-0004": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 526000
+      }
+    ],
+    "m278273-0001": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 448000
+      }
+    ],
+    "m278271-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 548500
+      }
+    ],
+    "m126303-0025": [
+      {
+        "runId": 1,
+        "listingStatus": "listed",
+        "price": 571000
+      }
+    ]
+  }
+}

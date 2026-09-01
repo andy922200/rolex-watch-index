@@ -1,0 +1,129 @@
+{
+  "marketCode": "SG",
+  "locale": "en-SG",
+  "salesRegion": "Singapore",
+  "entryUrl": "https://www.rolex.com/en-sg/watches/find-rolex?group=0",
+  "evidenceStartedAt": "2026-09-01T22:14:49+08:00",
+  "status": "completed",
+  "networkDiscovery": {
+    "required": true,
+    "builtInBrowserStatus": "available",
+    "chromeDevtoolsMcpConfigured": true,
+    "chromeDevtoolsMcpAttempted": true,
+    "chromeDevtoolsMcpResult": "PASS",
+    "fallbackTool": null,
+    "notes": "Chrome DevTools MCP opened the Singapore page and captured the official watchgrid request. The unrelated Coveo analytics POST failed with net::ERR_NAME_NOT_RESOLVED, while the Rolex catalog and product-page requests returned HTTP 200. No cookies, authorization headers, visitor identifiers, or session values are persisted in evidence."
+  },
+  "collectionPath": {
+    "primary": "official structured endpoint",
+    "endpoint": "https://www.rolex.com/api/catalog/watchgrid",
+    "method": "GET",
+    "parameters": {
+      "language": "en",
+      "firstResult": 0,
+      "numberOfResults": 2000,
+      "grid": "all",
+      "countryCode": "SG",
+      "group": "(0)"
+    },
+    "pagination": "firstResult offset with numberOfResults; terminal request is an empty response at firstResult=1465",
+    "responseFields": {
+      "modelReference": "rmc",
+      "collectionName": "family",
+      "modelName": "title",
+      "caseDescription": "facet_case_title",
+      "dialDescriptionSource": "alt after 'Dial : '",
+      "isNewModel": "newmodelselection",
+      "formattedPrice": "formattedPrice",
+      "price": "price",
+      "productUrl": "rendered official SG UI href matched /familyCode/rmc",
+      "imageUrl": "rendered official SG UI media URL matched the full rmc"
+    }
+  },
+  "uiEntry": {
+    "url": "https://www.rolex.com/en-sg/watches/find-rolex?group=0",
+    "view": "Model view",
+    "filters": "none",
+    "initialRenderedResultCount": 56,
+    "loadMoreControl": "View more",
+    "firstLoadMoreRequest": {
+      "firstResult": 0,
+      "numberOfResults": 432,
+      "resultCount": 432,
+      "totalCount": 1465
+    },
+    "secondLoadMoreRequest": {
+      "firstResult": 0,
+      "numberOfResults": 576,
+      "resultCount": 576,
+      "totalCount": 1465,
+      "afterUniqueModelLinks": 504
+    },
+    "loadMoreRounds": [
+      {"round": 1, "beforeUniqueModelLinks": 504, "afterUniqueModelLinks": 616, "requestNumberOfResults": 720},
+      {"round": 2, "beforeUniqueModelLinks": 616, "afterUniqueModelLinks": 728, "requestNumberOfResults": 864},
+      {"round": 3, "beforeUniqueModelLinks": 728, "afterUniqueModelLinks": 840, "requestNumberOfResults": 1008},
+      {"round": 4, "beforeUniqueModelLinks": 840, "afterUniqueModelLinks": 952, "requestNumberOfResults": 1152},
+      {"round": 5, "beforeUniqueModelLinks": 952, "afterUniqueModelLinks": 1064, "requestNumberOfResults": 1296},
+      {"round": 6, "beforeUniqueModelLinks": 1064, "afterUniqueModelLinks": 1176, "requestNumberOfResults": 1440},
+      {"round": 7, "beforeUniqueModelLinks": 1176, "afterUniqueModelLinks": 1288, "requestNumberOfResults": 1584},
+      {"round": 8, "beforeUniqueModelLinks": 1288, "afterUniqueModelLinks": 1400, "requestNumberOfResults": 1728},
+      {"round": 9, "beforeUniqueModelLinks": 1400, "afterUniqueModelLinks": 1465, "requestNumberOfResults": 1872}
+    ],
+    "finalRenderedUniqueModelLinks": 1465,
+    "viewMoreAbsentAfterFinalLoad": true
+  },
+  "collectionResult": {
+    "rawObservationCount": 1465,
+    "uniqueModelReferenceCount": 1465,
+    "duplicateCount": 0,
+    "conflictCount": 0,
+    "listedPublicPriceCount": 1465,
+    "priceUnavailableCount": 0,
+    "confirmedNotListedCount": 0,
+    "priceParseFailureCount": 0,
+    "newModelCount": 158,
+    "familyCount": 17,
+    "familyDistribution": {
+      "Datejust": 681,
+      "Lady-Datejust": 291,
+      "Day-Date": 281,
+      "Oyster Perpetual": 62,
+      "Cosmograph Daytona": 47,
+      "Sky-Dweller": 39,
+      "GMT-Master II": 13,
+      "Yacht-Master": 12,
+      "Land-Dweller": 10,
+      "1908": 8,
+      "Submariner": 7,
+      "Deepsea": 4,
+      "Explorer": 3,
+      "Sea-Dweller": 2,
+      "Yacht-Master II": 2,
+      "Explorer II": 2,
+      "Air-King": 1
+    },
+    "priceRangeSGD": {"min": 8650, "max": 262500}
+  },
+  "terminationEvidence": {
+    "structuredFullRequest": {"firstResult": 0, "numberOfResults": 2000, "totalCount": 1465, "resultCount": 1465, "httpStatus": 200},
+    "structuredCorroborationRequest": {"firstResult": 0, "numberOfResults": 500, "totalCount": 1465, "resultCount": 500, "httpStatus": 200},
+    "structuredTerminalRequest": {"firstResult": 1465, "numberOfResults": 2000, "totalCount": 1465, "resultCount": 0, "httpStatus": 200},
+    "uiTerminalRequest": {"firstResult": 0, "numberOfResults": 1872, "totalCount": 1465, "resultCount": 1465, "httpStatus": 200},
+    "reason": "The full structured request returned exactly totalCount, the terminal offset returned zero results, and repeated UI View more requests ended with 1,465 unique model links and no remaining control."
+  },
+  "accessNotes": [
+    "The browser page reported countryCode SG and locale en-sg; the network-derived real IP country was Taiwan, but no redirect changed the requested Singapore market.",
+    "The visible Singapore price-policy dialog stated 'Suggested retail price inclusive of V.A.T.'; local tax semantics were separately checked against IRAS current GST rates before setting SGD tax-include at 9%.",
+    "Observed request headers included cookies and anonymous browser identifiers, but none were persisted in evidence."
+  ],
+  "evidenceFiles": [
+    "observations.json",
+    "watchgrid-responses.json",
+    "rendered-ui-cards.json",
+    "rendered-ui-images.json",
+    "official-spot-checks.json",
+    "nickname-research.json",
+    "validation-summary.json"
+  ]
+}

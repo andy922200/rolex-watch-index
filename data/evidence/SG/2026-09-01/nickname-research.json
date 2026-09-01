@@ -1,0 +1,124 @@
+{
+  "marketCode": "SG",
+  "researchedAt": "2026-09-01T22:48:57+08:00",
+  "scope": "new-market",
+  "languages": ["English"],
+  "queries": [
+    "Singapore Rolex watch nickname Panda Batman Pepsi",
+    "site:.sg Rolex nickname Batman Batgirl Panda Singapore",
+    "Rolex nicknames Singapore Starbucks Cermit James Cameron President"
+  ],
+  "sourcesReviewed": [
+    {
+      "publisher": "Watch Exchange Singapore",
+      "url": "https://watchexchange.sg/blog/guide/rolex-nicknames/",
+      "role": "Singapore-market English-language nickname reference; reviewed the named model/reference explanations and market context."
+    },
+    {
+      "publisher": "Rolex Official Website",
+      "url": "https://www.rolex.com/en-sg/watches/find-rolex?group=0",
+      "role": "Official Singapore configuration and exact modelReference/dial evidence used to constrain nickname applicability; official names were not treated as nicknames."
+    }
+  ],
+  "acceptedCollectionAliases": [
+    {
+      "collectionId": "day-date",
+      "name": "President",
+      "sources": [
+        {
+          "publisher": "Watch Exchange Singapore",
+          "url": "https://watchexchange.sg/blog/guide/rolex-nicknames/"
+        }
+      ],
+      "reason": "The Singapore-market article identifies President as a Rolex nickname associated with the Day-Date/President bracelet family; retained as a collection-level alias rather than applied to every configuration as a configuration nickname."
+    }
+  ],
+  "acceptedLocalNicknames": [
+    {
+      "modelReference": "m126500ln-0001",
+      "name": "Panda",
+      "sources": [
+        {
+          "publisher": "Watch Exchange Singapore",
+          "url": "https://watchexchange.sg/blog/guide/rolex-nicknames/"
+        }
+      ],
+      "reason": "The source describes the modern Daytona white-dial/black-counter-ring configuration as Panda; the official Singapore observation for m126500ln-0001 confirms that exact visual configuration."
+    },
+    {
+      "modelReference": "m126710blnr-0002",
+      "name": "Batgirl",
+      "sources": [
+        {
+          "publisher": "Watch Exchange Singapore",
+          "url": "https://watchexchange.sg/blog/guide/rolex-nicknames/"
+        }
+      ],
+      "reason": "The source identifies 126710BLNR with a Jubilee bracelet as Batgirl; the official Singapore product page for m126710blnr-0002 confirms the Jubilee bracelet."
+    },
+    {
+      "modelReference": "m126610lv-0002",
+      "name": "Starbucks",
+      "sources": [
+        {
+          "publisher": "Watch Exchange Singapore",
+          "url": "https://watchexchange.sg/blog/guide/rolex-nicknames/"
+        }
+      ],
+      "reason": "The source explicitly identifies Ref. 126610LV as Starbucks; the official Singapore observation maps that reference family to m126610lv-0002."
+    },
+    {
+      "modelReference": "m126711chnr-0002",
+      "name": "Root Beer",
+      "sources": [
+        {
+          "publisher": "Watch Exchange Singapore",
+          "url": "https://watchexchange.sg/blog/guide/rolex-nicknames/"
+        }
+      ],
+      "reason": "The source explicitly includes the modern Ref. 126711CHNR in the Root Beer nickname scope; the official Singapore observation confirms m126711chnr-0002."
+    },
+    {
+      "modelReference": "m136660-0005",
+      "name": "James Cameron",
+      "sources": [
+        {
+          "publisher": "Watch Exchange Singapore",
+          "url": "https://watchexchange.sg/blog/guide/rolex-nicknames/"
+        }
+      ],
+      "reason": "The source identifies the Deepsea D-Blue configuration as James Cameron; the official Singapore observation for m136660-0005 confirms the D-blue dial."
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "name": "Batman",
+      "reason": "The reviewed Singapore source ties Batman to the discontinued 116710BLNR Oyster reference; it does not directly state the current Singapore m126710blnr-0003 configuration, so the name was not accepted without stronger current-reference evidence."
+    },
+    {
+      "name": "Cermit",
+      "reason": "The source presents it as an alternative to Starbucks; only the primary Starbucks name was retained to avoid duplicate synonyms."
+    },
+    {
+      "name": "Kermit / Hulk / Smurf",
+      "reason": "The source ties these names to discontinued references or configurations not directly matching a current Singapore full modelReference."
+    },
+    {
+      "name": "Pepsi / Coke",
+      "reason": "The reviewed source describes the names broadly or for historical references; no exact current Singapore configuration-and-name pairing was established within the conservative five-name configuration limit."
+    },
+    {
+      "name": "John Mayer / Paul Newman / Stella / Leopard / Zenith Daytona",
+      "reason": "The source describes historical, celebrity-associated, or broad Daytona variants without a sufficiently unambiguous current Singapore four-digit configuration mapping."
+    }
+  ],
+  "sourceQuotes": [
+    "The Panda nickname refers to modern Rolex Daytona models that feature a white dial with black sub dials.",
+    "The Batgirl is the nickname for the Rolex GMT-Master II Ref. 126710BLNR, which features the same blue and black bezel as the Batman but comes with a Jubilee bracelet.",
+    "The Submariner Ref. 126610LV introduced in 2020 is often called the Starbucks.",
+    "Root Beer is the nickname for GMT-Master models with a brown and gold bezel, including Ref. 1675/3 and the modern 126711CHNR.",
+    "The James Cameron Deepsea is a Rolex Sea-Dweller with a gradient blue-to-black dial called D-Blue.",
+    "Some names like ‘President’ refer to an actual Rolex bracelet and are officially used by the brand."
+  ],
+  "notes": "The research was intentionally conservative. One Singapore-market source was sufficient for accepted names without claiming frequency or universal usage; no claim of an Internet-wide top-five ranking is made."
+}

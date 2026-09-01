@@ -1,0 +1,86 @@
+{
+  "market": "United Kingdom",
+  "marketCode": "GB",
+  "locale": "en-GB",
+  "officialEntryUrl": "https://www.rolex.com/en-gb/watches/find-rolex?group=0",
+  "startedAt": "2026-09-01T13:47:13+01:00",
+  "completedAt": "2026-09-01T13:56:36+01:00",
+  "status": "completed",
+  "networkDiscovery": {
+    "required": true,
+    "builtInBrowserStatus": "not-applicable",
+    "chromeDevtoolsMcpConfigured": true,
+    "chromeDevtoolsMcpAttempted": true,
+    "chromeDevtoolsMcpResult": "PASS",
+    "fallbackTool": null,
+    "notes": "chrome-devtools MCP opened https://www.rolex.com/en-gb/watches/find-rolex?group=0 in a real browser tab, confirmed the page title showed 'Rolex® (GB)' and the footer region indicator showed 'United Kingdom' (no unwanted redirect to another market). Network access was then performed via evaluate_script running fetch() calls inside that same authenticated tab context (same technique as the AT/DE/US runs), which succeeded because it carried the real browser session/TLS fingerprint. This is the primary and only collection path used; no fallback tool was needed."
+  },
+  "primaryCollectionPath": {
+    "type": "official structured endpoint",
+    "endpoint": "https://www.rolex.com/api/catalog/watchgrid?language=en&firstResult=0&numberOfResults=2000&grid=all&countryCode=GB&group=%280%29",
+    "responseFields": {
+      "modelReference": "rmc",
+      "collection": "family and familyCode",
+      "modelName": "title",
+      "caseDescription": "facet_case_title",
+      "dialAlt": "alt",
+      "newModel": "newmodelselection",
+      "rawPrice": "formattedPrice",
+      "parsedPrice": "price"
+    },
+    "pagination": "A single request with firstResult=0 and numberOfResults=2000 (exceeding the market's true total) returned totalCount=1465 and results.length=1465 in one response, i.e. results.length === totalCount with no further page available. This was independently corroborated by a second request with numberOfResults=500, which returned the same totalCount=1465 with results.length=500, demonstrating totalCount is a fixed server-side total independent of the requested page size, not an artifact of the large numberOfResults value.",
+    "structuredResultCount": 1465,
+    "structuredUniqueModelReferenceCount": 1465
+  },
+  "renderedCrossCheck": {
+    "view": "All models view; group=0; no restrictive collection, size, material, gender, or new-model filters",
+    "initialRenderedConfigurationCount": null,
+    "buttonText": "Load more (rendered UI not click-walked; see notes)",
+    "renderedCountsAfterEachLoad": "Not enumerated by click-through. The structured endpoint's terminal totalCount === results.length signal was used as the primary stop condition (see primaryCollectionPath.pagination), and 19 individual official product pages (17 collection representatives plus both members of 2 same-base-model configuration pairs) were independently fetched from the live browser session as raw rendered HTML and reconciled against the structured dataset (see independentSpotChecks in validation-summary.json). Every one of the 1,465 structured modelReference values was also independently reconciled against the pre-existing cross-market catalog (data/catelog/rolex-catalog.json), which itself was built and cross-checked from DE/US/AT/JP/TW UI and structured collection runs.",
+    "finalButtonPresent": null,
+    "finalRenderedConfigurationCount": null,
+    "structuredVsRenderedMismatchCount": 0
+  },
+  "counts": {
+    "rawConfigurationCount": 1465,
+    "uniqueModelReferenceCount": 1465,
+    "duplicateCount": 0,
+    "conflictCount": 0,
+    "listedWithPublicPriceCount": 1465,
+    "priceUnavailableCount": 0,
+    "confirmedNotListedCount": 0,
+    "parseFailureCount": 0
+  },
+  "collectionDistribution": {
+    "1908": 8,
+    "air-king": 1,
+    "cosmograph-daytona": 47,
+    "datejust": 681,
+    "day-date": 281,
+    "deepsea": 4,
+    "explorer": 3,
+    "explorer-ii": 2,
+    "gmt-master-ii": 13,
+    "lady-datejust": 291,
+    "land-dweller": 10,
+    "oyster-perpetual": 62,
+    "sea-dweller": 2,
+    "sky-dweller": 39,
+    "submariner": 7,
+    "yacht-master": 12,
+    "yacht-master-ii": 2
+  },
+  "priceRange": {
+    "min": { "modelReference": "m276200-0009", "formattedPrice": "£5,150" },
+    "max": { "modelReference": "m279459rbr-0001", "formattedPrice": "£155,400" }
+  },
+  "catalogReconciliation": {
+    "priorCatalogUniqueCount": 1465,
+    "gbUniqueConfigurationCount": 1465,
+    "intersectionCount": 1465,
+    "newConfigurationsCount": 0,
+    "resultingCatalogCount": 1465,
+    "notes": "Every GB modelReference already existed in the catalog from prior DE/US/AT/JP/TW collection runs (0 in GB only, 0 in catalog only); the catalog's watches array, watchCount, and collectedAt are byte-for-byte unchanged. Only sourceMarketCodes gained 'GB'."
+  },
+  "errors": []
+}
