@@ -28,6 +28,8 @@ Thumbs.db
 .idea/
 
 coverage/
+playwright-report/
+test-results/
 .nyc_output/
 
 server/prisma/migrations/**/*.sql.bak
