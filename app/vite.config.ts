@@ -1,3 +1,5 @@
+import { createHash } from 'node:crypto'
+import { readFileSync } from 'node:fs'
 import { fileURLToPath, URL } from 'node:url'
 
 import tailwindcss from '@tailwindcss/vite'
@@ -11,9 +13,16 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
   const projectName = 'app'
   const isViteEnvProd = env.VITE_BUILD_ENV === 'prod'
+  const catalogSource = readFileSync(
+    fileURLToPath(new URL('../data/catelog/rolex-catalog.json', import.meta.url)),
+  )
+  const watchDataVersion = createHash('sha256').update(catalogSource).digest('hex').slice(0, 12)
 
   return {
-    base: isViteEnvProd ? '/' : `/${projectName}`,
+    base: isViteEnvProd ? '/' : `/${projectName}/`,
+    define: {
+      __WATCH_DATA_VERSION__: JSON.stringify(watchDataVersion),
+    },
     plugins: [vue(), tailwindcss()],
     resolve: {
       alias: {

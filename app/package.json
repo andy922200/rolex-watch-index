@@ -4,8 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite --mode dev.local",
-    "build": "run-p type-check \"build-only {@}\" -- --mode prod",
+    "dev": "pnpm run build:watch-data -- --output-directory public/watch-data && vite --mode dev.local",
+    "build": "pnpm run type-check && pnpm run build-only -- --mode prod && pnpm run build:watch-data",
+    "build:watch-data": "node ./scripts/generate-watch-data.mjs",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit",
     "bundle-analyze": "vite-bundle-visualizer",

@@ -5,6 +5,31 @@
     "language": {
       "en-us": "English",
       "zh-tw": "繁體中文"
+    },
+    "watchCollection": {
+      "label": "Watch collection",
+      "placeholder": "Search collections",
+      "all": "All collections",
+      "empty": "No collections found",
+      "loading": "Loading watch collections…",
+      "error": "Watch collections could not be loaded.",
+      "land-dweller": "Land-Dweller",
+      "day-date": "Day-Date",
+      "sky-dweller": "Sky-Dweller",
+      "lady-datejust": "Lady-Datejust",
+      "datejust": "Datejust",
+      "oyster-perpetual": "Oyster Perpetual",
+      "cosmograph-daytona": "Cosmograph Daytona",
+      "submariner": "Submariner",
+      "sea-dweller": "Sea-Dweller",
+      "deepsea": "Deepsea",
+      "gmt-master-ii": "GMT-Master II",
+      "yacht-master": "Yacht-Master",
+      "yacht-master-ii": "Yacht-Master II",
+      "explorer": "Explorer",
+      "explorer-ii": "Explorer II",
+      "air-king": "Air-King",
+      "1908": "1908"
     }
   }
 }

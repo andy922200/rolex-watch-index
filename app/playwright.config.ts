@@ -23,7 +23,7 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: `pnpm exec vite --host ${host} --port ${port}`,
+    command: `pnpm run build:watch-data -- --output-directory public/watch-data && pnpm exec vite --host ${host} --port ${port}`,
     url: `${baseURL}rolex.html`,
     reuseExistingServer: !process.env.CI,
   },

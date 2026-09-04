@@ -5,6 +5,7 @@ dist/
 build/
 .output/
 .cache/
+app/public/watch-data/
 
 .env
 .env.local

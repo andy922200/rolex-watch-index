@@ -9,3 +9,14 @@ test('changes the Rolex index page language', async ({ page }) => {
 
   await expect(page.getByRole('heading', { name: '您的全球 Rolex 腕錶索引' })).toBeVisible()
 })
+
+test('selects a watch collection from the combobox listbox', async ({ page }) => {
+  await page.goto('rolex.html')
+
+  const combobox = page.getByRole('combobox', { name: 'Watch collection' })
+  await expect(combobox).toBeVisible()
+  await combobox.focus()
+  await page.getByRole('option', { name: /Datejust/ }).click()
+
+  await expect(combobox).toHaveValue('Datejust')
+})

@@ -1,15 +1,32 @@
 <script setup lang="ts">
-import { computed, ref, watch } from 'vue'
+import { computed, onMounted, ref, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 
+import WatchCollectionCombobox, {
+  type WatchCollectionOption,
+} from '@/component/WatchCollectionCombobox.vue'
+import { useWatchCatalog } from '@/composables/useWatchCatalog'
 import { Locale, type LocaleCode } from '@/plugins/i18n'
 
 const { locale, t } = useI18n()
 
 const selectedLocale = ref<LocaleCode>(Locale.enUs)
+const selectedCollectionId = ref<string | null>(null)
 const languageOptions = [Locale.enUs, Locale.zhTw] as const
+const { catalog, error, isLoading, loadCatalog } = useWatchCatalog()
 
 const pageLanguage = computed(() => selectedLocale.value)
+const collectionOptions = computed<WatchCollectionOption[]>(() =>
+  (catalog.value?.collections ?? []).map((collection) => ({
+    id: collection.id,
+    label: t(`site.watchCollection.${collection.id}`),
+    watchCount: collection.watchCount,
+  })),
+)
+
+const selectCollection = (collectionId: string | null): void => {
+  selectedCollectionId.value = collectionId
+}
 
 watch(
   selectedLocale,
@@ -19,6 +36,8 @@ watch(
   },
   { immediate: true },
 )
+
+onMounted(loadCatalog)
 </script>
 
 <template>
@@ -41,6 +60,20 @@ watch(
       <h1 id="page-title" class="hero-title text-4xl font-semibold tracking-tight sm:text-6xl">
         {{ t('site.title') }}
       </h1>
+      <div class="mt-10 flex justify-center">
+        <WatchCollectionCombobox
+          v-if="!isLoading && !error"
+          :all-option-label="t('site.watchCollection.all')"
+          :empty-message="t('site.watchCollection.empty')"
+          :label="t('site.watchCollection.label')"
+          :options="collectionOptions"
+          :placeholder="t('site.watchCollection.placeholder')"
+          :selected-collection-id="selectedCollectionId"
+          @select="selectCollection"
+        />
+        <p v-else-if="isLoading" role="status">{{ t('site.watchCollection.loading') }}</p>
+        <p v-else role="alert">{{ t('site.watchCollection.error') }}</p>
+      </div>
     </section>
   </main>
 </template>
