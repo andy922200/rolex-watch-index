@@ -1,7 +1,7 @@
 import { fireEvent, render, screen } from '@testing-library/vue'
 import { describe, expect, it } from 'vitest'
 
-import WatchCollectionCombobox from '@/component/WatchCollectionCombobox.vue'
+import WatchCollectionCombobox from '@/components/watch-collection/WatchCollectionCombobox.vue'
 
 describe('WatchCollectionCombobox', () => {
   it('reports the selected collection through its select event', async () => {
@@ -19,8 +19,8 @@ describe('WatchCollectionCombobox', () => {
       },
     })
 
-    await fireEvent.focus(screen.getByRole('combobox', { name: 'Watch collection' }))
-    await fireEvent.mouseDown(screen.getByRole('option', { name: /Datejust/ }))
+    await fireEvent.click(screen.getByRole('combobox', { name: 'Watch collection' }))
+    await fireEvent.click(await screen.findByRole('option', { name: /Datejust/ }))
 
     expect(emitted().select).toEqual([['datejust']])
   })

@@ -4,7 +4,7 @@ import { useI18n } from 'vue-i18n'
 
 import WatchCollectionCombobox, {
   type WatchCollectionOption,
-} from '@/component/WatchCollectionCombobox.vue'
+} from '@/components/watch-collection/WatchCollectionCombobox.vue'
 import { useWatchCatalog } from '@/composables/useWatchCatalog'
 import { Locale, type LocaleCode } from '@/plugins/i18n'
 
