@@ -6,6 +6,10 @@
       "en-us": "English",
       "zh-tw": "繁體中文"
     },
+    "darkMode": {
+      "switchToDark": "切換為深色模式",
+      "switchToLight": "切換為淺色模式"
+    },
     "watchCollection": {
       "label": "錶款系列",
       "placeholder": "搜尋錶款系列",

@@ -6,6 +6,10 @@
       "en-us": "English",
       "zh-tw": "繁體中文"
     },
+    "darkMode": {
+      "switchToDark": "Switch to dark mode",
+      "switchToLight": "Switch to light mode"
+    },
     "watchCollection": {
       "label": "Watch collection",
       "placeholder": "Search collections",
