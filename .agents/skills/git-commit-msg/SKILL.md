@@ -13,6 +13,7 @@ description: >-
 - 被直接要求**撰寫、建議、修正**本專案的 git commit message。
 - 被要求**執行 commit** 且由您決定訊息內容。常見句式：「加個 commit」、「加到 commit」、「commit 一下」、「commit 吧」、「提交一下」、「順便 commit」、「分兩個 commit」。
 - 看到既有 commit message 不合規（type 錯、超 50 字、自行加 `Co-Authored-By`、英文混雜等）需修正。
+- 絕對不可加入 `Co-Authored-By` 或其他附註，除非使用者明確要求。
 
 **不適用**：純查看 / 討論既有 commit（`git log` / `diff` / `blame`）、只 `git add` 不 commit、只建 PR / branch / tag 而不撰寫訊息。
 
