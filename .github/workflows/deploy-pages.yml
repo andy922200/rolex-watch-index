@@ -41,6 +41,9 @@ jobs:
         run: pnpm install --frozen-lockfile
         working-directory: app
 
+      - name: Create production environment
+        run: printf 'VITE_BUILD_ENV=prod\n' > app/.env.prod
+
       - name: Build
         run: pnpm build
         working-directory: app
@@ -48,10 +51,15 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - name: Stage site
+        run: |
+          mkdir -p site/app
+          cp -r app/dist/. site/app/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: app/dist
+          path: site
 
       - name: Deploy to GitHub Pages
         id: deployment
