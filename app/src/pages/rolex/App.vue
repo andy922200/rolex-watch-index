@@ -2,6 +2,8 @@
 import { computed, onMounted, ref, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 
+import AppLayout from '@/components/layout/AppLayout.vue'
+import AppNav from '@/components/layout/AppNav.vue'
 import WatchCollectionCombobox, {
   type WatchCollectionOption,
 } from '@/components/watch-collection/WatchCollectionCombobox.vue'
@@ -12,7 +14,6 @@ const { locale, t } = useI18n()
 
 const selectedLocale = ref<LocaleCode>(Locale.enUs)
 const selectedCollectionId = ref<string | null>(null)
-const languageOptions = [Locale.enUs, Locale.zhTw] as const
 const { catalog, error, isLoading, loadCatalog } = useWatchCatalog()
 
 const pageLanguage = computed(() => selectedLocale.value)
@@ -41,22 +42,9 @@ onMounted(loadCatalog)
 </script>
 
 <template>
-  <main
-    class="flex min-h-dvh items-center justify-center bg-stone-100 px-6 py-12 text-stone-950 dark:bg-stone-950 dark:text-stone-100"
-    :lang="pageLanguage"
-  >
+  <AppLayout :lang="pageLanguage">
+    <AppNav v-model="selectedLocale" />
     <section class="w-full max-w-4xl text-center" aria-labelledby="page-title">
-      <label class="sr-only" for="language">{{ t('site.languageLabel') }}</label>
-      <select
-        id="language"
-        v-model="selectedLocale"
-        class="absolute top-6 right-6 rounded-sm border border-stone-400 bg-white px-3 py-2 text-sm text-stone-950 shadow-sm transition outline-none focus:ring-2 focus:ring-stone-950 dark:border-stone-600 dark:bg-stone-900 dark:text-stone-100 dark:focus:ring-stone-100"
-      >
-        <option v-for="option in languageOptions" :key="option" :value="option">
-          {{ t(`site.language.${option}`) }}
-        </option>
-      </select>
-
       <h1 id="page-title" class="hero-title text-4xl font-semibold tracking-tight sm:text-6xl">
         {{ t('site.title') }}
       </h1>
@@ -75,5 +63,5 @@ onMounted(loadCatalog)
         <p v-else role="alert">{{ t('site.watchCollection.error') }}</p>
       </div>
     </section>
-  </main>
+  </AppLayout>
 </template>
