@@ -29,6 +29,11 @@ description: >-
 - 發現相容性或 peer dependency 衝突時，先說明衝突的套件、版本與影響；若需降版或選擇較舊版本，**必須先取得使用者許可**，再處理衝突。不得靜默降版。
 - 僅支援現代瀏覽器，不加入 IE 相容性程式、舊版瀏覽器 polyfill 或 legacy bundle，除非使用者明確要求。
 - 應用程式內的原始碼匯入使用 `@/` 對應 `src/`；避免為跨模組引用撰寫脆弱的深層相對路徑。
+- **新建專案首次導入多語系（i18n）前，必須先詢問使用者要採用哪種語系架構，不得自行判斷或預設**：
+  - **單頁式（預設，沒有特殊需求一律採用）**：`vue-i18n`（`legacy: false` + Composition API）搭配 client state（例如 locale ref + `localStorage`）在同一支 SPA、同一個 URL 內即時切換語言。
+  - **多頁靜態架構（例如 `vite-plugin-virtual-mpa`）**：每個語系在 build time 各自產出獨立的靜態 HTML 與獨立 URL（例如 `/`、`/en-us/`），換取「不執行 JS 的爬蟲、LINE／Facebook 等社群分享預覽 bot」也能讀到正確語言的 `<title>`、`meta description`、Open Graph 標籤；代價是語言切換變成換頁而非即時切換，且需要調整 Vite 多入口設定、dev/preview rewrites、部署路徑與 i18n 初始化邏輯（改成用網址路徑判斷語系），複雜度與出錯風險明顯高於單頁式。
+  - 詢問時用具體情境幫使用者判斷，例如：「這個網站的連結會被分享到 LINE、Facebook 這類需要正確預覽標題與縮圖的地方嗎？」使用者回答「否」、「不確定」，或完全沒提到 SEO／社群分享預覽需求時，**一律採用單頁式**，不得自行升級為多頁靜態架構。
+  - 使用者一旦選定架構後才可動工；改變既有專案的語系架構（單頁式⇄多頁靜態）視同前述套件管理工具切換等級的重大決策，同樣必須先取得使用者明確同意。
 
 ## TypeScript 與命名
 
@@ -219,10 +224,11 @@ const { login } = authStore
 
 1. 先閱讀既有前端結構、共用元件、Composable、Axios instance、i18n、Store、lockfile 與工具設定，沿用既有模式，不平行造輪子。
 2. 建立前端專案或首次安裝相依前，先詢問使用者要用 `pnpm`、`bun`、`npm` 或其他工具；使用者未指定時才使用 `npm`。既有專案則沿用其 lockfile 或 `packageManager` 指定的工具。
-3. 新建專案時安裝並設定 ESLint、Prettier、Vitest Unit Test 與 Playwright E2E Test，建立對應 scripts、最小可執行測試與必要的 ignore 規則；預設選用最新穩定版本。既有專案僅判斷是否需要補齊使用者要求的相依或設定。
-4. 遇到相依衝突、需要降版、切換套件管理工具或不得不用 `as` 時，先向使用者說明理由並等待許可。
-5. 依本規範實作，將 UI 文字納入 i18n，並兼顧動態載入、RWD、Dark Mode 與可及性。
-6. 執行適用的 format check、lint、型別檢查與單元測試；新建專案或影響使用者流程時也執行 E2E Test。據實回報結果與無法驗證的原因。
+3. 專案第一次需要多語系（i18n）時，先詢問使用者是否有 SEO 或 LINE／Facebook 等社群分享預覽需求；沒有就採用單頁式架構，有才採用多頁靜態架構（見「技術線與相依套件」）。既有專案已有 i18n 架構時直接沿用，不自行更換。
+4. 新建專案時安裝並設定 ESLint、Prettier、Vitest Unit Test 與 Playwright E2E Test，建立對應 scripts、最小可執行測試與必要的 ignore 規則；預設選用最新穩定版本。既有專案僅判斷是否需要補齊使用者要求的相依或設定。
+5. 遇到相依衝突、需要降版、切換套件管理工具或不得不用 `as` 時，先向使用者說明理由並等待許可。
+6. 依本規範實作，將 UI 文字納入 i18n，並兼顧動態載入、RWD、Dark Mode 與可及性。
+7. 執行適用的 format check、lint、型別檢查與單元測試；新建專案或影響使用者流程時也執行 E2E Test。據實回報結果與無法驗證的原因。
 
 ## 避免事項
 
@@ -236,6 +242,7 @@ const { login } = authStore
 - 解構 Pinia State / Getters 時跳過 `storeToRefs()` 而破壞響應性。
 - 在新建專案時省略 ESLint、Prettier、Unit Test 或 E2E Test 的相依、設定、scripts、可執行範例或驗證。
 - 未經使用者要求就將既有專案的 TestCafe、Cypress、Playwright 或其他測試框架遷移為另一個框架。
+- 未經使用者確認，就在新建專案或既有專案採用多頁靜態 i18n 架構（例如 `vite-plugin-virtual-mpa`）取代預設的單頁式 i18n。
 
 ## 完成前檢查
 
@@ -247,6 +254,7 @@ const { login } = authStore
 - [ ] Pinia 使用 Option Store；解構 State / Getters 時使用 `storeToRefs()`
 - [ ] API 經由既有共用 Axios instance 或 API composable
 - [ ] 使用者可見文字已納入 i18n，圖示按需使用 `unplugin-icons`
+- [ ] 若專案新導入多語系或變更既有語系架構，已在動工前跟使用者確認採用單頁式或多頁靜態架構，未自行預設
 - [ ] 路由頁面與合適的大型／選用功能已動態載入
 - [ ] 一般樣式為 Tailwind CSS 4、沒有 `@apply`，SCSS 僅用於偽元素
 - [ ] RWD、Dark Mode 與基本可及性需求已檢查
