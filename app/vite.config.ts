@@ -5,9 +5,11 @@ import { fileURLToPath, URL } from 'node:url'
 import tailwindcss from '@tailwindcss/vite'
 import vue from '@vitejs/plugin-vue'
 import { loadEnv } from 'vite'
+import { createMpaPlugin } from 'vite-plugin-virtual-mpa'
 import { defineConfig } from 'vitest/config'
 
 import { useHttpsConfig } from './src/composables/useHttpsConfig.ts'
+import { createMpaConfig } from './src/lib/mpa-build.ts'
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
@@ -19,12 +21,29 @@ export default defineConfig(({ mode }) => {
   )
   const watchDataVersion = createHash('sha256').update(catalogSource).digest('hex').slice(0, 12)
 
+  const base = isViteEnvProd ? `/${ghPagesRepoName}/${projectName}/` : `/${projectName}/`
+  const { pages, rewrites } = createMpaConfig({
+    isProd: isViteEnvProd,
+    base,
+    ghPagesRepoName,
+    projectName,
+  })
+
   return {
-    base: isViteEnvProd ? `/${ghPagesRepoName}/${projectName}/` : `/${projectName}/`,
+    base,
     define: {
       __WATCH_DATA_VERSION__: JSON.stringify(watchDataVersion),
     },
-    plugins: [vue(), tailwindcss()],
+    plugins: [
+      vue(),
+      tailwindcss(),
+      createMpaPlugin({
+        template: 'rolex.html',
+        pages,
+        rewrites,
+        previewRewrites: rewrites,
+      }),
+    ],
     resolve: {
       alias: {
         '@': fileURLToPath(new URL('./src', import.meta.url)),
@@ -33,13 +52,6 @@ export default defineConfig(({ mode }) => {
     server: {
       port: 5199,
       https: useHttpsConfig() || undefined,
-    },
-    build: {
-      rollupOptions: {
-        input: {
-          rolex: fileURLToPath(new URL('./rolex.html', import.meta.url)),
-        },
-      },
     },
     test: {
       environment: 'jsdom',

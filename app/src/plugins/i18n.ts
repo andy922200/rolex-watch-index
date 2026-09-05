@@ -10,16 +10,16 @@ export const Locale = {
 
 export type LocaleCode = (typeof Locale)[keyof typeof Locale]
 
-const savedLocale = localStorage.getItem('watch-locale')
-const localeCodes = [Locale.enUs, Locale.zhTw]
-const isLocaleCode = (value: string | null): value is LocaleCode =>
-  value !== null && localeCodes.some((localeCode) => localeCode === value)
-
-const initialLocale = isLocaleCode(savedLocale) ? savedLocale : Locale.enUs
+/**
+ * 語系現在由靜態頁面路徑決定（預設為繁中根路徑，英文在 /en-us/），而非執行期切換，
+ * 這樣爬蟲與 LINE 等不執行 JS 的分享預覽服務也能拿到對應語言的 head 內容。
+ */
+export const detectLocale = (pathname: string): LocaleCode =>
+  pathname.includes(`/${Locale.enUs}/`) ? Locale.enUs : Locale.zhTw
 
 export const i18n = createI18n({
   legacy: false,
-  locale: initialLocale,
+  locale: detectLocale(window.location.pathname),
   fallbackLocale: Locale.enUs,
   messages: {
     [Locale.enUs]: enUs,

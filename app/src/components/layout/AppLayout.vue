@@ -1,8 +1,6 @@
 <script setup lang="ts">
-import type { LocaleCode } from '@/plugins/i18n'
-
 interface Props {
-  lang: LocaleCode
+  lang: string
 }
 
 defineProps<Props>()

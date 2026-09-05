@@ -1,16 +1,32 @@
 <!doctype html>
-<html lang="en-us">
+<html lang="<%= lang %>">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Your Global Rolex Watches Index"
-    />
-    <title>Rolex Watch Index</title>
+    <title><%= title %></title>
+    <meta name="description" content="<%= description %>" />
+
+    <link rel="canonical" href="<%= url %>" />
+    <link rel="alternate" hreflang="<%= lang %>" href="<%= url %>" />
+    <link rel="alternate" hreflang="<%= alternateLang %>" href="<%= alternateUrl %>" />
+    <link rel="alternate" hreflang="x-default" href="<%= defaultUrl %>" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Rolex Watch Index" />
+    <meta property="og:title" content="<%= title %>" />
+    <meta property="og:description" content="<%= description %>" />
+    <meta property="og:url" content="<%= url %>" />
+    <meta property="og:image" content="<%= ogImage %>" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="<%= ogLocale %>" />
+    <meta property="og:locale:alternate" content="<%= ogLocaleAlternate %>" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   </head>
   <body>
     <div id="app"></div>
-    <script type="module" src="/src/pages/rolex/main.ts"></script>
   </body>
 </html>

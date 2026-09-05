@@ -4,16 +4,29 @@ import { beforeEach, describe, expect, it } from 'vitest'
 import AppNav from '@/components/layout/AppNav.vue'
 import { i18n, Locale } from '@/plugins/i18n'
 
-describe('AppNav dark mode toggle', () => {
+describe('AppNav', () => {
   beforeEach(() => {
     i18n.global.locale.value = Locale.enUs
   })
 
+  it('marks the active language link and points the other one at its locale page', () => {
+    render(AppNav, {
+      global: {
+        plugins: [i18n],
+      },
+    })
+
+    const englishLink = screen.getByRole('link', { name: 'English' })
+    const chineseLink = screen.getByRole('link', { name: '繁體中文' })
+
+    expect(englishLink.getAttribute('aria-current')).toBe('page')
+    expect(englishLink.getAttribute('href')).toBe(`${import.meta.env.BASE_URL}en-us/`)
+    expect(chineseLink.getAttribute('aria-current')).toBeNull()
+    expect(chineseLink.getAttribute('href')).toBe(import.meta.env.BASE_URL)
+  })
+
   it('toggles the dark class on <html> and persists the preference', async () => {
     render(AppNav, {
-      props: {
-        modelValue: Locale.enUs,
-      },
       global: {
         plugins: [i18n],
       },
