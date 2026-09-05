@@ -1,8 +1,13 @@
 import { defineConfig, devices } from '@playwright/test'
 
+import { useHttpsConfig } from './src/composables/useHttpsConfig.ts'
+import { base } from './vite.config.ts'
+
 const host = '127.0.0.1'
 const port = 4173
-const baseURL = `http://${host}:${port}/rolex-watch-index/`
+const hasHttpsConfig = useHttpsConfig() !== false
+const protocol = hasHttpsConfig ? 'https' : 'http'
+const baseURL = `${protocol}://${host}:${port}${base}`
 
 export default defineConfig({
   testDir: './src/tests/e2e',
@@ -12,6 +17,7 @@ export default defineConfig({
   reporter: [['html', { open: 'never' }], ['list']],
   use: {
     baseURL,
+    ignoreHTTPSErrors: hasHttpsConfig,
     screenshot: 'only-on-failure',
     trace: 'on-first-retry',
     video: 'retain-on-failure',
@@ -24,7 +30,8 @@ export default defineConfig({
   ],
   webServer: {
     command: `pnpm run build:watch-data -- --output-directory public/watch-data && pnpm exec vite --host ${host} --port ${port}`,
-    url: `${baseURL}rolex.html`,
+    ignoreHTTPSErrors: hasHttpsConfig,
+    port,
     reuseExistingServer: !process.env.CI,
   },
 })

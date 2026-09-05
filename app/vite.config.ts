@@ -11,26 +11,29 @@ import { defineConfig } from 'vitest/config'
 import { useHttpsConfig } from './src/composables/useHttpsConfig.ts'
 import { createMpaConfig } from './src/lib/mpa-build.ts'
 
+export const projectName = 'app'
+export const ghPagesRepoName = 'rolex-watch-index'
+export const base = `/${projectName}/`
+export const ghPagesBase = `/${ghPagesRepoName}/${projectName}/`
+
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
-  const projectName = 'app'
-  const ghPagesRepoName = 'rolex-watch-index'
   const isViteEnvProd = env.VITE_BUILD_ENV === 'prod'
   const catalogSource = readFileSync(
     fileURLToPath(new URL('../data/catelog/rolex-catalog.json', import.meta.url)),
   )
   const watchDataVersion = createHash('sha256').update(catalogSource).digest('hex').slice(0, 12)
 
-  const base = isViteEnvProd ? `/${ghPagesRepoName}/${projectName}/` : `/${projectName}/`
+  const activeBase = isViteEnvProd ? ghPagesBase : base
   const { pages, rewrites } = createMpaConfig({
     isProd: isViteEnvProd,
-    base,
+    base: activeBase,
     ghPagesRepoName,
     projectName,
   })
 
   return {
-    base,
+    base: activeBase,
     define: {
       __WATCH_DATA_VERSION__: JSON.stringify(watchDataVersion),
     },

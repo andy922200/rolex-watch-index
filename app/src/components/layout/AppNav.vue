@@ -3,6 +3,14 @@ import { Moon, Sun } from '@lucide/vue'
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 
+import {
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select'
 import { useDarkMode } from '@/composables/useDarkMode'
 import { Locale } from '@/plugins/i18n'
 
@@ -18,31 +26,37 @@ const languageLinks = computed<LanguageLink[]>(() => [
   { code: Locale.enUs, href: `${import.meta.env.BASE_URL}en-us/` },
 ])
 
+const navigateToLocale = (
+  value: string | number | bigint | Record<string, unknown> | null,
+): void => {
+  if (value !== Locale.enUs && value !== Locale.zhTw) {
+    return
+  }
+
+  const option = languageLinks.value.find((language) => language.code === value)
+
+  if (option && option.code !== locale.value) {
+    window.location.assign(option.href)
+  }
+}
+
 const { isDark, toggleDark } = useDarkMode()
 </script>
 
 <template>
   <nav class="absolute top-6 right-6 flex items-center gap-2">
-    <ul
-      class="flex overflow-hidden rounded-sm border border-stone-400 text-sm shadow-sm dark:border-stone-600"
-      :aria-label="t('site.languageLabel')"
-    >
-      <li v-for="option in languageLinks" :key="option.code">
-        <a
-          :href="option.href"
-          :hreflang="option.code"
-          :aria-current="option.code === locale ? 'page' : undefined"
-          class="block px-3 py-2 transition outline-none focus-visible:ring-2 focus-visible:ring-stone-950 dark:focus-visible:ring-stone-100"
-          :class="
-            option.code === locale
-              ? 'bg-stone-950 text-white dark:bg-stone-100 dark:text-stone-950'
-              : 'bg-white text-stone-950 hover:bg-stone-100 dark:bg-stone-900 dark:text-stone-100 dark:hover:bg-stone-800'
-          "
-        >
-          {{ t(`site.language.${option.code}`) }}
-        </a>
-      </li>
-    </ul>
+    <Select :model-value="locale" @update:model-value="navigateToLocale">
+      <SelectTrigger class="w-32" :aria-label="t('site.languageLabel')">
+        <SelectValue :placeholder="t(`site.language.${locale}`)" />
+      </SelectTrigger>
+      <SelectContent>
+        <SelectGroup>
+          <SelectItem v-for="option in languageLinks" :key="option.code" :value="option.code">
+            {{ t(`site.language.${option.code}`) }}
+          </SelectItem>
+        </SelectGroup>
+      </SelectContent>
+    </Select>
     <button
       type="button"
       class="rounded-sm border border-stone-400 bg-white p-2 text-stone-950 shadow-sm transition outline-none focus:ring-2 focus:ring-stone-950 dark:border-stone-600 dark:bg-stone-900 dark:text-stone-100 dark:focus:ring-stone-100"

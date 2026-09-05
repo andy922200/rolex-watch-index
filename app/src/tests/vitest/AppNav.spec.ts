@@ -9,20 +9,14 @@ describe('AppNav', () => {
     i18n.global.locale.value = Locale.enUs
   })
 
-  it('marks the active language link and points the other one at its locale page', () => {
+  it('shows the current locale in a single-choice language select', () => {
     render(AppNav, {
       global: {
         plugins: [i18n],
       },
     })
 
-    const englishLink = screen.getByRole('link', { name: 'English' })
-    const chineseLink = screen.getByRole('link', { name: '繁體中文' })
-
-    expect(englishLink.getAttribute('aria-current')).toBe('page')
-    expect(englishLink.getAttribute('href')).toBe(`${import.meta.env.BASE_URL}en-us/`)
-    expect(chineseLink.getAttribute('aria-current')).toBeNull()
-    expect(chineseLink.getAttribute('href')).toBe(import.meta.env.BASE_URL)
+    expect(screen.getByRole('combobox', { name: 'Language' }).textContent).toContain('English')
   })
 
   it('toggles the dark class on <html> and persists the preference', async () => {
